@@ -1,0 +1,101 @@
+.fa {
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  font-family: FontAwesome;
+}
+
+/** UberMenu Custom Menu Styles (Customizer) **/
+/* main */
+.ubermenu-main {
+  background-color: #4e5154 !important;
+}
+
+.ubermenu-main .ubermenu-item-level-0>.ubermenu-target {
+  font-size: 15px;
+  color: #fff;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.ubermenu-main .ubermenu-nav .ubermenu-item.ubermenu-item-level-0>.ubermenu-target {
+  font-weight: 500;
+}
+
+.ubermenu-main.ubermenu-sub-indicators .ubermenu-item-level-0.ubermenu-has-submenu-drop>.ubermenu-target:not(.ubermenu-noindicator) {
+  padding-right: 30px;
+}
+
+.ubermenu-main.ubermenu-sub-indicators .ubermenu-item-level-0.ubermenu-has-submenu-drop>.ubermenu-target.ubermenu-noindicator {
+  padding-right: 20px;
+}
+
+.ubermenu-main .ubermenu-item-normal>.ubermenu-target,
+.ubermenu-main .ubermenu-submenu .ubermenu-target,
+.ubermenu-main .ubermenu-submenu .ubermenu-nonlink,
+.ubermenu-main .ubermenu-submenu .ubermenu-widget,
+.ubermenu-main .ubermenu-submenu .ubermenu-custom-content-padded,
+.ubermenu-main .ubermenu-submenu .ubermenu-retractor,
+.ubermenu-main .ubermenu-submenu .ubermenu-colgroup .ubermenu-column,
+.ubermenu-main .ubermenu-submenu.ubermenu-submenu-type-stack>.ubermenu-item-normal>.ubermenu-target,
+.ubermenu-main .ubermenu-submenu.ubermenu-submenu-padded {
+  padding: 10px 20px;
+}
+
+.ubermenu-main .ubermenu-grid-row {
+  padding-right: 10px 20px;
+}
+
+.ubermenu-main .ubermenu-grid-row .ubermenu-target {
+  padding-right: 0;
+}
+
+.ubermenu-main.ubermenu-sub-indicators .ubermenu-submenu :not(.ubermenu-tabs-layout-right) .ubermenu-has-submenu-drop>.ubermenu-target {
+  padding-right: 25px;
+}
+
+.ubermenu-main .ubermenu-submenu .ubermenu-item-header>.ubermenu-target,
+.ubermenu-main .ubermenu-tab>.ubermenu-target {
+  font-size: 16px;
+}
+
+.ubermenu-main .ubermenu-item-normal>.ubermenu-target {
+  font-size: 14px;
+}
+
+.ubermenu.ubermenu-main .ubermenu-item-normal>.ubermenu-target:hover,
+.ubermenu.ubermenu-main .ubermenu-item-normal.ubermenu-active>.ubermenu-target {
+  background-color: #e5e5e5;
+}
+
+.ubermenu-main,
+.ubermenu-main .ubermenu-target,
+.ubermenu-main .ubermenu-nav .ubermenu-item-level-0 .ubermenu-target,
+.ubermenu-main div,
+.ubermenu-main p,
+.ubermenu-main input {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 700;
+}
+
+.ubermenu-indicator-icon-css>.ubermenu-target>.ubermenu-sub-indicator {
+    position: unset !important;
+    right: 0px !important; 
+    margin-top: 0px !important; 
+    transform: rotate(0deg) !important;
+}
+
+.ubermenu-top-bottom-padding {
+  width: max-content !important;
+}
+
+/** UberMenu Custom Tweaks - Desktop **/
+@media screen and (min-width:960px) {
+  #ubermenu-main-17 .ubermenu-item-type-column>.ubermenu-submenu-type-stack, .ubermenu-top-bottom-padding {
+    padding: 10px 0 !important
+  }
+
+  #ubermenu-main-17 .ubermenu-item-type-column>.ubermenu-submenu-type-stack>.ubermenu-item-normal:first-child {
+    margin-top: 0 !important
+  }
+}
