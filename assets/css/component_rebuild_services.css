@@ -1025,6 +1025,7 @@ body #page-container .et_pb_section .et_pb_button_6:hover {
     border-radius: 10px;
     transition: 0.3s;
     cursor: pointer;
+  min-height: 155px;
 }
 .rebuild_wrapper .card:hover{
   box-shadow:0 10px 15px -3px rgb(0 0 0 / .1), 0 4px 6px -4px rgb(0 0 0 / .1)
