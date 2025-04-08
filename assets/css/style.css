@@ -3984,6 +3984,7 @@ h1, h2, h3, h4, h5, h6 {
   min-height: 563px;
   display: flex;
   flex-direction: column;
+  border-bottom: 5px solid #bd2939;
 }
 
 .component-rebuild-services-sections .et_pb_button_module_wrapper{
@@ -7438,4 +7439,14 @@ header .navbar-expand-lg .et_pb_column{
 
 .contact-black-cta .et_pb_blurb_position_left .et-pb-icon, .contact-black-cta .et_pb_blurb_position_right .et-pb-icon{
   font-size: 56px !important;
+}
+
+.quote-most-text{
+  line-height: 25px;
+  vertical-align: middle;
+  margin-left: 10px;
+}
+
+.light-grey-background{
+  background-color: #f2f2f2 !important;
 }

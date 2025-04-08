@@ -666,8 +666,8 @@ div.et_pb_section.et_pb_section_0 {
     url(https://globalwholesaleparts.com/assets/images/banner4.jpg) !important;
 }
 .et_pb_section_0.et_pb_section {
-  padding-top: 100px;
-  padding-bottom: 100px;
+  padding-top: 50px;
+  padding-bottom: 50px;
 }
 .et_pb_image_0,
 .et_pb_slides .et_pb_slide_0.et_pb_slide .et_pb_slide_description,
@@ -1006,6 +1006,49 @@ body #page-container .et_pb_section .et_pb_button_6:hover {
   background-position: top center;
   background-image: url(https://globalwholesaleparts.com/assets/images/icon-quote-1.svg);
 }
+.rebuild_wrapper div.et_pb_section.et_pb_section_0{
+/*  height: calc(100vh - 200px);*/
+}
+.rebuild_wrapper .emer_label{
+    background-color: #bd2939;
+    display: inline-block;
+    padding: 5px 15px;
+    border-radius: 99px;
+    color: white;
+}
+.rebuild_wrapper .card{
+  flex-direction: row;
+    gap: 15px;
+    padding: 20px;
+    box-shadow: 0 4px 6px -1px rgb(0 0 0 / .1), 0 2px 4px -2px rgb(0 0 0 / .1);
+    border: 0;
+    border-radius: 10px;
+    transition: 0.3s;
+    cursor: pointer;
+}
+.rebuild_wrapper .card:hover{
+  box-shadow:0 10px 15px -3px rgb(0 0 0 / .1), 0 4px 6px -4px rgb(0 0 0 / .1)
+}
+.rebuild_wrapper .card .card-image{
+    display: grid;
+    min-width: 48px;
+    height: 48px;
+    background: white;
+    place-items: center;
+    border-radius: 50%;
+    color: #bd2939;
+    box-shadow: 0px 0px 4px 1px #bd2939;
+}
+.rebuild_wrapper .card .card-image svg{
+    width: 1.5rem;
+    height: 1.5rem;
+}
+.rebuild_wrapper .border-r10{
+  border-radius: 10px;
+}
+.rebuild_wrapper .contact_wrapper .card{
+  cursor: unset !important;
+}
 @media only screen and (max-width: 980px) {
   body #page-container .et_pb_section .et_pb_button_0:after,
   body #page-container .et_pb_section .et_pb_button_1:after,
@@ -1062,8 +1105,20 @@ body #page-container .et_pb_section .et_pb_button_6:hover {
   .et_pb_column_12 {
     border-left-width: 1px;
   }
+  .rebuild_wrapper .contact_wrapper .card{
+    padding: 20px 10px !important;
+  }
+  .rebuild_wrapper .card .card-image{
+    min-width: 40px !important;
+    height: 40px !important;
+  }
 }
 
 h3, h4 {
   padding-bottom: 0.7em !important;
+}
+
+.white-backgeound-btn{
+  color: #bd2939 !important;
+  background-color: #fff !important;
 }
