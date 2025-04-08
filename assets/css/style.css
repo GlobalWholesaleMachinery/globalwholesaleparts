@@ -7450,3 +7450,7 @@ header .navbar-expand-lg .et_pb_column{
 .light-grey-background{
   background-color: #f2f2f2 !important;
 }
+
+.component-reman-cta .card{
+	min-height: 155px;
+}
