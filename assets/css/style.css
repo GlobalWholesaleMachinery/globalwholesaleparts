@@ -3869,6 +3869,8 @@ video{
 }
 .offer-text h4 span {
   color: #bd2939;
+  font-weight: 600 !important;
+  font-size: 30px !important;
 }
 .offer-text p {
   font-size: 18px;
@@ -3922,6 +3924,8 @@ video{
 .logo-block .logo div {
     max-width: 180px;
 }
+
+--black-color : #000;
 
 h1, h2, h3, h4, h5, h6 {
   font-weight: 600;
@@ -4391,7 +4395,7 @@ h1, h2, h3, h4, h5, h6 {
     box-shadow: 0 0 0 0 !important;
 }
 
-
+}
 .parts-by-machine .form-select, .parts-by-component .form-select {
     box-shadow: none;
     width: 150px;
@@ -6463,7 +6467,7 @@ form .form-text.text-danger{
   color: #333;
 }
 
-.main-brands-list .brand-select .variation-brand-img {
+.main-brands-list .brand-select .variation-brand-img, {
   border-bottom: 1px solid #c2c8cf;
   padding-bottom: 10px;
   border-radius: 0px;
@@ -6542,7 +6546,7 @@ form .form-text.text-danger{
   color: #333;
 }
 
-.request-main-brands-list .brand-select .variation-brand-img {
+.request-main-brands-list .brand-select .variation-brand-img, {
   border-bottom: 1px solid #c2c8cf;
   padding-bottom: 10px;
   border-radius: 0px;
