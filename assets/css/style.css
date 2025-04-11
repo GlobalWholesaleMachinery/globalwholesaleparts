@@ -5497,7 +5497,7 @@ body.et_pb_recaptcha_enabled .grecaptcha-badge{
     color: #000;
 }
 .save-you-money-sec{
-    width: 100%;
+    /* width: 100%; */
     text-align: center;
 }
 .save-you-money-sec h2{
@@ -7053,7 +7053,10 @@ Below is ubermenu_custom.css files code
 .ubermenu-top-bottom-padding {
   width: max-content !important;
 }
-
+.ubermenu-submenu-right{
+  left: auto !important;
+  right: 0px !important;
+}
 /** UberMenu Custom Tweaks - Desktop **/
 @media screen and (min-width:960px) {
   #ubermenu-main-17 .ubermenu-item-type-column>.ubermenu-submenu-type-stack, .ubermenu-top-bottom-padding {
