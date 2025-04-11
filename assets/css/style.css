@@ -3869,6 +3869,8 @@ video{
 }
 .offer-text h4 span {
   color: #bd2939;
+  font-weight: 600 !important;
+  font-size: 30px !important;
 }
 .offer-text p {
   font-size: 18px;
@@ -4390,7 +4392,6 @@ h1, h2, h3, h4, h5, h6 {
 .search-btn:focus+.btn, .search-btn:focus, .btn-check:focus+.btn, .btn:focus {
     box-shadow: 0 0 0 0 !important;
 }
-
 
 .parts-by-machine .form-select, .parts-by-component .form-select {
     box-shadow: none;
