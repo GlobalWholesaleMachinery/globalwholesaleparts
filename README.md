@@ -1,2 +1,0 @@
-# globalwholesaleparts
-assets
