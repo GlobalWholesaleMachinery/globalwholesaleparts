@@ -7471,3 +7471,26 @@ header .navbar-expand-lg .et_pb_column{
   border-right: 1px solid #bababa;
   border-radius: 0;
 }
+
+.table-tooltip .tooltip-inner {
+  max-width: 600px;
+  text-align: left;
+}
+
+.table-tooltip .tooltip-inner table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 13px;
+}
+
+.table-tooltip .tooltip-inner th,
+.table-tooltip .tooltip-inner td {
+  border: 1px solid #ccc;
+  padding: 6px 8px;
+  text-align: left;
+}
+
+.table-tooltip .tooltip-inner th {
+  background-color: #383838;
+  font-weight: bold;
+}
