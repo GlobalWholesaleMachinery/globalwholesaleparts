@@ -1054,7 +1054,7 @@
     .login-form{
         left: 50% !important;
         right: unset !important;
-        transform: translate(-50%, 147px) !important;
+        transform: translate(-50%, 110px) !important;
         width: 95%;
     }
     .get-a-quote-header-btn{
@@ -1094,7 +1094,7 @@
     }
     .search-parts{
         display: flex;
-        justify-content: space-between; !important;
+        justify-content: space-between !important;
         padding-bottom: 0px !important;
         padding-inline: 0px;
         gap: 5px;
