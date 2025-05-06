@@ -1289,13 +1289,13 @@
 }
 
 @media (min-width: 569px) and (max-width: 767px) {
-    .GWPCustomer-mobile-modal.show, .dealerloginDropdown-mobile-modal.show, .loginDropdown-mobile.show{
+    .GWPCustomer-mobile-modal.show, .dealerloginDropdown-mobile-modal.show, .loginDropdown-mobile-modal.show{
         transform: translate3d(50%, 40px, 0px) !important;
     }
 }
 
 @media (min-width: 768px) and (max-width: 959px) {
-    .GWPCustomer-mobile-modal.show, .dealerloginDropdown-mobile-modal.show, .loginDropdown-mobile.show{
+    .GWPCustomer-mobile-modal.show, .dealerloginDropdown-mobile-modal.show, .loginDropdown-mobile-modal.show{
         transform: translate3d(50%, 40px, 0px) !important;
     }
 }
