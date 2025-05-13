@@ -1042,7 +1042,7 @@
     .login-button {
         display: block;
         flex-wrap: nowrap; 
-        overflow-x: auto; 
+        /* overflow-x: auto;  */
     }
     .login-button .primary-btn {
         font-size: 14px;
@@ -1054,7 +1054,7 @@
     .login-form{
         left: 50% !important;
         right: unset !important;
-        transform: translate(-50%, 147px) !important;
+        transform: translate(-50%, 110px) !important;
         width: 95%;
     }
     .get-a-quote-header-btn{
@@ -1094,7 +1094,7 @@
     }
     .search-parts{
         display: flex;
-        justify-content: space-between; !important;
+        justify-content: space-between !important;
         padding-bottom: 0px !important;
         padding-inline: 0px;
         gap: 5px;
@@ -1289,13 +1289,21 @@
 }
 
 @media (min-width: 569px) and (max-width: 767px) {
+<<<<<<< HEAD
     .GWPCustomer-mobile-modal.show, .dealerloginDropdown-mobile-modal.show, .loginDropdown-mobile.show{
+=======
+    .GWPCustomer-mobile-modal.show, .dealerloginDropdown-mobile-modal.show, .loginDropdown-mobile-modal.show{
+>>>>>>> 40f92581fa6d72a419a37a5a11d87dc3ba44fb12
         transform: translate3d(50%, 40px, 0px) !important;
     }
 }
 
 @media (min-width: 768px) and (max-width: 959px) {
+<<<<<<< HEAD
     .GWPCustomer-mobile-modal.show, .dealerloginDropdown-mobile-modal.show, .loginDropdown-mobile.show{
+=======
+    .GWPCustomer-mobile-modal.show, .dealerloginDropdown-mobile-modal.show, .loginDropdown-mobile-modal.show{
+>>>>>>> 40f92581fa6d72a419a37a5a11d87dc3ba44fb12
         transform: translate3d(50%, 40px, 0px) !important;
     }
 }
