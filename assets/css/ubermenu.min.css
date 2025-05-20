@@ -26,3 +26,23 @@
 .ubermenu-submenu .ubermenu-item > .ubermenu-target {
     padding-left: 10px;
 }
+
+/* Stack third-level submenu vertically instead of flyout */
+.ubermenu-submenu-type-stack {
+    position: static !important;
+    display: block !important;
+    padding-left: 15px !important;
+    box-shadow: none !important;
+    background: none !important;
+    margin-top: 5px;
+}
+
+/* Fix arrows and layout for stacked menu */
+.ubermenu-submenu-type-stack .ubermenu-sub-indicator {
+    display: none !important;
+}
+
+.ubermenu-submenu-type-stack .ubermenu-item {
+    display: block;
+    padding: 5px 0;
+}
