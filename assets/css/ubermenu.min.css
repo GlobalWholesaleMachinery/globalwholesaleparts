@@ -46,3 +46,29 @@
     display: block;
     padding: 5px 0;
 }
+
+/* ✅ STACKED THIRD-LEVEL SUBMENU BEHAVIOR */
+
+.ubermenu-submenu .ubermenu-item-has-children > .ubermenu-submenu {
+  display: none !important;
+  position: static !important;
+  padding-left: 15px;
+  background: none !important;
+  box-shadow: none !important;
+}
+
+/* ✅ SHOW ONLY WHEN PARENT IS HOVERED OR FOCUSED */
+.ubermenu-submenu .ubermenu-item-has-children:hover > .ubermenu-submenu,
+.ubermenu-submenu .ubermenu-item-has-children:focus-within > .ubermenu-submenu {
+  display: block !important;
+}
+
+/* ✅ Optional: Remove right-facing arrows */
+.ubermenu-submenu .ubermenu-item-has-children > .ubermenu-target .fa-angle-right {
+  display: none !important;
+}
+
+/* ✅ Optional: Add visual indentation to child items */
+.ubermenu-submenu .ubermenu-item-has-children .ubermenu-submenu .ubermenu-target {
+  padding-left: 10px;
+}
