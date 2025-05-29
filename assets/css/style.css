@@ -7506,3 +7506,8 @@ header .navbar-expand-lg .et_pb_column{
   background-size: cover;
   border-radius: 10px;
 }
+
+ol.simple-list li::marker{
+  font-size: 24px;
+  color: #bd2939;
+}
