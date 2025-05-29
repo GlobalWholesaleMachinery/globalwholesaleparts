@@ -7495,3 +7495,14 @@ header .navbar-expand-lg .et_pb_column{
   background-color: #383838;
   font-weight: bold;
 }
+.video-inside-frame{
+  width: 100%;
+  text-align: center;
+  color: #0a2540;
+  padding: 15px;
+  background-image: url(https://globalmachineryauctions.com/assets/media/raq-bg.jpg);
+  background-repeat: no-repeat;
+  background-position: top left;
+  background-size: cover;
+  border-radius: 10px;
+}
