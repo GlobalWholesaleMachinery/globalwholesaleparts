@@ -1,0 +1,14 @@
+/* Menu css  */
+
+[lang="ar"]{
+    .ubermenu-main .ubermenu-item-normal>.ubermenu-target svg{
+        transform: rotate(180deg);
+    }
+    .ubermenu .ubermenu-tab-layout-left>.ubermenu-tabs-group{
+        float: right;
+    }
+    .ubermenu .ubermenu-tab-layout-left>.ubermenu-tabs-group>.ubermenu-tab>.ubermenu-tab-content-panel{
+        left: 0;
+        right: unset;
+    }
+}
