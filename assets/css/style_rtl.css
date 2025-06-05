@@ -1,7 +1,7 @@
 /* Menu css  */
 
 [lang="ar"]{
-    .ubermenu-main .ubermenu-item-normal>.ubermenu-target svg{
+    .ubermenu-main .ubermenu-item-normal>.ubermenu-target svg, .ubermenu-item-29 a svg.ubermenu-sub-indicator{
         transform: rotate(180deg);
     }
     .ubermenu .ubermenu-tab-layout-left>.ubermenu-tabs-group{
@@ -10,5 +10,17 @@
     .ubermenu .ubermenu-tab-layout-left>.ubermenu-tabs-group>.ubermenu-tab>.ubermenu-tab-content-panel{
         left: 0;
         right: unset;
+    }
+    .ubermenu-main.ubermenu-sub-indicators .ubermenu-submenu :not(.ubermenu-tabs-layout-right) .ubermenu-has-submenu-drop>.ubermenu-target{
+        padding-left: 25px;
+        display: flex;
+        align-items: self-start;
+        justify-content: space-between;
+    }
+}
+
+@media only screen and (min-width:960px){
+    .ubermenu-item-183 > .ubermenu-target > .ubermenu-sub-indicator{
+        transform: rotate(360deg) !important;
     }
 }
