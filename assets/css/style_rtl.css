@@ -1,0 +1,48 @@
+/* Menu css  */
+
+[lang="ar"]{
+    .ubermenu-main .ubermenu-item-normal>.ubermenu-target svg, .ubermenu-item-29 a svg.fa-angle-right.ubermenu-sub-indicator{
+        transform: rotate(180deg);
+    }
+    .ubermenu .ubermenu-tab-layout-left>.ubermenu-tabs-group{
+        float: right;
+    }
+    .ubermenu .ubermenu-tab-layout-left>.ubermenu-tabs-group>.ubermenu-tab>.ubermenu-tab-content-panel{
+        left: 0;
+        right: unset;
+    }
+    .ubermenu-main.ubermenu-sub-indicators .ubermenu-submenu :not(.ubermenu-tabs-layout-right) .ubermenu-has-submenu-drop>.ubermenu-target{
+        padding-left: 25px;
+        display: flex;
+        align-items: self-start;
+        justify-content: space-between;
+    }
+    .dot-arrow{
+        left: -102px;
+        right:unset;
+    }
+    .dot-arrow.third, .dot-arrow.fourth{
+        left: auto;
+        right: -102px;
+    }
+    .ubermenu .ubermenu-item-layout-icon_left>.ubermenu-target-title{
+        margin-right: .6em;
+        margin-left: unset;
+    }
+    .header-cart a .cart-counter{
+        right: 25px;
+        left: unset;
+    }
+    .ubermenu.ubermenu-submenu-indicator-closes .ubermenu-sub-indicator-close{
+        left: 20px;
+        right: unset;
+    }
+    .ubermenu-main .ubermenu-item-normal>.ubermenu-target{
+        display: flex;
+        align-items: center;
+    }
+    .ubermenu-submenu-right {
+        right: auto !important;
+        left: 0px !important;
+    }
+}
