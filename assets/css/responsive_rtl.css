@@ -1,0 +1,48 @@
+
+@media only screen and (min-width:960px){
+    [lang="ar"]{
+        .ubermenu-item-183 > .ubermenu-target > .ubermenu-sub-indicator{
+            transform: rotate(360deg) !important;
+        }
+    }
+}
+@media only screen and (max-width:959px){
+    [lang="ar"]{
+        .mobile_phone_header{
+            left: 65px;
+            right: unset;
+        }
+        .mobile_email_header{
+            left: 10px;
+            right: unset;
+        }
+    }
+}
+
+@media only screen and (max-width:767px){
+    [lang="ar"]{
+        .mobile_phone_header{
+            left: 65px;
+            right: unset;
+        }
+        .mobile_email_header{
+            left: 10px;
+            right: unset;
+        }
+    }
+}
+
+@media only screen and (max-width:568px){
+    [lang="ar"]{
+        .mobile_phone_header{
+            left: 102px;
+        }
+        .mobile_email_header{
+            left: 50px;
+        }
+        .inventory_menu_icon.ubermenu-skin-grey-white.ubermenu-responsive-toggle{
+            left:0px;
+            right: unset;
+        }
+    }
+}
