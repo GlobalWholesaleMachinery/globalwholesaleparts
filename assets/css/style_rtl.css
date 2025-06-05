@@ -1,7 +1,7 @@
 /* Menu css  */
 
 [lang="ar"]{
-    .ubermenu-main .ubermenu-item-normal>.ubermenu-target svg, .ubermenu-item-29 a svg.ubermenu-sub-indicator{
+    .ubermenu-main .ubermenu-item-normal>.ubermenu-target svg, .ubermenu-item-29 a svg.fa-angle-right.ubermenu-sub-indicator{
         transform: rotate(180deg);
     }
     .ubermenu .ubermenu-tab-layout-left>.ubermenu-tabs-group{
@@ -16,6 +16,14 @@
         display: flex;
         align-items: self-start;
         justify-content: space-between;
+    }
+    .dot-arrow{
+        left: -102px;
+        right:unset;
+    }
+    .dot-arrow.third, .dot-arrow.fourth{
+        left: auto;
+        right: -102px;
     }
 }
 
