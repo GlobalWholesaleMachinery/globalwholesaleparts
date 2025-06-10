@@ -45,7 +45,7 @@
         right: auto !important;
         left: 0px !important;
     }
-    .et_pb_module.et_pb_text_align_left , input, .container, .et_pb_button_module_wrapper.et_pb_button_alignment_left, .et_pb_blurb_7.et_pb_blurb .et_pb_module_header, .et_pb_blurb_7.et_pb_blurb .et_pb_module_header a{
+    .et_pb_module.et_pb_text_align_left , input,textarea, .container, .et_pb_button_module_wrapper.et_pb_button_alignment_left, .et_pb_blurb_7.et_pb_blurb .et_pb_module_header, .et_pb_blurb_7.et_pb_blurb .et_pb_module_header a{
         text-align: right;
     }
     .et_pb_blurb_3.et_pb_blurb .et_pb_module_header, .et_pb_blurb_3.et_pb_blurb .et_pb_module_header a, .quote-text{
