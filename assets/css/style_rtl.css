@@ -119,4 +119,8 @@
         left: 10px;
         right: unset;
     }
+    .et_pb_column_10{
+        border-right-width: 1px;
+        border-left-width: 0px;
+    }
 }
