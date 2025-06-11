@@ -126,4 +126,7 @@
         border-right-width: 1px;
         border-left-width: 0px;
     }
+    .filter_line_border{
+        background: linear-gradient(270deg, #353535 0%, rgba(155, 155, 155, 0.00) 100%) !important;
+    }
 }
