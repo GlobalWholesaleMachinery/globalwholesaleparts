@@ -111,4 +111,12 @@
         padding-right: 15px;
         padding-left: 0px;
     }
+    .ubermenu-main.ubermenu-sub-indicators .ubermenu-item-level-0.ubermenu-has-submenu-drop>.ubermenu-target:not(.ubermenu-noindicator){
+        padding-left: 30px;
+        padding-right: 15px;
+    }
+    .ubermenu-sub-indicators>ul>.ubermenu-has-submenu-drop>.ubermenu-target>.ubermenu-sub-indicator{
+        left: 10px;
+        right: unset;
+    }
 }
