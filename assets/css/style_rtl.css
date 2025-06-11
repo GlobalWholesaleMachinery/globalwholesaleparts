@@ -1,6 +1,9 @@
 /* Menu css  */
 
 [lang="ar"]{
+    .et_pb_column{
+        float: right;
+    }
     .ubermenu-main .ubermenu-item-normal>.ubermenu-target svg, .ubermenu-item-29 a svg.fa-angle-right.ubermenu-sub-indicator{
         transform: rotate(180deg);
     }
