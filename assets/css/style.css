@@ -6142,6 +6142,9 @@ Umair Changes CSS
     .common-list.three-column li img {
         display: none;
     }
+    .exist_images {
+      width: 80%;
+    }
 }
 
 @media (max-width: 480px) {
