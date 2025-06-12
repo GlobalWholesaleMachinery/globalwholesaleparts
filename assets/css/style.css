@@ -7511,3 +7511,7 @@ ol.simple-list li::marker{
   font-size: 24px;
   color: #bd2939;
 }
+
+.exist_images{
+  width: 300;
+}
