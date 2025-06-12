@@ -7525,3 +7525,7 @@ ol.simple-list li::marker{
 .login-button .btn{
   padding: .375rem;
 }
+
+.cart_icon .phone-icon{
+  font-size: 24px;
+}
