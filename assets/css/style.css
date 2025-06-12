@@ -5962,6 +5962,7 @@ Umair Changes CSS
     }
     .logo-block .logo div{
         max-width: 210px;
+        
     }
 }
 @media (max-width: 1120px) {
