@@ -7525,7 +7525,7 @@ ol.simple-list li::marker{
   width: 200px;
 }
 
-.login-button .btn{
+.GWPCustomer-mobile, .dealerloginDropdown-mobile, .loginDropdown-mobile{
   padding: .375rem;
 }
 
