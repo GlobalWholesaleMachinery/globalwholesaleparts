@@ -74,6 +74,11 @@ ul li {list-style:none; margin:0px; padding:0px;}
   background-color:transparent; 
   color:#000;
 }
+
+.mobile_email_header .primary-btn {
+  font-size: 24px;
+  padding: 4px 13px;
+}
 .white-hover:hover{
   border-color: #fff;
   color: #fff;
@@ -4978,7 +4983,7 @@ a.card_hover .hover_effect{
 .ubermenu-skin-grey-white.ubermenu-responsive-toggle {
   background: #4e5154;
   color: #fff;
-  font-size: 20px;
+  font-size: 24px;
   text-transform: uppercase;
   font-weight: bold;
 }
@@ -5962,7 +5967,7 @@ Umair Changes CSS
     }
     .logo-block .logo div{
         max-width: 210px;
-        
+
     }
 }
 @media (max-width: 1120px) {

@@ -872,8 +872,8 @@
     .mobile_phone_header{
         position: absolute;
         border-radius: 5px;
-        top: -47px;
-        right: 102px;
+        top: -53px;
+        right: 113px;
         width: auto;
         background: transparent;
         color: #bd2939;
@@ -883,8 +883,8 @@
     .mobile_email_header{
         position: absolute;
         border-radius: 5px;
-        top: -47px;
-        right: 50px;
+        top: -53px;
+        right: 55px;
         width: auto;
         background: transparent;
         color: #bd2939;
@@ -1150,7 +1150,7 @@
     .inventory_menu_icon.ubermenu-skin-grey-white.ubermenu-responsive-toggle{
         position: absolute;
         border-radius: 5px;
-        top: -47px;
+        top: -53px;
         right: 0px;
         width: auto;
         background: transparent;
