@@ -778,6 +778,7 @@
     .filter_line_border{
         display: none;
     }
+    
 }
 @media (min-width: 569px) and (max-width: 767px) {
     .search-bar #keyword, .search-bar .parent-search-engine{
