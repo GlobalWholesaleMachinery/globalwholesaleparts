@@ -482,7 +482,7 @@
     .mobile_phone_header{
         position: absolute;
         border-radius: 5px;
-        top: -47px;
+        top: -49px;
         right: 65px;
         width: auto;
         background: transparent;
@@ -493,7 +493,7 @@
     .mobile_email_header{
         position: absolute;
         border-radius: 5px;
-        top: -47px;
+        top: -49px;
         right: 10px;
         width: auto;
         background: transparent;
@@ -866,6 +866,7 @@
 @media (max-width: 568px) {
     .GQPLogin_signin_label {
         font-size: 18px !important;
+        vertical-align: middle;
     }
     .GWPCustomer-mobile, .dealerloginDropdown-mobile, .loginDropdown-mobile{
         font-size: 16px;
@@ -873,7 +874,7 @@
     .mobile_phone_header{
         position: absolute;
         border-radius: 5px;
-        top: -53px;
+        top: -49px;
         right: 113px;
         width: auto;
         background: transparent;
@@ -884,7 +885,7 @@
     .mobile_email_header{
         position: absolute;
         border-radius: 5px;
-        top: -53px;
+        top: -49px;
         right: 55px;
         width: auto;
         background: transparent;
@@ -1151,7 +1152,7 @@
     .inventory_menu_icon.ubermenu-skin-grey-white.ubermenu-responsive-toggle{
         position: absolute;
         border-radius: 5px;
-        top: -53px;
+        top: -49px;
         right: 0px;
         width: auto;
         background: transparent;
