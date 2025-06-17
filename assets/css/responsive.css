@@ -1263,6 +1263,11 @@
         padding-left:0px !important;
     }
 }
+@media only screen and (max-width:375px){
+    .mobile_phone_header, .mobile_email_header, .inventory_menu_icon.ubermenu-skin-grey-white.ubermenu-responsive-toggle{
+        top: -48px;
+    }
+}
 @media (max-width: 1280px) {
     .detailed-email-phone{
         display: none;

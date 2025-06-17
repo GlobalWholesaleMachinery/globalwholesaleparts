@@ -5966,7 +5966,7 @@ Umair Changes CSS
         width: 120px;
     }
     .logo-block .logo div{
-        max-width: 210px;
+        max-width: 190px;
 
     }
 }
@@ -6175,7 +6175,7 @@ Umair Changes CSS
 
 @media only screen and (max-width: 375px) {
     .logo-block .logo div{
-      max-width: 169px;
+      max-width: 150px;
       margin-right: auto!important;
       margin-left: auto!important;
     }
