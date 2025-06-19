@@ -129,4 +129,18 @@
     .filter_line_border{
         background: linear-gradient(270deg, #353535 0%, rgba(155, 155, 155, 0.00) 100%) !important;
     }
+    .home_banner_box .et_pb_column_1_2:last-child{
+        padding-right: 20px !important;
+        padding-left: 0px !important;
+    }
+    .woocommerce-page.columns-3 ul.products li.product, .woocommerce.columns-3 ul.products li.product{
+        text-align: center;
+    }
+    .woocommerce ul.products li.last, .woocommerce-page ul.products li.last{
+        margin-left: 0;
+        margin-right: 0;
+    }
+    .woocommerce ul.products li.product, .woocommerce-page ul.products li.product{
+        margin: 0 0% 2.992em 3.8% !important;
+    }
 }
