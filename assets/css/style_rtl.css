@@ -135,12 +135,17 @@
     }
     .woocommerce-page.columns-3 ul.products li.product, .woocommerce.columns-3 ul.products li.product{
         text-align: center;
+        float: right;
+    }
+    .woocommerce ul.products li.product, .woocommerce-page ul.products li.product{
+        margin: 0 0% 2.992em 3.8% !important;
     }
     .woocommerce ul.products li.last, .woocommerce-page ul.products li.last{
         margin-left: 0;
         margin-right: 0;
     }
-    .woocommerce ul.products li.product, .woocommerce-page ul.products li.product{
-        margin: 0 0% 2.992em 3.8% !important;
+    .setp-card .icon{
+        margin-left: 15px;
+        margin-right: unsets;
     }
 }
