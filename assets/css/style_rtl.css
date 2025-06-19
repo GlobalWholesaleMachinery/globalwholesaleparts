@@ -141,8 +141,8 @@
         margin: 0 0% 2.992em 3.8% !important;
     }
     .woocommerce ul.products li.last, .woocommerce-page ul.products li.last{
-        margin-left: 0;
-        margin-right: 0;
+        margin-left: 0 !important;
+        margin-right: 0 !important;
     }
     .setp-card .icon{
         margin-left: 15px;
