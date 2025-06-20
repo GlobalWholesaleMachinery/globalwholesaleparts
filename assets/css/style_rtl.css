@@ -162,4 +162,21 @@
     .related-equi-slide .cat-list-card .cat-body{
         text-align: right;
     }
+    .cat-list-card .read-more{
+        display: inline-flex;
+        align-items: center;
+        gap: 5px;
+        flex-direction: row-reverse;
+    }
+    .cat-list-card .read-more svg{
+        transform: rotate(180deg);
+    }
+    .prd-desc-block ul{
+        padding-right: 2rem;
+        padding-left: 0px;
+    }
+    .cat-list-card .watermark{
+        right: unset;
+        left: 10px;
+    }
 }
