@@ -482,7 +482,7 @@
     .mobile_phone_header{
         position: absolute;
         border-radius: 5px;
-        top: -47px;
+        top: -49px;
         right: 65px;
         width: auto;
         background: transparent;
@@ -493,7 +493,7 @@
     .mobile_email_header{
         position: absolute;
         border-radius: 5px;
-        top: -47px;
+        top: -49px;
         right: 10px;
         width: auto;
         background: transparent;
@@ -778,6 +778,7 @@
     .filter_line_border{
         display: none;
     }
+    
 }
 @media (min-width: 569px) and (max-width: 767px) {
     .search-bar #keyword, .search-bar .parent-search-engine{
@@ -864,16 +865,17 @@
 }
 @media (max-width: 568px) {
     .GQPLogin_signin_label {
-        font-size: 16px !important;
+        font-size: 18px !important;
+        vertical-align: middle;
     }
     .GWPCustomer-mobile, .dealerloginDropdown-mobile, .loginDropdown-mobile{
-        font-size: 14px;
+        font-size: 16px;
     }
     .mobile_phone_header{
         position: absolute;
         border-radius: 5px;
-        top: -47px;
-        right: 102px;
+        top: -49px;
+        right: 113px;
         width: auto;
         background: transparent;
         color: #bd2939;
@@ -883,8 +885,8 @@
     .mobile_email_header{
         position: absolute;
         border-radius: 5px;
-        top: -47px;
-        right: 50px;
+        top: -49px;
+        right: 55px;
         width: auto;
         background: transparent;
         color: #bd2939;
@@ -1101,9 +1103,9 @@
     }
     .get-a-quote-header-btn-mobile{
         display: block;
-        width: 110px;
+        width: 135px;
         margin-top: 0px;
-        min-width: 130px;
+        min-width: 135px;
         padding-inline: 10px;
         height: 100%;
         font-size: 11px;
@@ -1150,13 +1152,13 @@
     .inventory_menu_icon.ubermenu-skin-grey-white.ubermenu-responsive-toggle{
         position: absolute;
         border-radius: 5px;
-        top: -47px;
+        top: -49px;
         right: 0px;
         width: auto;
         background: transparent;
         color: #bd2939;
         border: 1px solid;
-        padding: 3px 8px;
+        padding: 2px 8px;
     }
 
     .inventory_menu_icon.ubermenu-skin-grey-white.ubermenu-responsive-toggle span, .get-a-quote-header-btn, .new_inventory_mobile .slider-nav-mobile, .new_inventory_mobile #dealer_login_sec{
@@ -1262,6 +1264,11 @@
         padding-left:0px !important;
     }
 }
+@media only screen and (max-width:375px){
+    .mobile_phone_header, .mobile_email_header, .inventory_menu_icon.ubermenu-skin-grey-white.ubermenu-responsive-toggle{
+        top: -48px;
+    }
+}
 @media (max-width: 1280px) {
     .detailed-email-phone{
         display: none;
@@ -1289,21 +1296,14 @@
 }
 
 @media (min-width: 569px) and (max-width: 767px) {
-<<<<<<< HEAD
-    .GWPCustomer-mobile-modal.show, .dealerloginDropdown-mobile-modal.show, .loginDropdown-mobile.show{
-=======
+    /* .GWPCustomer-mobile-modal.show, .dealerloginDropdown-mobile-modal.show, .loginDropdown-mobile.show{ */
     .GWPCustomer-mobile-modal.show, .dealerloginDropdown-mobile-modal.show, .loginDropdown-mobile-modal.show{
->>>>>>> 40f92581fa6d72a419a37a5a11d87dc3ba44fb12
         transform: translate3d(50%, 40px, 0px) !important;
     }
 }
 
 @media (min-width: 768px) and (max-width: 959px) {
-<<<<<<< HEAD
-    .GWPCustomer-mobile-modal.show, .dealerloginDropdown-mobile-modal.show, .loginDropdown-mobile.show{
-=======
     .GWPCustomer-mobile-modal.show, .dealerloginDropdown-mobile-modal.show, .loginDropdown-mobile-modal.show{
->>>>>>> 40f92581fa6d72a419a37a5a11d87dc3ba44fb12
         transform: translate3d(50%, 40px, 0px) !important;
     }
 }

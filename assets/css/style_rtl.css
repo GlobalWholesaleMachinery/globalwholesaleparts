@@ -1,0 +1,185 @@
+/* Menu css  */
+
+[lang="ar"]{
+    .et_pb_column{
+        float: right;
+    }
+    .ubermenu-main .ubermenu-item-normal>.ubermenu-target svg, .ubermenu-item-29 a svg.fa-angle-right.ubermenu-sub-indicator{
+        transform: rotate(180deg);
+    }
+    .ubermenu .ubermenu-tab-layout-left>.ubermenu-tabs-group{
+        float: right;
+    }
+    .ubermenu .ubermenu-tab-layout-left>.ubermenu-tabs-group>.ubermenu-tab>.ubermenu-tab-content-panel{
+        left: 0;
+        right: unset;
+    }
+    .ubermenu-main.ubermenu-sub-indicators .ubermenu-submenu :not(.ubermenu-tabs-layout-right) .ubermenu-has-submenu-drop>.ubermenu-target{
+        padding-left: 25px;
+        display: flex;
+        align-items: self-start;
+        justify-content: space-between;
+    }
+    .dot-arrow{
+        left: -102px;
+        right:unset;
+    }
+    .dot-arrow.third, .dot-arrow.fourth{
+        left: auto;
+        right: -102px;
+    }
+    .ubermenu .ubermenu-item-layout-icon_left>.ubermenu-target-title{
+        margin-right: .6em;
+        margin-left: unset;
+    }
+    .header-cart a .cart-counter{
+        right: 25px;
+        left: unset;
+    }
+    .ubermenu.ubermenu-submenu-indicator-closes .ubermenu-sub-indicator-close{
+        left: 20px;
+        right: unset;
+    }
+    .ubermenu-main .ubermenu-item-normal>.ubermenu-target{
+        display: flex;
+        align-items: center;
+    }
+    .ubermenu-submenu-right {
+        right: auto !important;
+        left: 0px !important;
+    }
+    .et_pb_module.et_pb_text_align_left , input,textarea, .container, .et_pb_button_module_wrapper.et_pb_button_alignment_left, .et_pb_blurb_7.et_pb_blurb .et_pb_module_header, .et_pb_blurb_7.et_pb_blurb .et_pb_module_header a{
+        text-align: right;
+    }
+    .et_pb_blurb_3.et_pb_blurb .et_pb_module_header, .et_pb_blurb_3.et_pb_blurb .et_pb_module_header a, .quote-text, .et_pb_image_1, .et_pb_image_2, .et_pb_image_3, .et_pb_image_4, .et_pb_image_5, .et_pb_image_0{
+        text-align: right;
+    }
+    .form-check{
+        padding-left: 1.5em;
+        padding-right: 0px;
+    }
+    .common-form .form-check-input{
+        margin-left: 10px;
+        margin-right: 0px;
+    }
+    .common-form .form-check-input{
+        margin-left: 10px;
+        margin-right: 0px;
+    }
+    .common-list li{
+        padding-left: 0;
+        padding-right: 35px;
+    }
+    .et_pb_social_media_follow li a{
+        margin-right: 0;
+        margin-left: 8px;
+    }
+    .et_pb_blurb.et_pb_text_align_left .et_pb_blurb_content .et_pb_blurb_container, .ubermenu-nav li a, ul li, ul.squre-custom-li li, .et_pb_column, .et_pb_blurb.et_pb_text_align_left .et_pb_blurb_content .et_pb_blurb_container, .et_pb_blurb_10.et_pb_blurb .et_pb_module_header, .ft-title{
+        text-align: right;
+    }
+    .language-flag{
+        margin-right: 0;
+        margin-left: 5px;
+    }
+    #ai-camera{
+        margin-right: 0px;
+        margin-left: 15px;
+    }
+    .common-list li:after{
+        right: 0;
+        left: auto;
+    }
+    ul.squre-custom-li li:before{
+        right: -15px;
+        left: auto;
+    }
+    .et_pb_image_0_tb_footer{
+        margin-right: 0;
+        margin-left: auto;
+    }
+    .et_pb_blurb_container{
+        padding-left: 0;
+        padding-right: 15px;
+        text-align: right;
+    }
+    .et_pb_social_media_follow li a{
+        margin-right: 0;
+        margin-left: 8px;
+    }    
+    .testimonials-slide .owl-item{
+        margin-left: 0 !important;
+          margin-right: 20px !important;
+    }
+    .et_pb_blurb_position_left .et_pb_blurb_container{
+        padding-right: 15px;
+        padding-left: 0px;
+    }
+    .ubermenu-main.ubermenu-sub-indicators .ubermenu-item-level-0.ubermenu-has-submenu-drop>.ubermenu-target:not(.ubermenu-noindicator){
+        padding-left: 30px;
+        padding-right: 15px;
+    }
+    .ubermenu-sub-indicators>ul>.ubermenu-has-submenu-drop>.ubermenu-target>.ubermenu-sub-indicator{
+        left: 10px;
+        right: unset;
+    }
+    .et_pb_column_10{
+        border-right-width: 1px;
+        border-left-width: 0px;
+    }
+    .filter_line_border{
+        background: linear-gradient(270deg, #353535 0%, rgba(155, 155, 155, 0.00) 100%) !important;
+    }
+    .home_banner_box .et_pb_column_1_2:last-child{
+        padding-right: 20px !important;
+        padding-left: 0px !important;
+    }
+    .woocommerce-page.columns-3 ul.products li.product, .woocommerce.columns-3 ul.products li.product{
+        text-align: center;
+        float: right;
+    }
+    .woocommerce ul.products li.product, .woocommerce-page ul.products li.product{
+        margin: 0 0% 2.992em 3.8% !important;
+    }
+    .woocommerce ul.products li.last, .woocommerce-page ul.products li.last{
+        margin-left: 0 !important;
+        margin-right: 0 !important;
+    }
+    .setp-card .icon{
+        margin-left: 15px;
+        margin-right: unset;
+    }
+    .et_pb_blurb_position_left .et_pb_main_blurb_image img, .et_pb_blurb_position_right .et_pb_main_blurb_image img{
+        width: revert-layer;
+    }
+    .related-equi-slide .owl-controls .owl-next{
+        left: 30px;
+        right: auto;
+    }
+    .related-equi-slide .owl-controls .owl-prev{
+        left: 0px;
+        right: auto;
+    }
+    .related-equi-slide .cat-list-card .cat-body{
+        text-align: right;
+    }
+    .cat-list-card .read-more{
+        display: inline-flex;
+        align-items: center;
+        gap: 5px;
+        flex-direction: row-reverse;
+    }
+    .cat-list-card .read-more svg{
+        transform: rotate(180deg);
+    }
+    .prd-desc-block ul{
+        padding-right: 2rem;
+        padding-left: 0px;
+    }
+    .cat-list-card .watermark{
+        right: unset;
+        left: 10px;
+    }
+    .et_pb_blurb_9 .et_pb_blurb_content, .et_pb_blurb_0 .et_pb_blurb_content, .et_pb_blurb_8 .et_pb_blurb_content, .et_pb_blurb_2 .et_pb_blurb_content, .et_pb_blurb_7 .et_pb_blurb_content, .et_pb_blurb_1 .et_pb_blurb_content, .et_pb_blurb_6 .et_pb_blurb_content, .et_pb_blurb_3 .et_pb_blurb_content, .et_pb_blurb_4.et_pb_blurb .et_pb_module_header, .et_pb_blurb_4.et_pb_blurb .et_pb_module_header a{
+        text-align: right;
+    }
+}

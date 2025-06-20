@@ -74,6 +74,11 @@ ul li {list-style:none; margin:0px; padding:0px;}
   background-color:transparent; 
   color:#000;
 }
+
+.mobile_email_header .primary-btn {
+  font-size: 24px;
+  padding: 4px 13px;
+}
 .white-hover:hover{
   border-color: #fff;
   color: #fff;
@@ -187,7 +192,7 @@ label.error {
   color: #000;
 }
 .login-sec a {
-  color: #bd2939;
+  /* color: #bd2939; */
 }
 .hamburger-menu {
   width: 25px;
@@ -487,7 +492,7 @@ label.error {
   color: #0a2540;
   font-weight: 900;
   font-size: 13px;
-  background-image: url(https://globalmachineryauctions.com/assets/media/dozer-list-icon-black.png);
+  background-image: url(../media/dozer-list-icon-black.png);
   background-repeat: no-repeat;
   background-position: left top;
   width: 25px;
@@ -771,6 +776,9 @@ label.error {
   font-weight: 600;
   cursor: pointer !important;
 }
+.read-more svg{
+  vertical-align: middle;
+}
 .read-more:hover{
   color: #000;
 }
@@ -903,7 +911,7 @@ label.error {
   left: 0;
   top: 0px;
   font-weight: 900;
-  background-image: url(https://globalmachineryauctions.com/assets/media/dozer-list-icon-black.png);
+  background-image: url(../media/dozer-list-icon-black.png);
   background-repeat: no-repeat;
   background-position: left top;
   width: 25px;
@@ -1347,7 +1355,7 @@ label.error {
   left: 0;
   top: 2px;
   font-weight: 900;
-  background-image: url(https://globalmachineryauctions.com/assets/media/dozer-list-icon-black.png);
+  background-image: url(../media/dozer-list-icon-black.png);
   background-repeat: no-repeat;
   background-position: left top;
   width: 25px;
@@ -4585,6 +4593,7 @@ Umair Custom CSS
   flex-wrap: wrap;
   justify-content: flex-end; 
   position: relative;
+  align-items: center;
 }
 
 .top-section {
@@ -4978,7 +4987,7 @@ a.card_hover .hover_effect{
 .ubermenu-skin-grey-white.ubermenu-responsive-toggle {
   background: #4e5154;
   color: #fff;
-  font-size: 20px;
+  font-size: 24px;
   text-transform: uppercase;
   font-weight: bold;
 }
@@ -5961,7 +5970,8 @@ Umair Changes CSS
         width: 120px;
     }
     .logo-block .logo div{
-        max-width: 180px;
+        max-width: 190px;
+
     }
 }
 @media (max-width: 1120px) {
@@ -6136,6 +6146,9 @@ Umair Changes CSS
     .common-list.three-column li img {
         display: none;
     }
+    .exist_images {
+      width: 80%;
+    }
 }
 
 @media (max-width: 480px) {
@@ -6166,7 +6179,7 @@ Umair Changes CSS
 
 @media only screen and (max-width: 375px) {
     .logo-block .logo div{
-      max-width: 169px;
+      max-width: 150px;
       margin-right: auto!important;
       margin-left: auto!important;
     }
@@ -7494,4 +7507,35 @@ header .navbar-expand-lg .et_pb_column{
 .table-tooltip .tooltip-inner th {
   background-color: #383838;
   font-weight: bold;
+}
+.video-inside-frame{
+  width: 100%;
+  text-align: center;
+  color: #0a2540;
+  padding: 15px;
+  background-image: url(https://globalmachineryauctions.com/assets/media/raq-bg.jpg);
+  background-repeat: no-repeat;
+  background-position: top left;
+  background-size: cover;
+  border-radius: 10px;
+}
+
+ol.simple-list li::marker{
+  font-size: 24px;
+  color: #bd2939;
+}
+
+.exist_images{
+  width: 300px;
+}
+.solution_images{
+  width: 250px;
+}
+
+.GWPCustomer-mobile, .dealerloginDropdown-mobile, .loginDropdown-mobile{
+  padding: .375rem;
+}
+
+.cart_icon .phone-icon{
+  font-size: 24px;
 }

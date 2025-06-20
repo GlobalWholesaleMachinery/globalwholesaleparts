@@ -1,0 +1,72 @@
+@media only screen and (max-width:980px){
+    .et_pb_shop ul.products.columns-1 li.product, .et_pb_shop ul.products.columns-2 li.product, .et_pb_shop ul.products.columns-3 li.product, .et_pb_shop ul.products.columns-4 li.product, .et_pb_shop ul.products.columns-5 li.product, .et_pb_shop ul.products.columns-6 li.product{
+        margin-left: 4% !important;
+        margin-right: 0px !important;
+    }
+    .et_pb_shop ul.products.columns-1 li:nth-child(2n+2), .et_pb_shop ul.products.columns-2 li:nth-child(2n+2), .et_pb_shop ul.products.columns-3 li:nth-child(2n+2), .et_pb_shop ul.products.columns-4 li:nth-child(2n+2), .et_pb_shop ul.products.columns-5 li:nth-child(2n+2), .et_pb_shop ul.products.columns-6 li:nth-child(2n+2){
+        margin-left: 0px !important;
+        margin-right: 0px !important;
+    }
+}
+@media only screen and (min-width:981px){
+    .et_pb_gutters3 .et_pb_column, .et_pb_gutters3.et_pb_row .et_pb_column {
+        margin-left: 5.5%;
+        margin-right: 0px !important;
+    }
+
+    .et_pb_row .et_pb_column.et-last-child, .et_pb_row .et_pb_column:last-child, .et_pb_row_inner .et_pb_column.et-last-child, .et_pb_row_inner .et_pb_column:last-child {
+        margin-left: 0 !important;
+        margin-right: 0 !important;
+    }
+    .et_pb_gutters2 .et_pb_column, .et_pb_gutters2.et_pb_row .et_pb_column {
+        margin-left: 3%;
+        margin-right: 0;
+    }
+}
+@media only screen and (min-width:960px){
+    [lang="ar"]{
+        .ubermenu-item-183 > .ubermenu-target > .ubermenu-sub-indicator{
+            transform: rotate(360deg) !important;
+        }
+    }
+}
+@media only screen and (max-width:959px){
+    [lang="ar"]{
+        .mobile_phone_header{
+            left: 65px;
+            right: unset;
+        }
+        .mobile_email_header{
+            left: 10px;
+            right: unset;
+        }
+    }
+}
+
+@media only screen and (max-width:767px){
+    [lang="ar"]{
+        .mobile_phone_header{
+            left: 65px;
+            right: unset;
+        }
+        .mobile_email_header{
+            left: 10px;
+            right: unset;
+        }
+    }
+}
+
+@media only screen and (max-width:568px){
+    [lang="ar"]{
+        .mobile_phone_header{
+            left: 102px;
+        }
+        .mobile_email_header{
+            left: 50px;
+        }
+        .inventory_menu_icon.ubermenu-skin-grey-white.ubermenu-responsive-toggle{
+            left:0px;
+            right: unset;
+        }
+    }
+}
