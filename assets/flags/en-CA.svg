@@ -1,0 +1,11 @@
+<svg width="48" height="32" viewBox="0 0 48 32" xmlns="http://www.w3.org/2000/svg">
+  <!-- Left red bar -->
+  <rect width="8" height="32" x="0" fill="#FF0000"/>
+  <!-- Right red bar -->
+  <rect width="8" height="32" x="40" fill="#FF0000"/>
+  <!-- White center -->
+  <rect width="32" height="32" x="8" fill="#FFFFFF"/>
+  <!-- Maple leaf -->
+  <path d="M24 6l2 4 4-2-1 4 4 1-4 2 2 3h-3l1 5-3-2-1 3-1-3-3 2 1-5h-3l2-3-4-2 4-1-1-4 4 2 2-4z"
+        fill="#FF0000"/>
+</svg>

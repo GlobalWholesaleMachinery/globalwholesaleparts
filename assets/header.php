@@ -323,7 +323,7 @@ if (isset($brand_detail) && $brand_detail == 'inventory_brand') {
 					<div class="col-auto text-start logo-block">
 						<div class="logo row gap-1 mx-0 align-items-center">
               <div class="col-auto mb-0 align-items-center mobile_gwm_logo">
-                <a href="<?= SITEURL; ?>" title="Global Wholesale Machinery"><img src="<?= SITEURL; ?>assets/logos/GWP.webp" alt="Global Wholesale Parts"></a>
+                <a href="<?= SITEURL_LANG; ?>" title="Global Wholesale Machinery"><img src="<?= SITEURL; ?>assets/logos/GWP.webp" alt="Global Wholesale Parts"></a>
               </div>
             </div>
 					</div>
@@ -348,11 +348,11 @@ if (isset($brand_detail) && $brand_detail == 'inventory_brand') {
 									<div class="header-login ms-sm-auto ms-xxl-4 text-end">
 										<a class="btn dropdown-toggle primary-btn" id="AccountDropdown" role="button" data-bs-toggle="dropdown" data-bs-auto-close="outside" aria-expanded="false" <?= (isset($_SESSION['user']) && isset($_SESSION['token']) && isset($_SESSION['firstName']) ? '' : 'style="display: none;"'); ?>><i class="fa-solid fa-user me-1"></i> <span class="welcome-user me-1"><?= (isset($_SESSION['user']) && isset($_SESSION['token']) && isset($_SESSION['firstName']) ? ' Welcome '.$_SESSION['firstName'] : ''); ?></span> <i class="fa-solid fa-angle-down"></i></a>
 										<ul class="login-form p-0 dropdown-menu dropdown-menu-end mt-2 dropdown-menu-right shadow-lg" aria-labelledby="AccountDropdown">
-										<li><a class="dropdown-item py-2 px-4" href="<?= SITEURL; ?>dashboard/"><i class="fa-solid fa-gauge me-2"></i> Dashboard</a></li> 
-										<li><a class="dropdown-item py-2 px-4" href="<?= SITEURL; ?>profile/"><i class="fa-solid fa-circle-user me-2"></i> Profile</a></li> 
-										<li><a class="dropdown-item py-2 px-4" href="<?= SITEURL; ?>orders/"><i class="fa-solid fa-box me-2"></i> My Orders</a></li>
-										<li><a class="dropdown-item py-2 px-4" href="<?= SITEURL; ?>fleet-list/"><i class="fa-solid fa-warehouse me-2"></i> <?= (isset($user_id) && $user_id==214 ? 'Engine List' : 'Fleet List'); ?></a></li>
-										<li><a class="dropdown-item py-2 px-4" href="<?= SITEURL; ?>support-tickets/"><i class="fa-solid fa-comments me-2"></i> Support Tickets</a></li>
+										<li><a class="dropdown-item py-2 px-4" href="<?= SITEURL_LANG; ?>dashboard/"><i class="fa-solid fa-gauge me-2"></i> Dashboard</a></li> 
+										<li><a class="dropdown-item py-2 px-4" href="<?= SITEURL_LANG; ?>profile/"><i class="fa-solid fa-circle-user me-2"></i> Profile</a></li> 
+										<li><a class="dropdown-item py-2 px-4" href="<?= SITEURL_LANG; ?>orders/"><i class="fa-solid fa-box me-2"></i> My Orders</a></li>
+										<li><a class="dropdown-item py-2 px-4" href="<?= SITEURL_LANG; ?>fleet-list/"><i class="fa-solid fa-warehouse me-2"></i> <?= (isset($user_id) && $user_id==214 ? 'Engine List' : 'Fleet List'); ?></a></li>
+										<li><a class="dropdown-item py-2 px-4" href="<?= SITEURL_LANG; ?>support-tickets/"><i class="fa-solid fa-comments me-2"></i> Support Tickets</a></li>
 										<li><a class="dropdown-item py-2 px-4" href="<?= SITEURL; ?>change-password/"><i class="fa-solid fa-key me-2"></i> Change Password</a></li>
 										<li class="border-top"><a class="dropdown-item py-2 px-4" href="<?= SITEURL; ?>controller/logout.php"><i class="fa-solid fa-arrow-right-from-bracket me-2"></i> Logout</a></li>
 										</ul>
@@ -610,11 +610,11 @@ if (isset($brand_detail) && $brand_detail == 'inventory_brand') {
 							<div class="header-login ms-sm-auto ms-xxl-4 text-end">
 								<a class="btn dropdown-toggle primary-btn" id="AccountDropdown-mobile" role="button" data-bs-toggle="dropdown" data-bs-auto-close="outside" aria-expanded="false" <?= (isset($_SESSION['user']) && isset($_SESSION['token']) && isset($_SESSION['firstName']) ? '' : 'style="display: none;"'); ?>><i class="fa-solid fa-user me-1"></i> <span class="welcome-user me-1"><?= (isset($_SESSION['user']) && isset($_SESSION['token']) && isset($_SESSION['firstName']) ? ' Welcome '.$_SESSION['firstName'] : ''); ?></span> <i class="fa-solid fa-angle-down"></i></a>
 								<ul class="login-form p-0 dropdown-menu dropdown-menu-end mt-2 dropdown-menu-right shadow-lg" aria-labelledby="AccountDropdown-mobile">
-								<li><a class="dropdown-item py-2 px-4" href="<?= SITEURL; ?>dashboard/"><i class="fa-solid fa-gauge me-2"></i> Dashboard</a></li> 
-								<li><a class="dropdown-item py-2 px-4" href="<?= SITEURL; ?>profile/"><i class="fa-solid fa-circle-user me-2"></i> Profile</a></li> 
-								<li><a class="dropdown-item py-2 px-4" href="<?= SITEURL; ?>orders/"><i class="fa-solid fa-box me-2"></i> My Orders</a></li>
-								<li><a class="dropdown-item py-2 px-4" href="<?= SITEURL; ?>fleet-list/"><i class="fa-solid fa-warehouse me-2"></i> <?= (isset($user_id) && $user_id==214 ? 'Engine List' : 'Fleet List'); ?></a></li>
-								<li><a class="dropdown-item py-2 px-4" href="<?= SITEURL; ?>support-tickets/"><i class="fa-solid fa-comments me-2"></i> Support Tickets</a></li>
+								<li><a class="dropdown-item py-2 px-4" href="<?= SITEURL_LANG; ?>dashboard/"><i class="fa-solid fa-gauge me-2"></i> Dashboard</a></li> 
+								<li><a class="dropdown-item py-2 px-4" href="<?= SITEURL_LANG; ?>profile/"><i class="fa-solid fa-circle-user me-2"></i> Profile</a></li> 
+								<li><a class="dropdown-item py-2 px-4" href="<?= SITEURL_LANG; ?>orders/"><i class="fa-solid fa-box me-2"></i> My Orders</a></li>
+								<li><a class="dropdown-item py-2 px-4" href="<?= SITEURL_LANG; ?>fleet-list/"><i class="fa-solid fa-warehouse me-2"></i> <?= (isset($user_id) && $user_id==214 ? 'Engine List' : 'Fleet List'); ?></a></li>
+								<li><a class="dropdown-item py-2 px-4" href="<?= SITEURL_LANG; ?>support-tickets/"><i class="fa-solid fa-comments me-2"></i> Support Tickets</a></li>
 								<li><a class="dropdown-item py-2 px-4" href="<?= SITEURL; ?>change-password/"><i class="fa-solid fa-key me-2"></i> Change Password</a></li>
 								<li class="border-top"><a class="dropdown-item py-2 px-4" href="<?= SITEURL; ?>controller/logout.php"><i class="fa-solid fa-arrow-right-from-bracket me-2"></i> Logout</a></li>
 								</ul>
@@ -745,14 +745,14 @@ if (isset($brand_detail) && $brand_detail == 'inventory_brand') {
 											<div class="col-lg-6 mb-lg-0 d-md-flex align-items-center search-parts justify-content-center">
 												<div class="or-text me-3 hide-in-mobile">OR</div>
 	                    	<div class="position-relative me-md-3 main-search">
-	                				<form action="<?= SITEURL; ?>advance-search/" method="get" class="advance-search w-100" id="advance-search">
+	                				<form action="<?= SITEURL_LANG; ?>advance-search/" method="get" class="advance-search w-100" id="advance-search">
 		                    		<input type="search" name="keyword" class="form-control header-search-input" id="keyword" placeholder="Search Part#, Arrangement#, Model" value="<?= (isset($_GET['keyword']) && $_GET['keyword'] != '' ? $_GET['keyword'] : '' ); ?>">
 		                    		<button type="submit" class="src-btn" id=advance_search_submit><i class="fa fa-search"></i></button>
 	                				</form>
 	                    	</div>
 	                    	<a href="https://aicamera.globalwholesaleparts.com/" class="primary-btn" id="ai-camera" target="_blank" style=""><i class="fa fa-camera"></i></a>
-	                    	<a href="<?= SITEURL; ?>#get-a-quote" class="primary-btn get-a-quote-header-btn">GET A FREE QUOTE</a>
-	                    	<a href="<?= SITEURL; ?>#get-a-quote" class="primary-btn get-a-quote-header-btn-mobile">GET A FREE QUOTE</a>
+	                    	<a href="<?= SITEURL_LANG; ?>#get-a-quote" class="primary-btn get-a-quote-header-btn">GET A FREE QUOTE</a>
+	                    	<a href="<?= SITEURL_LANG; ?>#get-a-quote" class="primary-btn get-a-quote-header-btn-mobile">GET A FREE QUOTE</a>
 	                    	<div class="mobile_filter_header_search" id="mobile_filter_header">
 	                    			<i class="fa-solid fa-filter" style="font-size: 20px;color: #bd2939;"></i>
 	                    	</div>
@@ -822,14 +822,14 @@ if (isset($brand_detail) && $brand_detail == 'inventory_brand') {
 	                	<div class="row mobile_search_bar">
 											<div class="col-lg-12 mb-lg-0 d-md-flex align-items-center search-parts justify-content-center">
 	                    	<div class="position-relative me-md-3 main-search">
-	                				<form action="<?= SITEURL; ?>advance-search/" method="get" class="advance-search w-100" id="advance-search">
+	                				<form action="<?= SITEURL_LANG; ?>advance-search/" method="get" class="advance-search w-100" id="advance-search">
 		                    		<input type="search" name="keyword" class="form-control header-search-input" id="keyword" placeholder="Search Part#, Arrangement#, Model" value="<?= (isset($_GET['keyword']) && $_GET['keyword'] != '' ? $_GET['keyword'] : '' ); ?>">
 		                    		<button type="submit" class="src-btn" id=advance_search_submit><i class="fa fa-search"></i></button>
 	                				</form>
 	                    	</div>
 	                    	<a href="https://aicamera.globalwholesaleparts.com/" class="primary-btn" id="ai-camera" target="_blank" style=""><i class="fa fa-camera"></i></a>
-	                    	<a href="<?= SITEURL; ?>#get-a-quote" class="primary-btn get-a-quote-header-btn">GET A FREE QUOTE</a>
-	                    	<a href="<?= SITEURL; ?>#get-a-quote" class="primary-btn get-a-quote-header-btn-mobile">GET A FREE QUOTE</a>
+	                    	<a href="<?= SITEURL_LANG; ?>#get-a-quote" class="primary-btn get-a-quote-header-btn">GET A FREE QUOTE</a>
+	                    	<a href="<?= SITEURL_LANG; ?>#get-a-quote" class="primary-btn get-a-quote-header-btn-mobile">GET A FREE QUOTE</a>
 											</div>
 										</div>
 	                </div>
@@ -875,31 +875,31 @@ if (isset($brand_detail) && $brand_detail == 'inventory_brand') {
 										            <li class="ubermenu-item ubermenu-item-type-custom ubermenu-item-object-custom ubermenu-item-250 ubermenu-item-auto ubermenu-item-header ubermenu-item-level-5 ubermenu-column ubermenu-column-1-3 ubermenu-item-has-children ubermenu-item-1788 ubermenu-item-level-1 ubermenu-has-submenu-stack ubermenu-item-type-column ubermenu-column-id-1788">
 										              <ul class="ubermenu-submenu ubermenu-submenu-id-189 ubermenu-submenu-type-auto ubermenu-submenu-type-stack">
 										                <li id="menu-item-199" class="ubermenu-item ubermenu-item-type-post_type ubermenu-item-object-mega-menu ubermenu-item-199 ubermenu-item-auto ubermenu-item-normal ubermenu-item-level-9 ubermenu-column ubermenu-column-auto">
-										                  <a class="ubermenu-target ubermenu-target-with-icon ubermenu-item-layout-default ubermenu-item-layout-icon_left" href="<?= SITEURL; ?>heavy-duty-parts-for-sale/heavy-duty-engine-rebuild-kits/">
+										                  <a class="ubermenu-target ubermenu-target-with-icon ubermenu-item-layout-default ubermenu-item-layout-icon_left" href="<?= SITEURL_LANG; ?>heavy-duty-parts-for-sale/heavy-duty-engine-rebuild-kits/">
 										                  <i class="ubermenu-sub-indicator fas fa-angle-right"></i>
 										                  <span class="ubermenu-target-title ubermenu-target-text">Heavy Duty Engine Rebuild Kits</span>
 										                  </a>
 										                </li>
 										                <li id="menu-item-198" class="ubermenu-item ubermenu-item-type-post_type ubermenu-item-object-mega-menu ubermenu-item-198 ubermenu-item-auto ubermenu-item-normal ubermenu-item-level-9 ubermenu-column ubermenu-column-auto">
-										                  <a class="ubermenu-target ubermenu-target-with-icon ubermenu-item-layout-default ubermenu-item-layout-icon_left" href="<?= SITEURL; ?>heavy-duty-parts-for-sale/heavy-duty-long-block-parts/">
+										                  <a class="ubermenu-target ubermenu-target-with-icon ubermenu-item-layout-default ubermenu-item-layout-icon_left" href="<?= SITEURL_LANG; ?>heavy-duty-parts-for-sale/heavy-duty-long-block-parts/">
 										                  <i class="ubermenu-sub-indicator fas fa-angle-right"></i>
 										                  <span class="ubermenu-target-title ubermenu-target-text">Heavy Duty Long Block</span>
 										                  </a>
 										                </li>
 										                <li id="menu-item-197" class="ubermenu-item ubermenu-item-type-post_type ubermenu-item-object-mega-menu ubermenu-item-197 ubermenu-item-auto ubermenu-item-normal ubermenu-item-level-9 ubermenu-column ubermenu-column-auto">
-										                  <a class="ubermenu-target ubermenu-target-with-icon ubermenu-item-layout-default ubermenu-item-layout-icon_left" href="<?= SITEURL; ?>heavy-duty-parts-for-sale/heavy-duty-short-block-parts/">
+										                  <a class="ubermenu-target ubermenu-target-with-icon ubermenu-item-layout-default ubermenu-item-layout-icon_left" href="<?= SITEURL_LANG; ?>heavy-duty-parts-for-sale/heavy-duty-short-block-parts/">
 										                  <i class="ubermenu-sub-indicator fas fa-angle-right"></i>
 										                  <span class="ubermenu-target-title ubermenu-target-text">Heavy Duty Short Block</span>
 										                  </a>
 										                </li>
 										                <li id="menu-item-196" class="ubermenu-item ubermenu-item-type-post_type ubermenu-item-object-mega-menu ubermenu-item-196 ubermenu-item-auto ubermenu-item-normal ubermenu-item-level-9 ubermenu-column ubermenu-column-auto">
-										                  <a class="ubermenu-target ubermenu-target-with-icon ubermenu-item-layout-default ubermenu-item-layout-icon_left" href="<?= SITEURL; ?>heavy-duty-parts-for-sale/heavy-duty-turbocharger-parts/">
+										                  <a class="ubermenu-target ubermenu-target-with-icon ubermenu-item-layout-default ubermenu-item-layout-icon_left" href="<?= SITEURL_LANG; ?>heavy-duty-parts-for-sale/heavy-duty-turbocharger-parts/">
 										                  <i class="ubermenu-sub-indicator fas fa-angle-right"></i>
 										                  <span class="ubermenu-target-title ubermenu-target-text">Heavy Duty Turbocharger</span>
 										                  </a>
 										                </li>
 										                <li id="menu-item-196" class="ubermenu-item ubermenu-item-type-post_type ubermenu-item-object-mega-menu ubermenu-item-196 ubermenu-item-auto ubermenu-item-normal ubermenu-item-level-9 ubermenu-column ubermenu-column-auto">
-										                  <a class="ubermenu-target ubermenu-target-with-icon ubermenu-item-layout-default ubermenu-item-layout-icon_left" href="<?= SITEURL; ?>heavy-duty-parts-for-sale/heavy-duty-injector-parts/">
+										                  <a class="ubermenu-target ubermenu-target-with-icon ubermenu-item-layout-default ubermenu-item-layout-icon_left" href="<?= SITEURL_LANG; ?>heavy-duty-parts-for-sale/heavy-duty-injector-parts/">
 										                  <i class="ubermenu-sub-indicator fas fa-angle-right"></i>
 										                  <span class="ubermenu-target-title ubermenu-target-text">Heavy Duty Injectors</span>
 										                  </a>
@@ -909,31 +909,31 @@ if (isset($brand_detail) && $brand_detail == 'inventory_brand') {
 										            <li class="ubermenu-item ubermenu-item-type-custom ubermenu-item-object-custom ubermenu-item-250 ubermenu-item-auto ubermenu-item-header ubermenu-item-level-5 ubermenu-column ubermenu-column-1-3 ubermenu-item-has-children ubermenu-item-1788 ubermenu-item-level-1 ubermenu-has-submenu-stack ubermenu-item-type-column ubermenu-column-id-1788">
 										              <ul class="ubermenu-submenu ubermenu-submenu-id-189 ubermenu-submenu-type-auto ubermenu-submenu-type-stack">
 										                <li id="menu-item-199" class="ubermenu-item ubermenu-item-type-post_type ubermenu-item-object-mega-menu ubermenu-item-199 ubermenu-item-auto ubermenu-item-normal ubermenu-item-level-9 ubermenu-column ubermenu-column-auto">
-										                  <a class="ubermenu-target ubermenu-target-with-icon ubermenu-item-layout-default ubermenu-item-layout-icon_left" href="<?= SITEURL; ?>heavy-duty-parts-for-sale/heavy-duty-filters/">
+										                  <a class="ubermenu-target ubermenu-target-with-icon ubermenu-item-layout-default ubermenu-item-layout-icon_left" href="<?= SITEURL_LANG; ?>heavy-duty-parts-for-sale/heavy-duty-filters/">
 										                  <i class="ubermenu-sub-indicator fas fa-angle-right"></i>
 										                  <span class="ubermenu-target-title ubermenu-target-text">Heavy Duty Filters</span>
 										                  </a>
 										                </li>
 										                <li id="menu-item-199" class="ubermenu-item ubermenu-item-type-post_type ubermenu-item-object-mega-menu ubermenu-item-199 ubermenu-item-auto ubermenu-item-normal ubermenu-item-level-9 ubermenu-column ubermenu-column-auto">
-										                  <a class="ubermenu-target ubermenu-target-with-icon ubermenu-item-layout-default ubermenu-item-layout-icon_left" href="<?= SITEURL; ?>heavy-duty-parts-for-sale/heavy-duty-cylinder-head-parts/">
+										                  <a class="ubermenu-target ubermenu-target-with-icon ubermenu-item-layout-default ubermenu-item-layout-icon_left" href="<?= SITEURL_LANG; ?>heavy-duty-parts-for-sale/heavy-duty-cylinder-head-parts/">
 										                  <i class="ubermenu-sub-indicator fas fa-angle-right"></i>
 										                  <span class="ubermenu-target-title ubermenu-target-text">Heavy Duty Cylinder Heads</span>
 										                  </a>
 										                </li>
 										                <li id="menu-item-198" class="ubermenu-item ubermenu-item-type-post_type ubermenu-item-object-mega-menu ubermenu-item-198 ubermenu-item-auto ubermenu-item-normal ubermenu-item-level-9 ubermenu-column ubermenu-column-auto">
-										                  <a class="ubermenu-target ubermenu-target-with-icon ubermenu-item-layout-default ubermenu-item-layout-icon_left" href="<?= SITEURL; ?>heavy-duty-parts-for-sale/heavy-duty-crankshaft-parts/">
+										                  <a class="ubermenu-target ubermenu-target-with-icon ubermenu-item-layout-default ubermenu-item-layout-icon_left" href="<?= SITEURL_LANG; ?>heavy-duty-parts-for-sale/heavy-duty-crankshaft-parts/">
 										                  <i class="ubermenu-sub-indicator fas fa-angle-right"></i>
 										                  <span class="ubermenu-target-title ubermenu-target-text">Heavy Duty Crankshaft</span>
 										                  </a>
 										                </li>
 										                <li id="menu-item-198" class="ubermenu-item ubermenu-item-type-post_type ubermenu-item-object-mega-menu ubermenu-item-198 ubermenu-item-auto ubermenu-item-normal ubermenu-item-level-9 ubermenu-column ubermenu-column-auto">
-										                  <a class="ubermenu-target ubermenu-target-with-icon ubermenu-item-layout-default ubermenu-item-layout-icon_left" href="<?= SITEURL; ?>heavy-duty-parts-for-sale/heavy-duty-batteries/">
+										                  <a class="ubermenu-target ubermenu-target-with-icon ubermenu-item-layout-default ubermenu-item-layout-icon_left" href="<?= SITEURL_LANG; ?>heavy-duty-parts-for-sale/heavy-duty-batteries/">
 										                  <i class="ubermenu-sub-indicator fas fa-angle-right"></i>
 										                  <span class="ubermenu-target-title ubermenu-target-text">Heavy Duty Batteries</span>
 										                  </a>
 										                </li>
 										                <li id="menu-item-197" class="ubermenu-item ubermenu-item-type-post_type ubermenu-item-object-mega-menu ubermenu-item-197 ubermenu-item-auto ubermenu-item-normal ubermenu-item-level-9 ubermenu-column ubermenu-column-auto">
-										                  <a class="ubermenu-target ubermenu-target-with-icon ubermenu-item-layout-default ubermenu-item-layout-icon_left" href="<?= SITEURL; ?>heavy-duty-parts-for-sale/heavy-duty-camshaft-parts/">
+										                  <a class="ubermenu-target ubermenu-target-with-icon ubermenu-item-layout-default ubermenu-item-layout-icon_left" href="<?= SITEURL_LANG; ?>heavy-duty-parts-for-sale/heavy-duty-camshaft-parts/">
 										                  <i class="ubermenu-sub-indicator fas fa-angle-right"></i>
 										                  <span class="ubermenu-target-title ubermenu-target-text">Heavy Duty Camshaft</span>
 										                  </a>
@@ -943,25 +943,25 @@ if (isset($brand_detail) && $brand_detail == 'inventory_brand') {
 										            <li class="ubermenu-item ubermenu-item-type-custom ubermenu-item-object-custom ubermenu-item-250 ubermenu-item-auto ubermenu-item-header ubermenu-item-level-5 ubermenu-column ubermenu-column-1-3 ubermenu-item-has-children ubermenu-item-1788 ubermenu-item-level-1 ubermenu-has-submenu-stack ubermenu-item-type-column ubermenu-column-id-1788">
 										              <ul class="ubermenu-submenu ubermenu-submenu-id-189 ubermenu-submenu-type-auto ubermenu-submenu-type-stack">
 										                <li id="menu-item-196" class="ubermenu-item ubermenu-item-type-post_type ubermenu-item-object-mega-menu ubermenu-item-196 ubermenu-item-auto ubermenu-item-normal ubermenu-item-level-9 ubermenu-column ubermenu-column-auto">
-										                  <a class="ubermenu-target ubermenu-target-with-icon ubermenu-item-layout-default ubermenu-item-layout-icon_left" href="<?= SITEURL; ?>heavy-duty-parts-for-sale/heavy-duty-connecting-rod-parts/">
+										                  <a class="ubermenu-target ubermenu-target-with-icon ubermenu-item-layout-default ubermenu-item-layout-icon_left" href="<?= SITEURL_LANG; ?>heavy-duty-parts-for-sale/heavy-duty-connecting-rod-parts/">
 										                  <i class="ubermenu-sub-indicator fas fa-angle-right"></i>
 										                  <span class="ubermenu-target-title ubermenu-target-text">Heavy Duty Connecting Rod</span>
 										                  </a>
 										                </li>
 										                <li id="menu-item-196" class="ubermenu-item ubermenu-item-type-post_type ubermenu-item-object-mega-menu ubermenu-item-196 ubermenu-item-auto ubermenu-item-normal ubermenu-item-level-9 ubermenu-column ubermenu-column-auto">
-										                  <a class="ubermenu-target ubermenu-target-with-icon ubermenu-item-layout-default ubermenu-item-layout-icon_left" href="<?= SITEURL; ?>heavy-duty-parts-for-sale/heavy-duty-ac-parts-ac-compressor/">
+										                  <a class="ubermenu-target ubermenu-target-with-icon ubermenu-item-layout-default ubermenu-item-layout-icon_left" href="<?= SITEURL_LANG; ?>heavy-duty-parts-for-sale/heavy-duty-ac-parts-ac-compressor/">
 										                  <i class="ubermenu-sub-indicator fas fa-angle-right"></i>
 										                  <span class="ubermenu-target-title ubermenu-target-text">Heavy Duty AC Compressors & Parts</span>
 										                  </a>
 										                </li>
 										                <li id="menu-item-199" class="ubermenu-item ubermenu-item-type-post_type ubermenu-item-object-mega-menu ubermenu-item-199 ubermenu-item-auto ubermenu-item-normal ubermenu-item-level-9 ubermenu-column ubermenu-column-auto">
-										                  <a class="ubermenu-target ubermenu-target-with-icon ubermenu-item-layout-default ubermenu-item-layout-icon_left" href="<?= SITEURL; ?>heavy-duty-parts-for-sale/heavy-duty-electrical-parts/">
+										                  <a class="ubermenu-target ubermenu-target-with-icon ubermenu-item-layout-default ubermenu-item-layout-icon_left" href="<?= SITEURL_LANG; ?>heavy-duty-parts-for-sale/heavy-duty-electrical-parts/">
 										                  <i class="ubermenu-sub-indicator fas fa-angle-right"></i>
 										                  <span class="ubermenu-target-title ubermenu-target-text">Heavy Duty Electrical parts</span>
 										                  </a>
 										                </li>
 										                <li id="menu-item-198" class="ubermenu-item ubermenu-item-type-post_type ubermenu-item-object-mega-menu ubermenu-item-198 ubermenu-item-auto ubermenu-item-normal ubermenu-item-level-9 ubermenu-column ubermenu-column-auto">
-										                  <a class="ubermenu-target ubermenu-target-with-icon ubermenu-item-layout-default ubermenu-item-layout-icon_left last" href="<?= SITEURL; ?>heavy-duty-parts-for-sale/heavy-duty-slewing-rings/">
+										                  <a class="ubermenu-target ubermenu-target-with-icon ubermenu-item-layout-default ubermenu-item-layout-icon_left last" href="<?= SITEURL_LANG; ?>heavy-duty-parts-for-sale/heavy-duty-slewing-rings/">
 										                  <i class="ubermenu-sub-indicator fas fa-angle-right"></i>
 										                  <span class="ubermenu-target-title ubermenu-target-text">Excavator Slewing Rings</span>
 										                  </a>
@@ -971,7 +971,7 @@ if (isset($brand_detail) && $brand_detail == 'inventory_brand') {
 										          </ul>
 										        </li>
 										        <li id="menu-item-183" class="ubermenu-tab ubermenu-item ubermenu-item-type-taxonomy ubermenu-item-object-menu-cats ubermenu-item-has-children ubermenu-item-183 ubermenu-item-auto ubermenu-column ubermenu-column-full ubermenu-has-submenu-drop" data-ubermenu-trigger="mouseover">
-										          <a class="ubermenu-target ubermenu-target-with-icon ubermenu-item-layout-default ubermenu-item-layout-icon_left" href="<?= SITEURL; ?>component-rebuild-services/" aria-expanded="false">
+										          <a class="ubermenu-target ubermenu-target-with-icon ubermenu-item-layout-default ubermenu-item-layout-icon_left" href="<?= SITEURL_LANG; ?>component-rebuild-services/" aria-expanded="false">
 										            <span class="ubermenu-target-title ubermenu-target-text">HD Component Reman</span>
 										            <i class="ubermenu-sub-indicator fas fa-angle-left"></i>
 										            <i class="ubermenu-sub-indicator fas fa-angle-down shop-indicators"></i>
@@ -980,7 +980,7 @@ if (isset($brand_detail) && $brand_detail == 'inventory_brand') {
 										          	<li class="ubermenu-item ubermenu-item-type-custom ubermenu-item-object-custom ubermenu-item-250 ubermenu-item-auto ubermenu-item-header ubermenu-item-level-5 ubermenu-column ubermenu-column-1 ubermenu-item-has-children ubermenu-item-1788 ubermenu-item-level-1 ubermenu-has-submenu-stack ubermenu-item-type-column ubermenu-column-id-1788 shop-menu-inner-title">
 										              <ul class="ubermenu-submenu ubermenu-submenu-id-189 ubermenu-submenu-type-auto ubermenu-submenu-type-stack">
 										                <li id="menu-item-199" class="ubermenu-item ubermenu-item-type-post_type ubermenu-item-object-mega-menu ubermenu-item-199 ubermenu-item-auto ubermenu-item-normal ubermenu-item-level-9 ubermenu-column ubermenu-column-auto">
-										                  <a class="ubermenu-target ubermenu-target-with-icon ubermenu-item-layout-default ubermenu-item-layout-icon_left" href="<?= SITEURL; ?>component-rebuild-services/">
+										                  <a class="ubermenu-target ubermenu-target-with-icon ubermenu-item-layout-default ubermenu-item-layout-icon_left" href="<?= SITEURL_LANG; ?>component-rebuild-services/">
 										                  <span class="ubermenu-target-title ubermenu-target-text">Heavy Duty Component Reman</span>
 										                  </a>
 										                </li>
@@ -989,19 +989,19 @@ if (isset($brand_detail) && $brand_detail == 'inventory_brand') {
 										            <li class="ubermenu-item ubermenu-item-type-custom ubermenu-item-object-custom ubermenu-item-250 ubermenu-item-auto ubermenu-item-header ubermenu-item-level-5 ubermenu-column ubermenu-column-1-3 ubermenu-item-has-children ubermenu-item-1788 ubermenu-item-level-1 ubermenu-has-submenu-stack ubermenu-item-type-column ubermenu-column-id-1788">
 										              <ul class="ubermenu-submenu ubermenu-submenu-id-189 ubermenu-submenu-type-auto ubermenu-submenu-type-stack">
 										                <li id="menu-item-199" class="ubermenu-item ubermenu-item-type-post_type ubermenu-item-object-mega-menu ubermenu-item-199 ubermenu-item-auto ubermenu-item-normal ubermenu-item-level-9 ubermenu-column ubermenu-column-auto">
-										                  <a class="ubermenu-target ubermenu-target-with-icon ubermenu-item-layout-default ubermenu-item-layout-icon_left" href="<?= SITEURL; ?>component-rebuild-services/differential-rebuild-services/">
+										                  <a class="ubermenu-target ubermenu-target-with-icon ubermenu-item-layout-default ubermenu-item-layout-icon_left" href="<?= SITEURL_LANG; ?>component-rebuild-services/differential-rebuild-services/">
 										                  <i class="ubermenu-sub-indicator fas fa-angle-right"></i>
 										                  <span class="ubermenu-target-title ubermenu-target-text">Differential Rebuild Services</span>
 										                  </a>
 										                </li>
 										                <li id="menu-item-198" class="ubermenu-item ubermenu-item-type-post_type ubermenu-item-object-mega-menu ubermenu-item-198 ubermenu-item-auto ubermenu-item-normal ubermenu-item-level-9 ubermenu-column ubermenu-column-auto">
-										                  <a class="ubermenu-target ubermenu-target-with-icon ubermenu-item-layout-default ubermenu-item-layout-icon_left" href="<?= SITEURL; ?>component-rebuild-services/hydraulic-pumps-rebuild-services/">
+										                  <a class="ubermenu-target ubermenu-target-with-icon ubermenu-item-layout-default ubermenu-item-layout-icon_left" href="<?= SITEURL_LANG; ?>component-rebuild-services/hydraulic-pumps-rebuild-services/">
 										                  <i class="ubermenu-sub-indicator fas fa-angle-right"></i>
 										                  <span class="ubermenu-target-title ubermenu-target-text">Hydraulic Pumps Rebuild Services</span>
 										                  </a>
 										                </li>
 										                <li id="menu-item-197" class="ubermenu-item ubermenu-item-type-post_type ubermenu-item-object-mega-menu ubermenu-item-197 ubermenu-item-auto ubermenu-item-normal ubermenu-item-level-9 ubermenu-column ubermenu-column-auto">
-										                  <a class="ubermenu-target ubermenu-target-with-icon ubermenu-item-layout-default ubermenu-item-layout-icon_left" href="<?= SITEURL; ?>component-rebuild-services/undercarriage-rebuild-services/">
+										                  <a class="ubermenu-target ubermenu-target-with-icon ubermenu-item-layout-default ubermenu-item-layout-icon_left" href="<?= SITEURL_LANG; ?>component-rebuild-services/undercarriage-rebuild-services/">
 										                  <i class="ubermenu-sub-indicator fas fa-angle-right"></i>
 										                  <span class="ubermenu-target-title ubermenu-target-text">Undercarriage Rebuild Services</span>
 										                  </a>
@@ -1011,19 +1011,19 @@ if (isset($brand_detail) && $brand_detail == 'inventory_brand') {
 										            <li class="ubermenu-item ubermenu-item-type-custom ubermenu-item-object-custom ubermenu-item-250 ubermenu-item-auto ubermenu-item-header ubermenu-item-level-5 ubermenu-column ubermenu-column-1-3 ubermenu-item-has-children ubermenu-item-1788 ubermenu-item-level-1 ubermenu-has-submenu-stack ubermenu-item-type-column ubermenu-column-id-1788">
 										              <ul class="ubermenu-submenu ubermenu-submenu-id-189 ubermenu-submenu-type-auto ubermenu-submenu-type-stack">
 										                <li id="menu-item-199" class="ubermenu-item ubermenu-item-type-post_type ubermenu-item-object-mega-menu ubermenu-item-199 ubermenu-item-auto ubermenu-item-normal ubermenu-item-level-9 ubermenu-column ubermenu-column-auto">
-										                  <a class="ubermenu-target ubermenu-target-with-icon ubermenu-item-layout-default ubermenu-item-layout-icon_left" href="<?= SITEURL; ?>component-rebuild-services/engine-rebuild-services/">
+										                  <a class="ubermenu-target ubermenu-target-with-icon ubermenu-item-layout-default ubermenu-item-layout-icon_left" href="<?= SITEURL_LANG; ?>component-rebuild-services/engine-rebuild-services/">
 										                  <i class="ubermenu-sub-indicator fas fa-angle-right"></i>
 										                  <span class="ubermenu-target-title ubermenu-target-text">Engine Rebuild Services</span>
 										                  </a>
 										                </li>
 										                <li id="menu-item-199" class="ubermenu-item ubermenu-item-type-post_type ubermenu-item-object-mega-menu ubermenu-item-199 ubermenu-item-auto ubermenu-item-normal ubermenu-item-level-9 ubermenu-column ubermenu-column-auto">
-										                  <a class="ubermenu-target ubermenu-target-with-icon ubermenu-item-layout-default ubermenu-item-layout-icon_left" href="<?= SITEURL; ?>component-rebuild-services/final-drive-rebuild-services/">
+										                  <a class="ubermenu-target ubermenu-target-with-icon ubermenu-item-layout-default ubermenu-item-layout-icon_left" href="<?= SITEURL_LANG; ?>component-rebuild-services/final-drive-rebuild-services/">
 										                  <i class="ubermenu-sub-indicator fas fa-angle-right"></i>
 										                  <span class="ubermenu-target-title ubermenu-target-text">Final Drive Rebuild Services</span>
 										                  </a>
 										                </li>
 										                <li id="menu-item-198" class="ubermenu-item ubermenu-item-type-post_type ubermenu-item-object-mega-menu ubermenu-item-198 ubermenu-item-auto ubermenu-item-normal ubermenu-item-level-9 ubermenu-column ubermenu-column-auto">
-										                  <a class="ubermenu-target ubermenu-target-with-icon ubermenu-item-layout-default ubermenu-item-layout-icon_left" href="<?= SITEURL; ?>component-rebuild-services/torque-converter-rebuild-services/">
+										                  <a class="ubermenu-target ubermenu-target-with-icon ubermenu-item-layout-default ubermenu-item-layout-icon_left" href="<?= SITEURL_LANG; ?>component-rebuild-services/torque-converter-rebuild-services/">
 										                  <i class="ubermenu-sub-indicator fas fa-angle-right"></i>
 										                  <span class="ubermenu-target-title ubermenu-target-text">Torque Converter Rebuild Services</span>
 										                  </a>
@@ -1033,13 +1033,13 @@ if (isset($brand_detail) && $brand_detail == 'inventory_brand') {
 										            <li class="ubermenu-item ubermenu-item-type-custom ubermenu-item-object-custom ubermenu-item-250 ubermenu-item-auto ubermenu-item-header ubermenu-item-level-5 ubermenu-column ubermenu-column-1-3 ubermenu-item-has-children ubermenu-item-1788 ubermenu-item-level-1 ubermenu-has-submenu-stack ubermenu-item-type-column ubermenu-column-id-1788">
 										              <ul class="ubermenu-submenu ubermenu-submenu-id-189 ubermenu-submenu-type-auto ubermenu-submenu-type-stack">
 										                <li id="menu-item-196" class="ubermenu-item ubermenu-item-type-post_type ubermenu-item-object-mega-menu ubermenu-item-196 ubermenu-item-auto ubermenu-item-normal ubermenu-item-level-9 ubermenu-column ubermenu-column-auto">
-										                  <a class="ubermenu-target ubermenu-target-with-icon ubermenu-item-layout-default ubermenu-item-layout-icon_left" href="<?= SITEURL; ?>component-rebuild-services/transmission-rebuild-services/">
+										                  <a class="ubermenu-target ubermenu-target-with-icon ubermenu-item-layout-default ubermenu-item-layout-icon_left" href="<?= SITEURL_LANG; ?>component-rebuild-services/transmission-rebuild-services/">
 										                  <i class="ubermenu-sub-indicator fas fa-angle-right"></i>
 										                  <span class="ubermenu-target-title ubermenu-target-text">Transmission Rebuild Services</span>
 										                  </a>
 										                </li>
 										                <li id="menu-item-196" class="ubermenu-item ubermenu-item-type-post_type ubermenu-item-object-mega-menu ubermenu-item-196 ubermenu-item-auto ubermenu-item-normal ubermenu-item-level-9 ubermenu-column ubermenu-column-auto">
-										                  <a class="ubermenu-target ubermenu-target-with-icon ubermenu-item-layout-default ubermenu-item-layout-icon_left" href="<?= SITEURL; ?>component-rebuild-services/swing-motors-rebuild-services/">
+										                  <a class="ubermenu-target ubermenu-target-with-icon ubermenu-item-layout-default ubermenu-item-layout-icon_left" href="<?= SITEURL_LANG; ?>component-rebuild-services/swing-motors-rebuild-services/">
 										                  <i class="ubermenu-sub-indicator fas fa-angle-right"></i>
 										                  <span class="ubermenu-target-title ubermenu-target-text">Swing Motors Rebuild Services</span>
 										                  </a>
@@ -1049,7 +1049,7 @@ if (isset($brand_detail) && $brand_detail == 'inventory_brand') {
 										          </ul>
 										        </li>
 										        <li id="menu-item-183" class="ubermenu-tab ubermenu-item ubermenu-item-type-taxonomy ubermenu-item-object-menu-cats ubermenu-item-has-children ubermenu-item-183 ubermenu-item-auto ubermenu-column ubermenu-column-full ubermenu-has-submenu-drop" data-ubermenu-trigger="mouseover">
-										          <a class="ubermenu-target ubermenu-target-with-icon ubermenu-item-layout-default ubermenu-item-layout-icon_left" href="<?= SITEURL; ?>heavy-duty-parts-for-sale/heavy-duty-undercarriage-parts/" aria-expanded="false">
+										          <a class="ubermenu-target ubermenu-target-with-icon ubermenu-item-layout-default ubermenu-item-layout-icon_left" href="<?= SITEURL_LANG; ?>heavy-duty-parts-for-sale/heavy-duty-undercarriage-parts/" aria-expanded="false">
 										            <span class="ubermenu-target-title ubermenu-target-text">GQP Undercarriage</span>
 										            <i class="ubermenu-sub-indicator fas fa-angle-down shop-indicators"></i>
 										          </a>
@@ -1057,7 +1057,7 @@ if (isset($brand_detail) && $brand_detail == 'inventory_brand') {
 										          	<li class="ubermenu-item ubermenu-item-type-custom ubermenu-item-object-custom ubermenu-item-250 ubermenu-item-auto ubermenu-item-header ubermenu-item-level-5 ubermenu-column ubermenu-column-1 ubermenu-item-has-children ubermenu-item-1788 ubermenu-item-level-1 ubermenu-has-submenu-stack ubermenu-item-type-column ubermenu-column-id-1788 shop-menu-inner-title-display">
 										              <ul class="ubermenu-submenu ubermenu-submenu-id-189 ubermenu-submenu-type-auto ubermenu-submenu-type-stack">
 										                <li id="menu-item-199" class="ubermenu-item ubermenu-item-type-post_type ubermenu-item-object-mega-menu ubermenu-item-199 ubermenu-item-auto ubermenu-item-normal ubermenu-item-level-9 ubermenu-column ubermenu-column-auto">
-										                  <a class="ubermenu-target ubermenu-target-with-icon ubermenu-item-layout-default ubermenu-item-layout-icon_left" href="<?= SITEURL; ?>heavy-duty-parts-for-sale/heavy-duty-undercarriage-parts/">
+										                  <a class="ubermenu-target ubermenu-target-with-icon ubermenu-item-layout-default ubermenu-item-layout-icon_left" href="<?= SITEURL_LANG; ?>heavy-duty-parts-for-sale/heavy-duty-undercarriage-parts/">
 										                  <span class="ubermenu-target-title ubermenu-target-text">GQP Undercarriage</span>
 										                  </a>
 										                </li>
@@ -1066,7 +1066,7 @@ if (isset($brand_detail) && $brand_detail == 'inventory_brand') {
 										          </ul>
 										        </li>
 										        <li id="menu-item-183" class="ubermenu-tab ubermenu-item ubermenu-item-type-taxonomy ubermenu-item-object-menu-cats ubermenu-item-has-children ubermenu-item-183 ubermenu-item-auto ubermenu-column ubermenu-column-full ubermenu-has-submenu-drop" data-ubermenu-trigger="mouseover">
-										          <a class="ubermenu-target ubermenu-target-with-icon ubermenu-item-layout-default ubermenu-item-layout-icon_left" href="<?= SITEURL; ?>heavy-duty-parts-for-sale/heavy-duty-ground-engaging-tools/" aria-expanded="false">
+										          <a class="ubermenu-target ubermenu-target-with-icon ubermenu-item-layout-default ubermenu-item-layout-icon_left" href="<?= SITEURL_LANG; ?>heavy-duty-parts-for-sale/heavy-duty-ground-engaging-tools/" aria-expanded="false">
 										            <span class="ubermenu-target-title ubermenu-target-text">GET / Wear Parts</span>
 										            <i class="ubermenu-sub-indicator fas fa-angle-down shop-indicators"></i>
 										          </a>
@@ -1074,7 +1074,7 @@ if (isset($brand_detail) && $brand_detail == 'inventory_brand') {
 										          	<li class="ubermenu-item ubermenu-item-type-custom ubermenu-item-object-custom ubermenu-item-250 ubermenu-item-auto ubermenu-item-header ubermenu-item-level-5 ubermenu-column ubermenu-column-1 ubermenu-item-has-children ubermenu-item-1788 ubermenu-item-level-1 ubermenu-has-submenu-stack ubermenu-item-type-column ubermenu-column-id-1788 shop-menu-inner-title-display">
 										              <ul class="ubermenu-submenu ubermenu-submenu-id-189 ubermenu-submenu-type-auto ubermenu-submenu-type-stack">
 										                <li id="menu-item-199" class="ubermenu-item ubermenu-item-type-post_type ubermenu-item-object-mega-menu ubermenu-item-199 ubermenu-item-auto ubermenu-item-normal ubermenu-item-level-9 ubermenu-column ubermenu-column-auto">
-										                  <a class="ubermenu-target ubermenu-target-with-icon ubermenu-item-layout-default ubermenu-item-layout-icon_left" href="<?= SITEURL; ?>heavy-duty-parts-for-sale/heavy-duty-ground-engaging-tools/">
+										                  <a class="ubermenu-target ubermenu-target-with-icon ubermenu-item-layout-default ubermenu-item-layout-icon_left" href="<?= SITEURL_LANG; ?>heavy-duty-parts-for-sale/heavy-duty-ground-engaging-tools/">
 										                  <span class="ubermenu-target-title ubermenu-target-text">GET / Wear Parts</span>
 										                  </a>
 										                </li>
@@ -1100,7 +1100,7 @@ if (isset($brand_detail) && $brand_detail == 'inventory_brand') {
 										          </ul>
 										        </li>
 										        <li id="menu-item-183" class="ubermenu-tab ubermenu-item ubermenu-item-type-taxonomy ubermenu-item-object-menu-cats ubermenu-item-has-children ubermenu-item-183 ubermenu-item-auto ubermenu-column ubermenu-column-full ubermenu-has-submenu-drop" data-ubermenu-trigger="mouseover">
-										          <a class="ubermenu-target ubermenu-target-with-icon ubermenu-item-layout-default ubermenu-item-layout-icon_left" href="<?= SITEURL; ?>heavy-duty-parts-for-sale/heavy-duty-attachments/" aria-expanded="false">
+										          <a class="ubermenu-target ubermenu-target-with-icon ubermenu-item-layout-default ubermenu-item-layout-icon_left" href="<?= SITEURL_LANG; ?>heavy-duty-parts-for-sale/heavy-duty-attachments/" aria-expanded="false">
 										            <span class="ubermenu-target-title ubermenu-target-text">Attachments</span>
 										            <i class="ubermenu-sub-indicator fas fa-angle-down shop-indicators"></i>
 										          </a>
@@ -1108,7 +1108,7 @@ if (isset($brand_detail) && $brand_detail == 'inventory_brand') {
 										          	<li class="ubermenu-item ubermenu-item-type-custom ubermenu-item-object-custom ubermenu-item-250 ubermenu-item-auto ubermenu-item-header ubermenu-item-level-5 ubermenu-column ubermenu-column-1 ubermenu-item-has-children ubermenu-item-1788 ubermenu-item-level-1 ubermenu-has-submenu-stack ubermenu-item-type-column ubermenu-column-id-1788 shop-menu-inner-title-display">
 										              <ul class="ubermenu-submenu ubermenu-submenu-id-189 ubermenu-submenu-type-auto ubermenu-submenu-type-stack">
 										                <li id="menu-item-199" class="ubermenu-item ubermenu-item-type-post_type ubermenu-item-object-mega-menu ubermenu-item-199 ubermenu-item-auto ubermenu-item-normal ubermenu-item-level-9 ubermenu-column ubermenu-column-auto">
-										                  <a class="ubermenu-target ubermenu-target-with-icon ubermenu-item-layout-default ubermenu-item-layout-icon_left" href="<?= SITEURL; ?>heavy-duty-parts-for-sale/heavy-duty-attachments/">
+										                  <a class="ubermenu-target ubermenu-target-with-icon ubermenu-item-layout-default ubermenu-item-layout-icon_left" href="<?= SITEURL_LANG; ?>heavy-duty-parts-for-sale/heavy-duty-attachments/">
 										                  <span class="ubermenu-target-title ubermenu-target-text">Attachments</span>
 										                  </a>
 										                </li>
@@ -1121,7 +1121,7 @@ if (isset($brand_detail) && $brand_detail == 'inventory_brand') {
 										  </ul>
 										</li>
 										<li class="ubermenu-item ubermenu-item-type-post_type ubermenu-item-object-page ubermenu-item-has-children ubermenu-item-29 ubermenu-item-level-0 ubermenu-column ubermenu-column-auto ubermenu-has-submenu-flyout">
-											<a class="ubermenu-target ubermenu-item-layout-default ubermenu-item-layout-text_only" href="<?= SITEURL; ?>" tabindex="0">
+											<a class="ubermenu-target ubermenu-item-layout-default ubermenu-item-layout-text_only" href="<?= SITEURL_LANG; ?>" tabindex="0">
 											  <span class="ubermenu-target-title ubermenu-target-text"><i class="fa-solid fa-house"></i></span>
 											</a>
 										</li>
@@ -1134,25 +1134,25 @@ if (isset($brand_detail) && $brand_detail == 'inventory_brand') {
 												<li class="	ubermenu-item ubermenu-item-type-custom ubermenu-item-object-ubermenu-custom ubermenu-item-has-children ubermenu-item-1788 ubermenu-item-level-1 ubermenu-column ubermenu-column-1-4 ubermenu-has-submenu-stack ubermenu-item-type-column ubermenu-column-id-1788">
 													<ul class="ubermenu-submenu ubermenu-submenu-id-1788 ubermenu-submenu-type-stack">
 														<li class="ubermenu-item ubermenu-item-type-post_type ubermenu-item-object-product ubermenu-item-569 ubermenu-item-auto ubermenu-item-normal ubermenu-item-level-2 ubermenu-column ubermenu-column-auto">
-															<a class="ubermenu-target ubermenu-target-with-icon ubermenu-item-layout-default ubermenu-item-layout-icon_left" href="<?= SITEURL; ?>heavy-duty-parts-for-sale/heavy-duty-engine-rebuild-kits/">
+															<a class="ubermenu-target ubermenu-target-with-icon ubermenu-item-layout-default ubermenu-item-layout-icon_left" href="<?= SITEURL_LANG; ?>heavy-duty-parts-for-sale/heavy-duty-engine-rebuild-kits/">
 																<i class="ubermenu-sub-indicator fas fa-angle-right"></i>
 																<span class="ubermenu-target-title ubermenu-target-text">HD Engine Rebuild Kits</span>
 															</a>
 														</li>
 														<li class="ubermenu-item ubermenu-item-type-post_type ubermenu-item-object-product ubermenu-item-569 ubermenu-item-auto ubermenu-item-normal ubermenu-item-level-2 ubermenu-column ubermenu-column-auto">
-															<a class="ubermenu-target ubermenu-target-with-icon ubermenu-item-layout-default ubermenu-item-layout-icon_left" href="<?= SITEURL; ?>heavy-duty-parts-for-sale/heavy-duty-long-block-parts/">
+															<a class="ubermenu-target ubermenu-target-with-icon ubermenu-item-layout-default ubermenu-item-layout-icon_left" href="<?= SITEURL_LANG; ?>heavy-duty-parts-for-sale/heavy-duty-long-block-parts/">
 																<i class="ubermenu-sub-indicator fas fa-angle-right"></i>
 																<span class="ubermenu-target-title ubermenu-target-text">HD Long Block</span>
 															</a>
 														</li>
 														<li class="ubermenu-item ubermenu-item-type-post_type ubermenu-item-object-product ubermenu-item-569 ubermenu-item-auto ubermenu-item-normal ubermenu-item-level-2 ubermenu-column ubermenu-column-auto">
-															<a class="ubermenu-target ubermenu-target-with-icon ubermenu-item-layout-default ubermenu-item-layout-icon_left" href="<?= SITEURL; ?>heavy-duty-parts-for-sale/heavy-duty-short-block-parts/">
+															<a class="ubermenu-target ubermenu-target-with-icon ubermenu-item-layout-default ubermenu-item-layout-icon_left" href="<?= SITEURL_LANG; ?>heavy-duty-parts-for-sale/heavy-duty-short-block-parts/">
 																<i class="ubermenu-sub-indicator fas fa-angle-right"></i>
 																<span class="ubermenu-target-title ubermenu-target-text">HD Short Block</span>
 															</a>
 														</li>
 														<li class="ubermenu-item ubermenu-item-type-post_type ubermenu-item-object-product ubermenu-item-580 ubermenu-item-auto ubermenu-item-normal ubermenu-item-level-2 ubermenu-column ubermenu-column-auto">
-															<a class="ubermenu-target ubermenu-target-with-icon ubermenu-item-layout-default ubermenu-item-layout-icon_left" href="<?= SITEURL; ?>heavy-duty-parts-for-sale/heavy-duty-turbocharger-parts/">
+															<a class="ubermenu-target ubermenu-target-with-icon ubermenu-item-layout-default ubermenu-item-layout-icon_left" href="<?= SITEURL_LANG; ?>heavy-duty-parts-for-sale/heavy-duty-turbocharger-parts/">
 																<i class="ubermenu-sub-indicator fas fa-angle-right"></i>
 																<span class="ubermenu-target-title ubermenu-target-text">HD Turbocharger</span>
 															</a>
@@ -1162,25 +1162,25 @@ if (isset($brand_detail) && $brand_detail == 'inventory_brand') {
 												<li class="	ubermenu-item ubermenu-item-type-custom ubermenu-item-object-ubermenu-custom ubermenu-item-has-children ubermenu-item-498 ubermenu-item-level-1 ubermenu-column ubermenu-column-1-4 ubermenu-has-submenu-stack ubermenu-item-type-column ubermenu-column-id-498">
 													<ul class="ubermenu-submenu ubermenu-submenu-id-498 ubermenu-submenu-type-stack">
 														<li class="ubermenu-item ubermenu-item-type-post_type ubermenu-item-object-product ubermenu-item-580 ubermenu-item-auto ubermenu-item-normal ubermenu-item-level-2 ubermenu-column ubermenu-column-auto">
-															<a class="ubermenu-target ubermenu-target-with-icon ubermenu-item-layout-default ubermenu-item-layout-icon_left" href="<?= SITEURL; ?>heavy-duty-parts-for-sale/heavy-duty-injector-parts/">
+															<a class="ubermenu-target ubermenu-target-with-icon ubermenu-item-layout-default ubermenu-item-layout-icon_left" href="<?= SITEURL_LANG; ?>heavy-duty-parts-for-sale/heavy-duty-injector-parts/">
 																<i class="ubermenu-sub-indicator fas fa-angle-right"></i>
 																<span class="ubermenu-target-title ubermenu-target-text">HD Injectors</span>
 															</a>
 														</li>
 														<li class="ubermenu-item ubermenu-item-type-post_type ubermenu-item-object-product ubermenu-item-571 ubermenu-item-auto ubermenu-item-normal ubermenu-item-level-2 ubermenu-column ubermenu-column-auto">
-															<a class="ubermenu-target ubermenu-target-with-icon ubermenu-item-layout-default ubermenu-item-layout-icon_left" href="<?= SITEURL; ?>heavy-duty-parts-for-sale/heavy-duty-filters/">
+															<a class="ubermenu-target ubermenu-target-with-icon ubermenu-item-layout-default ubermenu-item-layout-icon_left" href="<?= SITEURL_LANG; ?>heavy-duty-parts-for-sale/heavy-duty-filters/">
 																<i class="ubermenu-sub-indicator fas fa-angle-right"></i>
 																<span class="ubermenu-target-title ubermenu-target-text">HD Filters</span>
 															</a>
 														</li>
 														<li class="ubermenu-item ubermenu-item-type-post_type ubermenu-item-object-product ubermenu-item-580 ubermenu-item-auto ubermenu-item-normal ubermenu-item-level-2 ubermenu-column ubermenu-column-auto">
-															<a class="ubermenu-target ubermenu-target-with-icon ubermenu-item-layout-default ubermenu-item-layout-icon_left" href="<?= SITEURL; ?>heavy-duty-parts-for-sale/heavy-duty-cylinder-head-parts/">
+															<a class="ubermenu-target ubermenu-target-with-icon ubermenu-item-layout-default ubermenu-item-layout-icon_left" href="<?= SITEURL_LANG; ?>heavy-duty-parts-for-sale/heavy-duty-cylinder-head-parts/">
 																<i class="ubermenu-sub-indicator fas fa-angle-right"></i>
 																<span class="ubermenu-target-title ubermenu-target-text">HD Cylinder Heads</span>
 															</a>
 														</li>
 														<li class="ubermenu-item ubermenu-item-type-post_type ubermenu-item-object-product ubermenu-item-580 ubermenu-item-auto ubermenu-item-normal ubermenu-item-level-2 ubermenu-column ubermenu-column-auto">
-															<a class="ubermenu-target ubermenu-target-with-icon ubermenu-item-layout-default ubermenu-item-layout-icon_left" href="<?= SITEURL; ?>heavy-duty-parts-for-sale/heavy-duty-crankshaft-parts/">
+															<a class="ubermenu-target ubermenu-target-with-icon ubermenu-item-layout-default ubermenu-item-layout-icon_left" href="<?= SITEURL_LANG; ?>heavy-duty-parts-for-sale/heavy-duty-crankshaft-parts/">
 																<i class="ubermenu-sub-indicator fas fa-angle-right"></i>
 																<span class="ubermenu-target-title ubermenu-target-text">HD Crankshaft</span>
 															</a>
@@ -1190,25 +1190,25 @@ if (isset($brand_detail) && $brand_detail == 'inventory_brand') {
 												<li class="	ubermenu-item ubermenu-item-type-custom ubermenu-item-object-ubermenu-custom ubermenu-item-has-children ubermenu-item-499 ubermenu-item-level-1 ubermenu-column ubermenu-column-1-4 ubermenu-has-submenu-stack ubermenu-item-type-column ubermenu-column-id-499">
 													<ul class="ubermenu-submenu ubermenu-submenu-id-499 ubermenu-submenu-type-stack">
 														<li class="ubermenu-item ubermenu-item-type-post_type ubermenu-item-object-product ubermenu-item-580 ubermenu-item-auto ubermenu-item-normal ubermenu-item-level-2 ubermenu-column ubermenu-column-auto">
-															<a class="ubermenu-target ubermenu-target-with-icon ubermenu-item-layout-default ubermenu-item-layout-icon_left" href="<?= SITEURL; ?>heavy-duty-parts-for-sale/heavy-duty-batteries/">
+															<a class="ubermenu-target ubermenu-target-with-icon ubermenu-item-layout-default ubermenu-item-layout-icon_left" href="<?= SITEURL_LANG; ?>heavy-duty-parts-for-sale/heavy-duty-batteries/">
 																<i class="ubermenu-sub-indicator fas fa-angle-right"></i>
 																<span class="ubermenu-target-title ubermenu-target-text">HD Batteries</span>
 															</a>
 														</li>
 														<li class="ubermenu-item ubermenu-item-type-post_type ubermenu-item-object-product ubermenu-item-581 ubermenu-item-auto ubermenu-item-normal ubermenu-item-level-2 ubermenu-column ubermenu-column-auto">
-															<a class="ubermenu-target ubermenu-target-with-icon ubermenu-item-layout-default ubermenu-item-layout-icon_left" href="<?= SITEURL; ?>heavy-duty-parts-for-sale/heavy-duty-camshaft-parts/">
+															<a class="ubermenu-target ubermenu-target-with-icon ubermenu-item-layout-default ubermenu-item-layout-icon_left" href="<?= SITEURL_LANG; ?>heavy-duty-parts-for-sale/heavy-duty-camshaft-parts/">
 																<i class="ubermenu-sub-indicator fas fa-angle-right"></i>
 																<span class="ubermenu-target-title ubermenu-target-text">HD Camshaft</span>
 															</a>
 														</li>
 														<li class="ubermenu-item ubermenu-item-type-post_type ubermenu-item-object-product ubermenu-item-580 ubermenu-item-auto ubermenu-item-normal ubermenu-item-level-2 ubermenu-column ubermenu-column-auto">
-															<a class="ubermenu-target ubermenu-target-with-icon ubermenu-item-layout-default ubermenu-item-layout-icon_left" href="<?= SITEURL; ?>heavy-duty-parts-for-sale/heavy-duty-connecting-rod-parts/">
+															<a class="ubermenu-target ubermenu-target-with-icon ubermenu-item-layout-default ubermenu-item-layout-icon_left" href="<?= SITEURL_LANG; ?>heavy-duty-parts-for-sale/heavy-duty-connecting-rod-parts/">
 																<i class="ubermenu-sub-indicator fas fa-angle-right"></i>
 																<span class="ubermenu-target-title ubermenu-target-text">HD Connecting Rod</span>
 															</a>
 														</li>
 														<li class="ubermenu-item ubermenu-item-type-post_type ubermenu-item-object-product ubermenu-item-564 ubermenu-item-auto ubermenu-item-normal ubermenu-item-level-2 ubermenu-column ubermenu-column-auto">
-															<a class="ubermenu-target ubermenu-target-with-icon ubermenu-item-layout-default ubermenu-item-layout-icon_left" href="<?= SITEURL; ?>heavy-duty-parts-for-sale/heavy-duty-ac-parts-ac-compressor/">
+															<a class="ubermenu-target ubermenu-target-with-icon ubermenu-item-layout-default ubermenu-item-layout-icon_left" href="<?= SITEURL_LANG; ?>heavy-duty-parts-for-sale/heavy-duty-ac-parts-ac-compressor/">
 																<i class="ubermenu-sub-indicator fas fa-angle-right"></i>
 																<span class="ubermenu-target-title ubermenu-target-text">HD AC Compressors & Parts</span>
 															</a>
@@ -1218,19 +1218,19 @@ if (isset($brand_detail) && $brand_detail == 'inventory_brand') {
 												<li class="	ubermenu-item ubermenu-item-type-custom ubermenu-item-object-ubermenu-custom ubermenu-item-has-children ubermenu-item-583 ubermenu-item-level-1 ubermenu-column ubermenu-column-1-4 ubermenu-has-submenu-stack ubermenu-item-type-column ubermenu-column-id-583">
 													<ul class="ubermenu-submenu ubermenu-submenu-id-583 ubermenu-submenu-type-stack">
 														<li class="ubermenu-item ubermenu-item-type-post_type ubermenu-item-object-product ubermenu-item-568 ubermenu-item-auto ubermenu-item-normal ubermenu-item-level-2 ubermenu-column ubermenu-column-auto">
-															<a class="ubermenu-target ubermenu-target-with-icon ubermenu-item-layout-default ubermenu-item-layout-icon_left" href="<?= SITEURL; ?>heavy-duty-parts-for-sale/heavy-duty-electrical-parts/">
+															<a class="ubermenu-target ubermenu-target-with-icon ubermenu-item-layout-default ubermenu-item-layout-icon_left" href="<?= SITEURL_LANG; ?>heavy-duty-parts-for-sale/heavy-duty-electrical-parts/">
 																<i class="ubermenu-sub-indicator fas fa-angle-right"></i>
 																<span class="ubermenu-target-title ubermenu-target-text">HD Electrical parts</span>
 															</a>
 														</li>
 														<!-- <li class="ubermenu-item ubermenu-item-type-post_type ubermenu-item-object-product ubermenu-item-573 ubermenu-item-auto ubermenu-item-normal ubermenu-item-level-2 ubermenu-column ubermenu-column-auto">
-															<a class="ubermenu-target ubermenu-target-with-icon ubermenu-item-layout-default ubermenu-item-layout-icon_left" href="<?= SITEURL; ?>heavy-duty-parts-for-sale/heavy-duty-seats/">
+															<a class="ubermenu-target ubermenu-target-with-icon ubermenu-item-layout-default ubermenu-item-layout-icon_left" href="<?= SITEURL_LANG; ?>heavy-duty-parts-for-sale/heavy-duty-seats/">
 																<i class="ubermenu-sub-indicator fas fa-angle-right"></i>
 																<span class="ubermenu-target-title ubermenu-target-text">HD Seats</span>
 															</a>
 														</li> -->
 														<li class="ubermenu-item ubermenu-item-type-post_type ubermenu-item-object-product ubermenu-item-575 ubermenu-item-auto ubermenu-item-normal ubermenu-item-level-2 ubermenu-column ubermenu-column-auto">
-															<a class="ubermenu-target ubermenu-target-with-icon ubermenu-item-layout-default ubermenu-item-layout-icon_left last" href="<?= SITEURL; ?>heavy-duty-parts-for-sale/heavy-duty-slewing-rings/">
+															<a class="ubermenu-target ubermenu-target-with-icon ubermenu-item-layout-default ubermenu-item-layout-icon_left last" href="<?= SITEURL_LANG; ?>heavy-duty-parts-for-sale/heavy-duty-slewing-rings/">
 																<i class="ubermenu-sub-indicator fas fa-angle-right"></i>
 																<span class="ubermenu-target-title ubermenu-target-text">Excavator Slewing Rings</span>
 															</a>
@@ -1240,55 +1240,55 @@ if (isset($brand_detail) && $brand_detail == 'inventory_brand') {
 											</ul>
 										</li>
 										<li class="ubermenu-item ubermenu-item-type-post_type ubermenu-item-object-page ubermenu-item-has-children ubermenu-item-29 ubermenu-item-level-0 ubermenu-column ubermenu-column-auto ubermenu-has-submenu-drop ubermenu-has-submenu-flyout">
-											<a class="ubermenu-target ubermenu-item-layout-default ubermenu-item-layout-text_only" href="<?= SITEURL; ?>component-rebuild-services/" tabindex="0">
+											<a class="ubermenu-target ubermenu-item-layout-default ubermenu-item-layout-text_only" href="<?= SITEURL_LANG; ?>component-rebuild-services/" tabindex="0">
 											  <span class="ubermenu-target-title ubermenu-target-text">Component Reman</span>
 											  <i class="ubermenu-sub-indicator fas fa-angle-down"></i>
 											</a>
 											<ul class="ubermenu-submenu ubermenu-submenu-id-29 ubermenu-submenu-type-flyout ubermenu-submenu-drop ubermenu-submenu-align-left_edge_item ubermenu-top-bottom-padding" aria-hidden="true">
 											  <li id="menu-item-399" class="ubermenu-item ubermenu-item-type-custom ubermenu-item-object-custom ubermenu-item-has-children ubermenu-item-399 ubermenu-item-auto ubermenu-item-normal ubermenu-item-level-1 ubermenu-has-submenu-flyout">
-											    <a class="ubermenu-target ubermenu-target-with-icon ubermenu-item-layout-default ubermenu-item-layout-icon_left" href="<?= SITEURL; ?>component-rebuild-services/differential-rebuild-services/" aria-expanded="false">
+											    <a class="ubermenu-target ubermenu-target-with-icon ubermenu-item-layout-default ubermenu-item-layout-icon_left" href="<?= SITEURL_LANG; ?>component-rebuild-services/differential-rebuild-services/" aria-expanded="false">
 											      <i class="ubermenu-sub-indicator fas fa-angle-right"></i>
 											      <span class="ubermenu-target-title ubermenu-target-text">Differential Rebuild Services</span>
 											    </a>
 											  </li>
 											  <li id="menu-item-399" class="ubermenu-item ubermenu-item-type-custom ubermenu-item-object-custom ubermenu-item-has-children ubermenu-item-399 ubermenu-item-auto ubermenu-item-normal ubermenu-item-level-1 ubermenu-has-submenu-flyout">
-											    <a class="ubermenu-target ubermenu-target-with-icon ubermenu-item-layout-default ubermenu-item-layout-icon_left" href="<?= SITEURL; ?>component-rebuild-services/hydraulic-pumps-rebuild-services/" aria-expanded="false">
+											    <a class="ubermenu-target ubermenu-target-with-icon ubermenu-item-layout-default ubermenu-item-layout-icon_left" href="<?= SITEURL_LANG; ?>component-rebuild-services/hydraulic-pumps-rebuild-services/" aria-expanded="false">
 											      <i class="ubermenu-sub-indicator fas fa-angle-right"></i>
 											      <span class="ubermenu-target-title ubermenu-target-text">Hydraulic Pumps Rebuild Services</span>
 											    </a>
 											  </li>
 											  <li id="menu-item-399" class="ubermenu-item ubermenu-item-type-custom ubermenu-item-object-custom ubermenu-item-has-children ubermenu-item-399 ubermenu-item-auto ubermenu-item-normal ubermenu-item-level-1 ubermenu-has-submenu-flyout">
-											    <a class="ubermenu-target ubermenu-target-with-icon ubermenu-item-layout-default ubermenu-item-layout-icon_left" href="<?= SITEURL; ?>component-rebuild-services/undercarriage-rebuild-services/" aria-expanded="false">
+											    <a class="ubermenu-target ubermenu-target-with-icon ubermenu-item-layout-default ubermenu-item-layout-icon_left" href="<?= SITEURL_LANG; ?>component-rebuild-services/undercarriage-rebuild-services/" aria-expanded="false">
 											      <i class="ubermenu-sub-indicator fas fa-angle-right"></i>
 											      <span class="ubermenu-target-title ubermenu-target-text">Undercarriage Rebuild Services</span>
 											    </a>
 											  </li>
 											  <li id="menu-item-399" class="ubermenu-item ubermenu-item-type-custom ubermenu-item-object-custom ubermenu-item-has-children ubermenu-item-399 ubermenu-item-auto ubermenu-item-normal ubermenu-item-level-1 ubermenu-has-submenu-flyout">
-											    <a class="ubermenu-target ubermenu-target-with-icon ubermenu-item-layout-default ubermenu-item-layout-icon_left" href="<?= SITEURL; ?>component-rebuild-services/engine-rebuild-services/" aria-expanded="false">
+											    <a class="ubermenu-target ubermenu-target-with-icon ubermenu-item-layout-default ubermenu-item-layout-icon_left" href="<?= SITEURL_LANG; ?>component-rebuild-services/engine-rebuild-services/" aria-expanded="false">
 											      <i class="ubermenu-sub-indicator fas fa-angle-right"></i>
 											      <span class="ubermenu-target-title ubermenu-target-text">Engine Rebuild Services</span>
 											    </a>
 											  </li>
 											  <li id="menu-item-399" class="ubermenu-item ubermenu-item-type-custom ubermenu-item-object-custom ubermenu-item-has-children ubermenu-item-399 ubermenu-item-auto ubermenu-item-normal ubermenu-item-level-1 ubermenu-has-submenu-flyout">
-											    <a class="ubermenu-target ubermenu-target-with-icon ubermenu-item-layout-default ubermenu-item-layout-icon_left" href="<?= SITEURL; ?>component-rebuild-services/final-drive-rebuild-services/" aria-expanded="false">
+											    <a class="ubermenu-target ubermenu-target-with-icon ubermenu-item-layout-default ubermenu-item-layout-icon_left" href="<?= SITEURL_LANG; ?>component-rebuild-services/final-drive-rebuild-services/" aria-expanded="false">
 											      <i class="ubermenu-sub-indicator fas fa-angle-right"></i>
 											      <span class="ubermenu-target-title ubermenu-target-text">Final Drive Rebuild Services</span>
 											    </a>
 											  </li>
 											  <li id="menu-item-399" class="ubermenu-item ubermenu-item-type-custom ubermenu-item-object-custom ubermenu-item-has-children ubermenu-item-399 ubermenu-item-auto ubermenu-item-normal ubermenu-item-level-1 ubermenu-has-submenu-flyout">
-											    <a class="ubermenu-target ubermenu-target-with-icon ubermenu-item-layout-default ubermenu-item-layout-icon_left" href="<?= SITEURL; ?>component-rebuild-services/torque-converter-rebuild-services/" aria-expanded="false">
+											    <a class="ubermenu-target ubermenu-target-with-icon ubermenu-item-layout-default ubermenu-item-layout-icon_left" href="<?= SITEURL_LANG; ?>component-rebuild-services/torque-converter-rebuild-services/" aria-expanded="false">
 											      <i class="ubermenu-sub-indicator fas fa-angle-right"></i>
 											      <span class="ubermenu-target-title ubermenu-target-text">Torque Converter Rebuild Services</span>
 											    </a>
 											  </li>
 											  <li id="menu-item-399" class="ubermenu-item ubermenu-item-type-custom ubermenu-item-object-custom ubermenu-item-has-children ubermenu-item-399 ubermenu-item-auto ubermenu-item-normal ubermenu-item-level-1 ubermenu-has-submenu-flyout">
-											    <a class="ubermenu-target ubermenu-target-with-icon ubermenu-item-layout-default ubermenu-item-layout-icon_left" href="<?= SITEURL; ?>component-rebuild-services/transmission-rebuild-services/" aria-expanded="false">
+											    <a class="ubermenu-target ubermenu-target-with-icon ubermenu-item-layout-default ubermenu-item-layout-icon_left" href="<?= SITEURL_LANG; ?>component-rebuild-services/transmission-rebuild-services/" aria-expanded="false">
 											      <i class="ubermenu-sub-indicator fas fa-angle-right"></i>
 											      <span class="ubermenu-target-title ubermenu-target-text">Transmission Rebuild Services</span>
 											    </a>
 											  </li>
 											  <li id="menu-item-399" class="ubermenu-item ubermenu-item-type-custom ubermenu-item-object-custom ubermenu-item-has-children ubermenu-item-399 ubermenu-item-auto ubermenu-item-normal ubermenu-item-level-1 ubermenu-has-submenu-flyout">
-											    <a class="ubermenu-target ubermenu-target-with-icon ubermenu-item-layout-default ubermenu-item-layout-icon_left" href="<?= SITEURL; ?>component-rebuild-services/swing-motors-rebuild-services/" aria-expanded="false">
+											    <a class="ubermenu-target ubermenu-target-with-icon ubermenu-item-layout-default ubermenu-item-layout-icon_left" href="<?= SITEURL_LANG; ?>component-rebuild-services/swing-motors-rebuild-services/" aria-expanded="false">
 											      <i class="ubermenu-sub-indicator fas fa-angle-right"></i>
 											      <span class="ubermenu-target-title ubermenu-target-text">Swing Motors Rebuild Services</span>
 											    </a>
@@ -1309,19 +1309,19 @@ if (isset($brand_detail) && $brand_detail == 'inventory_brand') {
 													</a>
 													<ul class="ubermenu-submenu ubermenu-submenu-id-29 ubermenu-submenu-type-flyout ubermenu-submenu-drop ubermenu-submenu-align-left_edge_item ubermenu-top-bottom-padding" aria-hidden="true">
 													  <li id="menu-item-399" class="ubermenu-item ubermenu-item-type-custom ubermenu-item-object-custom ubermenu-item-has-children ubermenu-item-399 ubermenu-item-auto ubermenu-item-normal ubermenu-item-level-1 ubermenu-has-submenu-flyout">
-													    <a class="ubermenu-target ubermenu-target-with-icon ubermenu-item-layout-default ubermenu-item-layout-icon_left" href="<?= SITEURL; ?>gqp-genuine-product-line/" aria-expanded="false">
+													    <a class="ubermenu-target ubermenu-target-with-icon ubermenu-item-layout-default ubermenu-item-layout-icon_left" href="<?= SITEURL_LANG; ?>gqp-genuine-product-line/" aria-expanded="false">
 													      <i class="ubermenu-sub-indicator fas fa-angle-right"></i>
 													      <span class="ubermenu-target-title ubermenu-target-text">GQP Genuine Product Line</span>
 													    </a>
 													  </li>
 													  <!-- <li id="menu-item-399" class="ubermenu-item ubermenu-item-type-custom ubermenu-item-object-custom ubermenu-item-has-children ubermenu-item-399 ubermenu-item-auto ubermenu-item-normal ubermenu-item-level-1 ubermenu-has-submenu-flyout">
-													    <a class="ubermenu-target ubermenu-target-with-icon ubermenu-item-layout-default ubermenu-item-layout-icon_left" href="<?= SITEURL; ?>gqp-bulk-order/" aria-expanded="false">
+													    <a class="ubermenu-target ubermenu-target-with-icon ubermenu-item-layout-default ubermenu-item-layout-icon_left" href="<?= SITEURL_LANG; ?>gqp-bulk-order/" aria-expanded="false">
 													      <i class="ubermenu-sub-indicator fas fa-angle-right"></i>
 													      <span class="ubermenu-target-title ubermenu-target-text">Become a GQP VIP Dealer</span>
 													    </a>
 													  </li> -->
 													  <li id="menu-item-399" class="ubermenu-item ubermenu-item-type-custom ubermenu-item-object-custom ubermenu-item-has-children ubermenu-item-399 ubermenu-item-auto ubermenu-item-normal ubermenu-item-level-1 ubermenu-has-submenu-flyout">
-													    <a class="ubermenu-target ubermenu-target-with-icon ubermenu-item-layout-default ubermenu-item-layout-icon_left" href="<?= SITEURL; ?>gqp-certified-dealer-program/" aria-expanded="false">
+													    <a class="ubermenu-target ubermenu-target-with-icon ubermenu-item-layout-default ubermenu-item-layout-icon_left" href="<?= SITEURL_LANG; ?>gqp-certified-dealer-program/" aria-expanded="false">
 													      <i class="ubermenu-sub-indicator fas fa-angle-right"></i>
 													      <span class="ubermenu-target-title ubermenu-target-text">Become a GQP Certified Dealer</span>
 													    </a>
@@ -1329,7 +1329,7 @@ if (isset($brand_detail) && $brand_detail == 'inventory_brand') {
 													</ul>
 												</li>
 												<li class="ubermenu-item ubermenu-item-type-post_type ubermenu-item-object-page ubermenu-item-has-children ubermenu-item-29 ubermenu-item-level-1 ubermenu-column ubermenu-column-auto ubermenu-has-submenu-flyout">
-													<a class="ubermenu-target ubermenu-item-layout-default ubermenu-item-layout-text_only ubermenu-item-layout-icon_left" href="<?= SITEURL; ?>gqp-vip-fleet-solutions/" tabindex="0">
+													<a class="ubermenu-target ubermenu-item-layout-default ubermenu-item-layout-text_only ubermenu-item-layout-icon_left" href="<?= SITEURL_LANG; ?>gqp-vip-fleet-solutions/" tabindex="0">
 														<i class="ubermenu-sub-indicator fas fa-angle-right"></i>
 													  <span class="ubermenu-target-title ubermenu-target-text">GQP VIP FLEET SOLUTIONS</span>
 													</a>
@@ -1337,12 +1337,12 @@ if (isset($brand_detail) && $brand_detail == 'inventory_brand') {
 											</ul>
 										</li>
 										<li class="ubermenu-item ubermenu-item-type-post_type ubermenu-item-object-page ubermenu-item-has-children ubermenu-item-29 ubermenu-item-level-0 ubermenu-column ubermenu-column-auto ubermenu-has-submenu-flyout">
-											<a class="ubermenu-target ubermenu-item-layout-default ubermenu-item-layout-text_only" href="<?= SITEURL; ?>heavy-duty-parts-for-sale/heavy-duty-undercarriage-parts/" tabindex="0">
+											<a class="ubermenu-target ubermenu-item-layout-default ubermenu-item-layout-text_only" href="<?= SITEURL_LANG; ?>heavy-duty-parts-for-sale/heavy-duty-undercarriage-parts/" tabindex="0">
 											  <span class="ubermenu-target-title ubermenu-target-text">Undercarriage</span>
 											</a>
 										</li>
 										<li class="ubermenu-item ubermenu-item-type-post_type ubermenu-item-object-page ubermenu-item-has-children ubermenu-item-29 ubermenu-item-level-0 ubermenu-column ubermenu-column-auto ubermenu-has-submenu-drop ubermenu-has-submenu-flyout">
-											<a class="ubermenu-target ubermenu-item-layout-default ubermenu-item-layout-text_only" href="<?= SITEURL; ?>about-us/" tabindex="0">
+											<a class="ubermenu-target ubermenu-item-layout-default ubermenu-item-layout-text_only" href="<?= SITEURL_LANG; ?>about-us/" tabindex="0">
 											  <span class="ubermenu-target-title ubermenu-target-text">About us</span>
 											  <i class="ubermenu-sub-indicator fas fa-angle-down"></i>
 											</a>
@@ -1354,37 +1354,37 @@ if (isset($brand_detail) && $brand_detail == 'inventory_brand') {
 											    </a>
 											  </li>
 											  <li id="menu-item-399" class="ubermenu-item ubermenu-item-type-custom ubermenu-item-object-custom ubermenu-item-has-children ubermenu-item-399 ubermenu-item-auto ubermenu-item-normal ubermenu-item-level-1 ubermenu-has-submenu-flyout">
-											    <a class="ubermenu-target ubermenu-target-with-icon ubermenu-item-layout-default ubermenu-item-layout-icon_left" href="<?= SITEURL; ?>about-us/brochures/" aria-expanded="false">
+											    <a class="ubermenu-target ubermenu-target-with-icon ubermenu-item-layout-default ubermenu-item-layout-icon_left" href="<?= SITEURL_LANG; ?>about-us/brochures/" aria-expanded="false">
 											      <i class="ubermenu-sub-indicator fas fa-angle-right"></i>
 											      <span class="ubermenu-target-title ubermenu-target-text">Brochures</span>
 											    </a>
 											  </li>
 											  <li id="menu-item-399" class="ubermenu-item ubermenu-item-type-custom ubermenu-item-object-custom ubermenu-item-has-children ubermenu-item-399 ubermenu-item-auto ubermenu-item-normal ubermenu-item-level-1 ubermenu-has-submenu-flyout">
-											    <a class="ubermenu-target ubermenu-target-with-icon ubermenu-item-layout-default ubermenu-item-layout-icon_left" href="<?= SITEURL; ?>about-us/warranties/" aria-expanded="false">
+											    <a class="ubermenu-target ubermenu-target-with-icon ubermenu-item-layout-default ubermenu-item-layout-icon_left" href="<?= SITEURL_LANG; ?>about-us/warranties/" aria-expanded="false">
 											      <i class="ubermenu-sub-indicator fas fa-angle-right"></i>
 											      <span class="ubermenu-target-title ubermenu-target-text">Warranty</span>
 											    </a>
 											  </li>
 											  <li id="menu-item-399" class="ubermenu-item ubermenu-item-type-custom ubermenu-item-object-custom ubermenu-item-has-children ubermenu-item-399 ubermenu-item-auto ubermenu-item-normal ubermenu-item-level-1 ubermenu-has-submenu-flyout">
-											    <a class="ubermenu-target ubermenu-target-with-icon ubermenu-item-layout-default ubermenu-item-layout-icon_left" href="<?= SITEURL; ?>gwp-customer-sign-up/" aria-expanded="false">
+											    <a class="ubermenu-target ubermenu-target-with-icon ubermenu-item-layout-default ubermenu-item-layout-icon_left" href="<?= SITEURL_LANG; ?>gwp-customer-sign-up/" aria-expanded="false">
 											      <i class="ubermenu-sub-indicator fas fa-angle-right"></i>
 											      <span class="ubermenu-target-title ubermenu-target-text">Become a Member</span>
 											    </a>
 											  </li>
 											  <li id="menu-item-399" class="ubermenu-item ubermenu-item-type-custom ubermenu-item-object-custom ubermenu-item-has-children ubermenu-item-399 ubermenu-item-auto ubermenu-item-normal ubermenu-item-level-1 ubermenu-has-submenu-flyout">
-											    <a class="ubermenu-target ubermenu-target-with-icon ubermenu-item-layout-default ubermenu-item-layout-icon_left" href="<?= SITEURL; ?>global-quality-parts/" aria-expanded="false">
+											    <a class="ubermenu-target ubermenu-target-with-icon ubermenu-item-layout-default ubermenu-item-layout-icon_left" href="<?= SITEURL_LANG; ?>global-quality-parts/" aria-expanded="false">
 											      <i class="ubermenu-sub-indicator fas fa-angle-right"></i>
 											      <span class="ubermenu-target-title ubermenu-target-text">Global Quality Parts</span>
 											    </a>
 											  </li>
 											  <li id="menu-item-399" class="ubermenu-item ubermenu-item-type-custom ubermenu-item-object-custom ubermenu-item-has-children ubermenu-item-399 ubermenu-item-auto ubermenu-item-normal ubermenu-item-level-1 ubermenu-has-submenu-flyout">
-											    <a class="ubermenu-target ubermenu-target-with-icon ubermenu-item-layout-default ubermenu-item-layout-icon_left" href="<?= SITEURL; ?>global-quality-undercarriage/" aria-expanded="false">
+											    <a class="ubermenu-target ubermenu-target-with-icon ubermenu-item-layout-default ubermenu-item-layout-icon_left" href="<?= SITEURL_LANG; ?>global-quality-undercarriage/" aria-expanded="false">
 											      <i class="ubermenu-sub-indicator fas fa-angle-right"></i>
 											      <span class="ubermenu-target-title ubermenu-target-text">Global Quality Undercarriage</span>
 											    </a>
 											  </li>
 											  <li id="menu-item-399" class="ubermenu-item ubermenu-item-type-custom ubermenu-item-object-custom ubermenu-item-has-children ubermenu-item-399 ubermenu-item-auto ubermenu-item-normal ubermenu-item-level-1 ubermenu-has-submenu-flyout">
-											    <a class="ubermenu-target ubermenu-target-with-icon ubermenu-item-layout-default ubermenu-item-layout-icon_left" href="<?= SITEURL; ?>global-quality-rubber-tracks/" aria-expanded="false">
+											    <a class="ubermenu-target ubermenu-target-with-icon ubermenu-item-layout-default ubermenu-item-layout-icon_left" href="<?= SITEURL_LANG; ?>global-quality-rubber-tracks/" aria-expanded="false">
 											      <i class="ubermenu-sub-indicator fas fa-angle-right"></i>
 											      <span class="ubermenu-target-title ubermenu-target-text">Global Quality Rubber Tracks</span>
 											    </a>
@@ -1392,7 +1392,7 @@ if (isset($brand_detail) && $brand_detail == 'inventory_brand') {
 											</ul>
 										</li>
 										<li class="ubermenu-item ubermenu-item-type-post_type ubermenu-item-object-page ubermenu-item-has-children ubermenu-item-29 ubermenu-item-level-0 ubermenu-column ubermenu-column-auto ubermenu-has-submenu-flyout">
-											<a class="ubermenu-target ubermenu-item-layout-default ubermenu-item-layout-text_only" href="<?= SITEURL; ?>contact-us/" tabindex="0">
+											<a class="ubermenu-target ubermenu-item-layout-default ubermenu-item-layout-text_only" href="<?= SITEURL_LANG; ?>contact-us/" tabindex="0">
 											  <span class="ubermenu-target-title ubermenu-target-text">Contact Us</span>
 											</a>
 										</li>
@@ -1403,14 +1403,14 @@ if (isset($brand_detail) && $brand_detail == 'inventory_brand') {
 										</li> -->
 										<?php if (isset($user_id) && ($user_id == 1 || $user_id == 213 || $user_id == 23261)) { ?>
 											<li class="ubermenu-item ubermenu-item-type-post_type ubermenu-item-object-page ubermenu-item-has-children ubermenu-item-29 ubermenu-item-level-0 ubermenu-column ubermenu-column-auto ubermenu-has-submenu-flyout">
-												<a class="ubermenu-target ubermenu-item-layout-default ubermenu-item-layout-text_only" href="<?= SITEURL; ?>inventory/" tabindex="0">
+												<a class="ubermenu-target ubermenu-item-layout-default ubermenu-item-layout-text_only" href="<?= SITEURL_LANG; ?>inventory/" tabindex="0">
 												  <span class="ubermenu-target-title ubermenu-target-text">Inventory</span>
 												</a>
 											</li>
 										<?php } ?>
 										<li class="ubermenu-item ubermenu-item-type-post_type ubermenu-item-object-page ubermenu-item-has-children ubermenu-item-29 ubermenu-item-level-0 ubermenu-column ubermenu-column-auto ubermenu-has-submenu-flyout header-cart header-icons">
 											<?php $num_items_in_cart = isset($_SESSION['cart']) ? count($_SESSION['cart']) : 0; ?>
-											<a class="ubermenu-target ubermenu-item-layout-default ubermenu-item-layout-text_only" href="<?= SITEURL; ?>cart/" tabindex="0">
+											<a class="ubermenu-target ubermenu-item-layout-default ubermenu-item-layout-text_only" href="<?= SITEURL_LANG; ?>cart/" tabindex="0">
 											  <span class="ubermenu-target-title ubermenu-target-text"><i class="fa-solid fa-cart-shopping"></i><span class="cart-counter"><?= $num_items_in_cart; ?></span></span>
 											</a>
 										</li>
