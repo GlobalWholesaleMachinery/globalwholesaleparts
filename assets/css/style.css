@@ -776,6 +776,9 @@ label.error {
   font-weight: 600;
   cursor: pointer !important;
 }
+.read-more svg{
+  vertical-align: middle;
+}
 .read-more:hover{
   color: #000;
 }

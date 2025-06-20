@@ -151,4 +151,15 @@
     .et_pb_blurb_position_left .et_pb_main_blurb_image img, .et_pb_blurb_position_right .et_pb_main_blurb_image img{
         width: revert-layer;
     }
+    .related-equi-slide .owl-controls .owl-next{
+        left: 30px;
+        right: auto;
+    }
+    .related-equi-slide .owl-controls .owl-prev{
+        left: 0px;
+        right: auto;
+    }
+    .related-equi-slide .cat-list-card .cat-body{
+        text-align: right;
+    }
 }
