@@ -179,4 +179,7 @@
         right: unset;
         left: 10px;
     }
+    .et_pb_blurb_9 .et_pb_blurb_content, .et_pb_blurb_0 .et_pb_blurb_content, .et_pb_blurb_8 .et_pb_blurb_content, .et_pb_blurb_2 .et_pb_blurb_content, .et_pb_blurb_7 .et_pb_blurb_content, .et_pb_blurb_1 .et_pb_blurb_content, .et_pb_blurb_6 .et_pb_blurb_content, .et_pb_blurb_3 .et_pb_blurb_content, .et_pb_blurb_4.et_pb_blurb .et_pb_module_header, .et_pb_blurb_4.et_pb_blurb .et_pb_module_header a{
+        text-align: right;
+    }
 }

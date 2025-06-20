@@ -407,7 +407,7 @@ h2 {
 .text-box-33 {
   width: 32% !important;
 }
-</style > <style id="fit-vids-style" > .fluid-width-video-wrapper {
+.fluid-width-video-wrapper {
   width: 100%;
   position: relative;
   padding: 0;
@@ -1125,6 +1125,12 @@ body #page-container .et_pb_section .et_pb_button_1:hover {
 }
 .et_pb_column_9 {
   border-left-width: 1px;
+}
+[lang="ar"]{
+  .et_pb_column_9{
+    border-left-width: 0px;
+    border-right-width: 1px;
+  }
 }
 .et_pb_slider .et_pb_slide_0 {
   background-size: initial;
