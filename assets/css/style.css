@@ -5953,9 +5953,6 @@ Umair Changes CSS
   border-radius: 10px;
 }
 
-ul.products li.product .new-read-more{
-  display: none;
-}
 ul.products li.product{
   transition: all 0.3s ease;
   -moz-transition: all 0.3s ease;
