@@ -5052,6 +5052,7 @@ body:not(.rtl) .ubermenu-skin-grey-white.ubermenu-horizontal .ubermenu-item-leve
 .ubermenu-skin-grey-white .ubermenu-submenu .ubermenu-target:hover,
 .ubermenu-skin-grey-white .ubermenu-submenu .ubermenu-active > .ubermenu-target {
   color: #111;
+  background-color:#e5e5e5 ;
 }
 .ubermenu-skin-grey-white .ubermenu-submenu .ubermenu-target > .ubermenu-target-description {
   color: #aaa;
@@ -5952,7 +5953,19 @@ Umair Changes CSS
   border-radius: 10px;
 }
 
+ul.products li.product .new-read-more{
+  display: none;
+}
+ul.products li.product{
+  transition: all 0.3s ease;
+  -moz-transition: all 0.3s ease;
+  -webkit-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+}
 
+ul.products li.product:hover .text-concat{
+  overflow: unset;
+}
 
 @media (min-width: 992px) {
     .et_pb_with_background.et_section_regular .et_pb_with_border.et_pb_row_5 {
