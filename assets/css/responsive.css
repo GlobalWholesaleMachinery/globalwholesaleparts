@@ -114,7 +114,12 @@
         display: block; 
     }
 }
-
+@media only screen and (max-width:980px){
+    .contact-mobile-flip{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+}
 @media all and (min-width: 768px) {
     
     .only-desktop{
