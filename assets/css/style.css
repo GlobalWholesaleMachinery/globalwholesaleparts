@@ -5993,7 +5993,7 @@ ul.products li.product:hover .text-concat{
   width: 100%;
 }
 
-.our-team-wrapper.team-area .team-items .item:hover .thumb::after {
+.our-team-wrapper.team-area .team-items .item .thumb:hover::after {
   opacity: 0.7;
 }
 
@@ -6003,19 +6003,15 @@ ul.products li.product:hover .text-concat{
   padding: 20px;
   position: absolute;
   text-align: center;
-  -webkit-transition: all 0.35s ease-in-out;
-  -moz-transition: all 0.35s ease-in-out;
-  -ms-transition: all 0.35s ease-in-out;
-  -o-transition: all 0.35s ease-in-out;
-  transition: all 0.35s ease-in-out;
+  transition: transform 0.6s;
+  transform-style: preserve-3d;
   width: 100%;
   z-index: 1;
+  backface-visibility: hidden;
 }
 
-.our-team-wrapper.team-area .item:hover .thumb .overlay {
-  top: 50%;
-  transform: translate(-50%, -50%);
-  left: 50%;
+.our-team-wrapper.team-area .item .thumb:hover .overlay {
+  transform: rotateY(180deg);
 }
 
 .our-team-wrapper.team-area .item .thumb .overlay p {
@@ -6042,26 +6038,6 @@ ul.products li.product:hover .text-concat{
   object-fit: cover;
 }
 
-.our-team-wrapper.team-area .item:hover .thumb img {
-  opacity: .6;
-}
-
-.our-team-wrapper.team-area .item .thumb .social li {
-  display: inline-block;
-}
-
-.our-team-wrapper.team-area .item .thumb .social li a {
-  -webkit-border-radius: 50%;
-  -moz-border-radius: 50%;
-  border-radius: 50%;
-  color: #ffffff;
-  display: inline-block;
-  height: 40px;
-  line-height: 40px;
-  margin: 0 2px;
-  text-align: center;
-  width: 40px;
-}
 
 .our-team-wrapper.team-area .info {
   background: #ffffff none repeat scroll 0 0;
@@ -6121,29 +6097,6 @@ ul.products li.product:hover .text-concat{
   text-transform: uppercase;
 }
 
-.our-team-wrapper.team-area .social li.twitter a {
-  background-color: #00b6f1;
-}
-
-.our-team-wrapper.team-area .social li.pinterest a {
-  background-color: #bd081c;
-}
-
-.our-team-wrapper.team-area .social li.facebook a {
-  background-color: #3b5998;
-}
-
-.our-team-wrapper.team-area .social li.google-plus a {
-  background-color: #df4a32;
-}
-
-.our-team-wrapper.team-area .social li.vimeo a {
-  background-color: #1ab7ea;
-}
-
-.our-team-wrapper.team-area .social li.instagram a {
-  background-color: #cd486b;
-}
 
 @media (min-width: 992px) {
     .et_pb_with_background.et_section_regular .et_pb_with_border.et_pb_row_5 {
