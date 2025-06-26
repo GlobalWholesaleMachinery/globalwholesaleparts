@@ -6039,6 +6039,7 @@ ul.products li.product:hover .text-concat{
   transition: all 0.35s ease-in-out;
   height: 100%;
   width: 100%;
+  object-fit: cover;
 }
 
 .our-team-wrapper.team-area .item:hover .thumb img {
