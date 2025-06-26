@@ -6019,6 +6019,7 @@ ul.products li.product:hover .text-concat{
 
 .our-team-wrapper.team-area .item .thumb .overlay p {
   color: #ffffff;
+  margin-bottom: 10px;
 }
 
 .our-team-wrapper.team-area .item .thumb .overlay h4 {
@@ -6026,6 +6027,7 @@ ul.products li.product:hover .text-concat{
   display: inline-block;
   position: relative;
   text-transform: uppercase;
+  margin-bottom: 10px;
 }
 
 .our-team-wrapper.team-area .item .thumb img {
@@ -6090,7 +6092,7 @@ ul.products li.product:hover .text-concat{
   -o-box-shadow: 0 0 10px #cccccc;
   box-shadow: 0 0 10px #cccccc;
   box-sizing: border-box;
-  color: #ff5a6e;
+  color: #bd2939;
   display: inline-block;
   font-size: 20px;
   height: 50px;
@@ -6109,7 +6111,7 @@ ul.products li.product:hover .text-concat{
 }
 
 .our-team-wrapper.team-area .info span {
-  color: #ff5a6e;
+  color: #bd2939;
   font-family: "Poppins",sans-serif;
   font-weight: 600;
   text-transform: uppercase;
