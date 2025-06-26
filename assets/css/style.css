@@ -6003,7 +6003,7 @@ ul.products li.product:hover .text-concat{
   
 }
 
-.our-team-wrapper.team-area .item .thumb:hover{
+.our-team-wrapper.team-area .item:hover .thumb{
   opacity: 1;
 }
 
