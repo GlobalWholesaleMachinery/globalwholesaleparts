@@ -5966,11 +5966,12 @@ ul.products li.product:hover .text-concat{
 /* our-tem css  */
 
 
-.our-team-wrapper.team-area {
+.our-team-wrapper.team-area .team-items{
   display: grid;
     grid-template-columns: repeat(4, minmax(0, 1fr));
     gap: 20px;
     justify-content: space-between;
+    margin-bottom: 50px;
 }
 
 .our-team-wrapper.team-area .item {
@@ -5998,6 +5999,7 @@ ul.products li.product:hover .text-concat{
   width: 100%;
   object-fit: cover;
   filter: grayscale(1);
+  cursor: pointer;
 }
 
 .our-team-wrapper.team-area .item .thumb img:hover{
@@ -6051,6 +6053,7 @@ ul.products li.product:hover .text-concat{
   line-height: normal;
   margin-bottom: 10px;
   text-transform: capitalize;
+  cursor: pointer;
   &:hover{
     color: #bd2939;
   }
