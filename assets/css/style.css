@@ -5974,6 +5974,7 @@ ul.products li.product:hover .text-concat{
   position: relative;
   overflow: hidden;
   z-index: 1;
+  height: 350px;
 }
 
 .our-team-wrapper.team-area .item .thumb::after {
@@ -6036,6 +6037,8 @@ ul.products li.product:hover .text-concat{
   -ms-transition: all 0.35s ease-in-out;
   -o-transition: all 0.35s ease-in-out;
   transition: all 0.35s ease-in-out;
+  height: 100%;
+  width: 100%;
 }
 
 .our-team-wrapper.team-area .item:hover .thumb img {
