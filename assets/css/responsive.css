@@ -1331,6 +1331,7 @@
     }
     footer .et_pb_module.et_pb_text_align_left, footer .et_pb_social_media_follow.et_pb_social_media_follow_0_tb_footer{
         text-align: center;
+        margin-bottom: 16px;
     }
     footer .et_pb_blurb_position_left .et_pb_blurb_content{
         display: flex;
