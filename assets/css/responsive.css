@@ -1337,7 +1337,7 @@
         align-items: center;
         justify-content: center;
 
-        & .et_pb_blurb_position_left .et_pb_main_blurb_image{
+        & .et_pb_main_blurb_image{
             margin: 0;
         }
     }
