@@ -474,7 +474,7 @@
         margin: 0;
     }
 
-    .et_pb_blurb_position_left .et_pb_main_blurb_image, .et_pb_blurb_position_right .et_pb_main_blurb_image{
+     .et_pb_blurb_position_right .et_pb_main_blurb_image{
         width: 100px;
     }
 
@@ -1322,4 +1322,29 @@
     .GWPCustomer-mobile-modal.show, .dealerloginDropdown-mobile-modal.show, .loginDropdown-mobile-modal.show{
         transform: translate3d(50%, 40px, 0px) !important;
     }
+}
+
+@media only screen and (max-width:480px){
+    footer .et_pb_image_0_tb_footer{
+        text-align: center;
+        margin: 0 auto;
+    }
+    footer .et_pb_module.et_pb_text_align_left, footer .et_pb_social_media_follow.et_pb_social_media_follow_0_tb_footer{
+        text-align: center;
+    }
+    footer .et_pb_blurb_position_left .et_pb_blurb_content{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        & .et_pb_blurb_position_left .et_pb_main_blurb_image{
+            margin: 0;
+        }
+    }
+    footer .container .ft-title, footer ul.ft-nav{
+        text-align: center;
+        column-count: unset;
+        width: 100%;
+    }
+
 }
