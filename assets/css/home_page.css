@@ -1009,8 +1009,17 @@ body.et_pb_pagebuilder_layout.single.et_full_width_page #page-container #et-boc 
   margin: 0 1.5% 1em 0;
   width: 23.87%;
   min-height: 280px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  box-sizing: border-box;
 }
 
 .woocommerce ul.products li.product.last, .woocommerce-page ul.products li.product.last{
   margin: 0 0% 1em 0;
+}
+
+.woocommerce ul.products li.product .primary-btn-home-banner, .woocommerce-page ul.products li.product .primary-btn-home-banner{
+  margin: 10px;
 }
