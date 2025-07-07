@@ -260,6 +260,12 @@
 @media (max-width: 1024px){
 
 }
+
+@media (min-width: 992px) {
+    .navbar-expand-lg .navbar-toggler {
+        display: none;
+    }
+}
 @media (max-width: 991px) {
     .contact-black-cta .et_pb_column_9{
       width: 64%;
@@ -343,7 +349,7 @@
     .left-filters-block h2 .fa{
         font-size: 15px;
     }
-    .left-filters-block h2 .navbar-toggler{
+    .navbar-expand-lg .navbar-toggler{
         padding: 0;
         position: absolute;
         width: 100%;
