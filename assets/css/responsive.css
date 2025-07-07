@@ -1372,6 +1372,7 @@
     }
     .detailed-email-phone{
         display: block;
+        padding: 5px 0;
     }
     .icon-for-email-phone{
         display: none;
