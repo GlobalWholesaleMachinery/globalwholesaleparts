@@ -407,10 +407,13 @@
         min-height: 100%;
     }
 }
-@media (max-width: 959px) {
+@media (max-width: 1011px) {
     .login-buttons{
         display: none !important;
     }
+}
+@media (max-width: 959px) {
+    
     #dealer_login_sec {
         display: block;
     }
