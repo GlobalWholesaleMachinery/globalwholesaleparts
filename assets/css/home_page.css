@@ -1008,7 +1008,7 @@ body.et_pb_pagebuilder_layout.single.et_full_width_page #page-container #et-boc 
 .woocommerce ul.products li.product, .woocommerce-page ul.products li.product{
   margin: 0 1.5% 1em 0;
   width: 23.87%;
-  min-height: 280px;
+  min-height: 260px;
 
   display: flex;
   flex-direction: column;
