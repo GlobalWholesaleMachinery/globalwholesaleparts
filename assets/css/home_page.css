@@ -1022,4 +1022,6 @@ body.et_pb_pagebuilder_layout.single.et_full_width_page #page-container #et-boc 
 
 .woocommerce ul.products li.product .primary-btn-home-banner, .woocommerce-page ul.products li.product .primary-btn-home-banner{
   margin: 10px;
+  min-width: 120px;
+  padding: 8px 8px;
 }
