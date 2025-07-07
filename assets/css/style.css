@@ -1097,6 +1097,18 @@ label.error {
   content: "";
   display: none;
 }
+.product_count_wrapper.bg-grey{
+  background: url('/assets/media/home-makes-bg.webp') no-repeat center center;
+}
+.product_count_wrapper .counter-value{
+  font-size: 60px;
+  color: #bd2939;
+}
+.product_count_wrapper .counter-box p{
+  font-size: 20px;
+  line-height: normal;
+  margin-top: 10px;
+}
 .footer .ft-nav li a{
   color: #FFFFFFAB;
 }
@@ -4963,8 +4975,15 @@ a.card_hover .hover_effect{
     width: calc(50% - 1rem);
     margin-bottom: 1.5rem;
   }
+  .product_count_wrapper .counter-value{
+    font-size: 45px;
+  }
 }
-
+@media only screen and (max-width:575px){
+  .product_count_wrapper .counter-box p{
+    margin-bottom: 40px;
+  }
+}
 @media only screen and (max-width: 500px) {
   .footer-menu .menu-column {
     width: 100%;
