@@ -351,7 +351,6 @@
     }
     .navbar-expand-lg .navbar-toggler{
         padding: 0;
-        position: absolute;
         width: 100%;
         text-align: right;
         right: 10px;
