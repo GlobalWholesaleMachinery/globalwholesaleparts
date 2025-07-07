@@ -1303,7 +1303,7 @@
         top: -48px;
     }
 }
-@media (max-width: 1280px) {
+@media (max-width: 1141px) {
     .detailed-email-phone{
         display: none;
     }
@@ -1320,7 +1320,10 @@
     }
 }
 
-@media (min-width: 1281px) {
+@media (min-width: 1142px) {
+    .flex-md-row {
+        flex-direction: column !important;
+    }
     .detailed-email-phone{
         display: block;
     }
