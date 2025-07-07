@@ -754,7 +754,6 @@ text-align: center;
 .et_pb_shop_0.et_pb_shop .woocommerce ul.products li.product h5,
 .et_pb_shop_0.et_pb_shop .woocommerce ul.products li.product h6 {
 text-transform: uppercase;
-font-size: 1.25rem;
 }
 
 .et_pb_shop_0 {
@@ -1004,4 +1003,9 @@ body.et_pb_pagebuilder_layout.single.et_full_width_page #page-container #et-boc 
 .et_pb_slide_content p {
   padding-bottom: 1em !important;
   line-height: 2em;
+}
+
+.woocommerce ul.products li.product, .woocommerce-page ul.products li.product{
+  margin: 0 1.5% 1em 0;
+  width: 23.87%;
 }
