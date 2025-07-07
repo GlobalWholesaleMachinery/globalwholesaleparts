@@ -429,11 +429,32 @@
     header .search-engine-section-header{
         order: 3;
     }
+
+    .inventory_menu_icon.ubermenu-skin-grey-white.ubermenu-responsive-toggle{
+        position: absolute;
+        border-radius: 5px;
+        top: -56px;
+        right: 10px;
+        width: auto;
+        background: transparent;
+        color: #bd2939;
+        border: 1px solid;
+        padding: 2px 8px;
+    }
+
+    .inventory_menu_icon.ubermenu-skin-grey-white.ubermenu-responsive-toggle span, .get-a-quote-header-btn, .new_inventory_mobile .slider-nav-mobile, .new_inventory_mobile #dealer_login_sec{
+        display: none !important;
+    }
+
+    .inventory_menu_icon.ubermenu-skin-grey-white.ubermenu-responsive-toggle svg{
+        margin-right: unset !important;
+    }
+
     .mobile_phone_header{
         position: absolute;
         border-radius: 5px;
         top: -56px;
-        right: 65px;
+        right: 120px;
         width: auto;
         background: transparent;
         color: #bd2939;
@@ -444,7 +465,7 @@
         position: absolute;
         border-radius: 5px;
         top: -56px;
-        right: 10px;
+        right: 65px;
         width: auto;
         background: transparent;
         color: #bd2939;
@@ -1258,9 +1279,7 @@
     .our-team-wrapper.team-area .team-items{
         grid-template-columns: repeat(1, minmax(0, 1fr));
     }
-}
 
-@media (max-width: 959px) {
     .inventory_menu_icon.ubermenu-skin-grey-white.ubermenu-responsive-toggle{
         position: absolute;
         border-radius: 5px;
