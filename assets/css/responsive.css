@@ -1180,25 +1180,7 @@
         margin-top: 10px;
         margin-bottom: 0px !important;
     }
-    .inventory_menu_icon.ubermenu-skin-grey-white.ubermenu-responsive-toggle{
-        position: absolute;
-        border-radius: 5px;
-        top: -49px;
-        right: 0px;
-        width: auto;
-        background: transparent;
-        color: #bd2939;
-        border: 1px solid;
-        padding: 2px 8px;
-    }
-
-    .inventory_menu_icon.ubermenu-skin-grey-white.ubermenu-responsive-toggle span, .get-a-quote-header-btn, .new_inventory_mobile .slider-nav-mobile, .new_inventory_mobile #dealer_login_sec{
-        display: none !important;
-    }
-
-    .inventory_menu_icon.ubermenu-skin-grey-white.ubermenu-responsive-toggle svg{
-        margin-right: unset !important;
-    }
+    
     .logo{
         justify-content: start !important;
     }
@@ -1275,6 +1257,28 @@
     }
     .our-team-wrapper.team-area .team-items{
         grid-template-columns: repeat(1, minmax(0, 1fr));
+    }
+}
+
+@media (max-width: 959px) {
+    .inventory_menu_icon.ubermenu-skin-grey-white.ubermenu-responsive-toggle{
+        position: absolute;
+        border-radius: 5px;
+        top: -49px;
+        right: 0px;
+        width: auto;
+        background: transparent;
+        color: #bd2939;
+        border: 1px solid;
+        padding: 2px 8px;
+    }
+
+    .inventory_menu_icon.ubermenu-skin-grey-white.ubermenu-responsive-toggle span, .get-a-quote-header-btn, .new_inventory_mobile .slider-nav-mobile, .new_inventory_mobile #dealer_login_sec{
+        display: none !important;
+    }
+
+    .inventory_menu_icon.ubermenu-skin-grey-white.ubermenu-responsive-toggle svg{
+        margin-right: unset !important;
     }
 }
 
