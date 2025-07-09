@@ -22,7 +22,7 @@ ul li {list-style:none; margin:0px; padding:0px;}
 :-moz-placeholder {color:#666 !important;}
 ::-webkit-file-upload-button{cursor:pointer;}
 .container{
-  max-width: 1280px;
+  max-width: 1320px;
   width: 100%;
   padding-right: var(--bs-gutter-x,.75rem) !important;
   padding-left: var(--bs-gutter-x,.75rem) !important;

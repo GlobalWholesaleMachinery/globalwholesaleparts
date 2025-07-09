@@ -4,7 +4,7 @@
 .et_pb_fullwidth_section .et_pb_title_container,
 .et_pb_fullwidth_section .et_pb_title_featured_container,
 .et_pb_fullwidth_header:not(.et_pb_fullscreen) .et_pb_fullwidth_header_container {
-  max-width: 1280px
+  max-width: 1320px
 }
 
 .et_boxed_layout #page-container,
@@ -14,7 +14,7 @@
 .et_fixed_nav.et_boxed_layout #page-container #main-header,
 .et_boxed_layout #page-container .container,
 .et_boxed_layout #page-container .et_pb_row {
-  max-width: 1440px
+  max-width: 1320px
 }
 
 .woocommerce a.button.alt,
