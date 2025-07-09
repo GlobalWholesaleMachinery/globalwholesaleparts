@@ -342,6 +342,42 @@ label.error {
   transform: translateY(-50%);
   font-size: 12px;
 }
+#gwp_maincarousel img{
+  height: 550px;
+  object-fit: cover;
+}
+#gwp_maincarousel .owl-controls .owl-prev, #gwp_maincarousel .owl-controls .owl-next{
+  top: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 15%;
+  bottom: 0;
+  transform: unset;
+  opacity: .5;
+  transition: opacity .15s ease;
+  height: 100%;
+}
+#gwp_maincarousel .owl-controls .owl-prev:hover, #gwp_maincarousel .owl-controls .owl-next:hover{
+  opacity: 1;
+}
+#gwp_maincarousel .item .carousel-caption{
+  width: 50%;
+  left: 10%;
+  top: 0;
+  margin-top:125px ;
+  z-index: 1;
+}
+#gwp_maincarousel .item:after{
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  background: rgb(0, 0, 0);
+  background: linear-gradient(90deg, rgba(0, 0, 0, 0.90) 0%, rgba(0, 0, 0, 0) 70%);
+}
 .home-hero-sec{
    width: 100%;
    position: relative;
