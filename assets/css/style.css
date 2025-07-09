@@ -363,9 +363,9 @@ label.error {
 }
 #gwp_maincarousel .item .carousel-caption{
   width: 50%;
-  left: 10%;
+  left: 0;
   top: 0;
-  margin-top:125px ;
+  margin-top:100px ;
   z-index: 1;
 }
 #gwp_maincarousel .item:after{
