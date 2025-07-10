@@ -411,6 +411,13 @@
     .background_box .min_height_190, .background_box .min_height_300, .background_box .min_height_285, .background_box .min_height_186, .background_box .min_height_210{
         min-height: 100%;
     }
+    #gwp_maincarousel .item .carousel-caption{
+        width: 80vw;
+        left: 15%;
+    }
+    #gwp_maincarousel .item .carousel-caption h1{
+        font-size: 1.5rem;
+    }
 }
 @media (max-width: 1011px) {
     .login-buttons{
