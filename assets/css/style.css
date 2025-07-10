@@ -369,15 +369,15 @@ label.error {
   z-index: 1;
 }
 #gwp_maincarousel .item .carousel-caption h1{
-  font-size: 3rem;
+  font-size: 2rem;
   font-weight: 600;
   text-transform: uppercase;
   margin-bottom: .5rem;
   line-height: 1.2;
 }
 #gwp_maincarousel .item .carousel-caption p{
-  font-size: 1.25rem;
-    font-weight: 300;
+  font-size: 2rem;
+  font-weight: 4d00;
 }
 #gwp_maincarousel .owl-prev svg, #gwp_maincarousel .owl-next svg{
   display: none;
