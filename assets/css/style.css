@@ -362,17 +362,41 @@ label.error {
   opacity: 1;
 }
 #gwp_maincarousel .item .carousel-caption{
-  width: 60%;
-  left: 0;
+  width: 57px;
+  left: 5%;
   top: 0;
   margin-top:100px ;
   z-index: 1;
+}
+#gwp_maincarousel .item .carousel-caption h1{
+  font-size: 3rem;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+#gwp_maincarousel .item .carousel-caption p{
+  font-size: 1.25rem;
+    font-weight: 300;
+}
+#gwp_maincarousel .owl-prev svg, #gwp_maincarousel .owl-next svg{
+  display: none;
+}
+#gwp_maincarousel .owl-prev, #gwp_maincarousel .owl-next{
+  background-size: 32px;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+#gwp_maincarousel .owl-prev{
+  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='%23fff'%3e%3cpath d='M11.354 1.646a.5.5 0 0 1 0 .708L5.707 8l5.647 5.646a.5.5 0 0 1-.708.708l-6-6a.5.5 0 0 1 0-.708l6-6a.5.5 0 0 1 .708 0z'/%3e%3c/svg%3e");
+}
+#gwp_maincarousel .owl-next{
+  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='%23fff'%3e%3cpath d='M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708z'/%3e%3c/svg%3e")
 }
 .banner-section-home .home_banner_box{
   margin-top: -120px;
   z-index: 1;
   position: relative;
 }
+
 #gwp_maincarousel .item:after{
   content: "";
   position: absolute;
