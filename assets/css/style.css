@@ -404,6 +404,10 @@ label.error {
   padding-top: 20px;
   margin-top: 0px !important;
 }
+.banner-section-home .nav-tabs{
+  flex-wrap: nowrap;
+    overflow-x: auto;
+}
 .banner-section-home .home-wrapper .nav-item .nav-link{
   color: #000;
   padding: 20px;
