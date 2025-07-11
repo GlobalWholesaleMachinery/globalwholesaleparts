@@ -400,7 +400,7 @@ label.error {
     z-index: 1;
 }
 .banner-section-home .tab-content{
-  background-color: #f2f2f2 !important;
+  background-color: #bababa !important;
   padding-top: 20px;
   margin-top: 0px !important;
 }
@@ -414,13 +414,13 @@ label.error {
   font-size: 20px;
   font-weight: bold;
   line-height: normal;
-  background-color: #f2f2f290 !important;
+  background-color: #bababa90 !important;
   border-top: 4px solid transparent !important;
 }
 .banner-section-home .home-wrapper .nav-item .nav-link.active{
   color: #bd2939;
   border-top: 4px solid #bd2939 !important;
-  background-color: #f2f2f2 !important;
+  background-color: #bababa !important;
 }
 #gwp_maincarousel .item:after{
   content: "";
