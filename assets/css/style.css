@@ -351,7 +351,7 @@ label.error {
   display: flex;
   align-items: center;
   justify-content: center;
-  width: 15%;
+  width: 10%;
   bottom: 0;
   transform: unset;
   opacity: .5;
@@ -363,7 +363,7 @@ label.error {
 }
 #gwp_maincarousel .item .carousel-caption{
   width: 570px;
-  left: 5%;
+  left: 2%;
   top: 0;
   margin-top:100px ;
   z-index: 1;
@@ -402,16 +402,19 @@ label.error {
 .banner-section-home .tab-content{
   background-color: transparent !important;
   padding-top: 20px;
+  margin-top: 0px;
 }
 .banner-section-home .home-wrapper .nav-item .nav-link{
   color: #000000;
   padding: 20px;
   font-size: 20px;
   line-height: normal;
+  background-color: #21252990 !important;
 }
 .banner-section-home .home-wrapper .nav-item .nav-link.active{
   color: #bd2939;
   border-top: 4px solid #bd2939 !important;
+  background-color: #212529 !important;
 }
 #gwp_maincarousel .item:after{
   content: "";
