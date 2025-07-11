@@ -343,7 +343,7 @@ label.error {
   font-size: 12px;
 }
 #gwp_maincarousel img{
-  height: 500px;
+  height: 550px;
   object-fit: cover;
 }
 #gwp_maincarousel .owl-controls .owl-prev, #gwp_maincarousel .owl-controls .owl-next{
