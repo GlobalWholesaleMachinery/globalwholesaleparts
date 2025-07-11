@@ -405,15 +405,16 @@ label.error {
   margin-top: 0px !important;
 }
 .banner-section-home .home-wrapper .nav-item .nav-link{
-  color: #000000;
+  color: #FFF;
   padding: 20px;
   font-size: 20px;
+  font-weight: bold;
   line-height: normal;
   background-color: #21252990 !important;
   border-top: 4px solid transparent !important;
 }
 .banner-section-home .home-wrapper .nav-item .nav-link.active{
-  color: #bd2939;
+  color: #FFF;
   border-top: 4px solid #bd2939 !important;
   background-color: #212529 !important;
 }
