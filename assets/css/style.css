@@ -410,6 +410,7 @@ label.error {
   font-size: 20px;
   line-height: normal;
   background-color: #21252990 !important;
+  border-top: 4px solid transparent !important;
 }
 .banner-section-home .home-wrapper .nav-item .nav-link.active{
   color: #bd2939;
