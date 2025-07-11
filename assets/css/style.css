@@ -406,7 +406,16 @@ label.error {
 }
 .banner-section-home .nav-tabs{
   flex-wrap: nowrap;
-    overflow-x: auto;
+  overflow-x: auto !important;
+  overflow-y: hidden;
+  scrollbar-width: none;
+  -ms-overflow-style: none;
+}
+.banner-section-home .nav-item{
+  width: unset !important;
+}
+.banner-section-home .nav-tabs::-webkit-scrollbar {
+  display: none;
 }
 .banner-section-home .home-wrapper .nav-item .nav-link{
   color: #000;
@@ -416,6 +425,8 @@ label.error {
   line-height: normal;
   background-color: #bababa90 !important;
   border-top: 4px solid transparent !important;
+  min-width: 270px;
+    height: 100%;
 }
 .banner-section-home .home-wrapper .nav-item .nav-link.active{
   color: #bd2939;
