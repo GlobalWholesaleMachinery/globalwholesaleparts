@@ -7229,12 +7229,12 @@ Below is ubermenu_custom.css files code
 /** UberMenu Custom Menu Styles (Customizer) **/
 /* main */
 .ubermenu-main {
-  background-color: #000000 !important;
+  background-color: #fff !important;
 }
 
 .ubermenu-main .ubermenu-item-level-0>.ubermenu-target {
   font-size: 15px;
-  color: #fff;
+  color: #666;
   padding-left: 15px;
   padding-right: 15px;
 }
