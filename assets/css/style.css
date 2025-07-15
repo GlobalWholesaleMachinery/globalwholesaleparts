@@ -373,11 +373,12 @@ label.error {
   z-index: 1;
 }
 #gwp_maincarousel .item .carousel-caption h1{
-  font-size: 2rem;
+  font-size: 3rem;
   font-weight: 700;
   text-transform: uppercase;
-  margin-bottom: .5rem;
+  margin-bottom: 20px;
   line-height: 1.2;
+
 }
 #gwp_maincarousel .item .carousel-caption p{
   font-size: 2rem;
