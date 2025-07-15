@@ -279,7 +279,7 @@ label.error {
    font-size: 12px;
 }
 .navbar.navbar-light{
-  background-color: #000000 !important;
+  background-color: #fff !important;
   padding: 0;
 }
 .GQPLoginDropdown-modal #myTabContent .fade:not(.show){
@@ -4721,7 +4721,7 @@ Umair Custom CSS
 
 .top-section {
   width: 100%;
-  background-color: #e3e3e3;
+  background-color: #bfbfbf;
   color: #000;
   padding: 3px 0;
 /*  border-bottom: 1.5px solid #cacac6;*/
@@ -4853,7 +4853,7 @@ Umair Custom CSS
   margin-right: 0px !important;
 }
 .search-engine-section-header{
-  background-color: #bababa;
+  background-color: #fff;
 }
 .banner-section-home{
   background-color: #fff !important;
@@ -5233,7 +5233,7 @@ body:not(.rtl) .ubermenu-skin-grey-white.ubermenu-horizontal .ubermenu-item-leve
 /** UberMenu Custom Menu Styles (Customizer) **/
 /* main */
 .ubermenu-main {
-  background-color: #000000 !important;
+  background-color: #fff !important;
 }
 
 .ubermenu-main .ubermenu-item-level-0>.ubermenu-target {
