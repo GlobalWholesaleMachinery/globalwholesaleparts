@@ -21,12 +21,12 @@ ul li {list-style:none; margin:0px; padding:0px;}
 :-ms-input-placeholder {color:#666 !important;}
 :-moz-placeholder {color:#666 !important;}
 ::-webkit-file-upload-button{cursor:pointer;}
-/* .container{
+.container{
   max-width: 1320px;
   width: 100%;
   padding-right: var(--bs-gutter-x,.75rem) !important;
   padding-left: var(--bs-gutter-x,.75rem) !important;
-} */
+}
 .primary-btn { 
 	 line-height:normal; 
 	 background-color:#bd2939; 
@@ -276,7 +276,7 @@ label.error {
    font-size: 12px;
 }
 .navbar.navbar-light{
-  background-color: #000000 !important;
+  background-color: #212529 !important;
   padding: 0;
 }
 .GQPLoginDropdown-modal #myTabContent .fade:not(.show){
