@@ -400,7 +400,7 @@ label.error {
     z-index: 1;
 }
 .banner-section-home .tab-content{
-  background-color: #000000 !important;
+  background-color: #212529 !important;
   padding-top: 20px;
   margin: 0px !important;
   border-radius: 0px;
@@ -426,7 +426,7 @@ label.error {
   font-size: 20px;
   font-weight: bold;
   line-height: normal;
-  background-color: #00000090 !important;
+  background-color: #21252990 !important;
   /* background-color: #4e5154 !important; */
   border-top: 4px solid transparent !important;
   min-width: 270px;
@@ -435,7 +435,7 @@ label.error {
 .banner-section-home .home-wrapper .nav-item .nav-link.active{
   color: #FFF;
   border-top: 4px solid #bd2939 !important;
-  background-color: #000000 !important;
+  background-color: #212529 !important;
 }
 #gwp_maincarousel .item:after{
   content: "";
@@ -5227,7 +5227,7 @@ body:not(.rtl) .ubermenu-skin-grey-white.ubermenu-horizontal .ubermenu-item-leve
 /** UberMenu Custom Menu Styles (Customizer) **/
 /* main */
 .ubermenu-main {
-  background-color: #000000 !important;
+  background-color: #212529 !important;
 }
 
 .ubermenu-main .ubermenu-item-level-0>.ubermenu-target {
@@ -7223,7 +7223,7 @@ Below is ubermenu_custom.css files code
 /** UberMenu Custom Menu Styles (Customizer) **/
 /* main */
 .ubermenu-main {
-  background-color: #000000 !important;
+  background-color: #212529 !important;
 }
 
 .ubermenu-main .ubermenu-item-level-0>.ubermenu-target {
