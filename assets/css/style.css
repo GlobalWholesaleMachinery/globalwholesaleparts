@@ -27,6 +27,9 @@ ul li {list-style:none; margin:0px; padding:0px;}
   padding-right: var(--bs-gutter-x,.75rem) !important;
   padding-left: var(--bs-gutter-x,.75rem) !important;
 }
+.et_pb_row{
+  width: 100%;
+}
 .primary-btn { 
 	 line-height:normal; 
 	 background-color:#bd2939; 
