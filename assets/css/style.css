@@ -279,7 +279,7 @@ label.error {
    font-size: 12px;
 }
 .navbar.navbar-light{
-  background-color: #141412 !important;
+  background-color: #000000 !important;
   padding: 0;
 }
 .GQPLoginDropdown-modal #myTabContent .fade:not(.show){
@@ -398,15 +398,18 @@ label.error {
   background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='%23fff'%3e%3cpath d='M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708z'/%3e%3c/svg%3e")
 }
 .banner-section-home .home-wrapper{
-    margin-top: -90px;
+    margin-top: -91px;
     position: relative;
     z-index: 1;
 }
 .banner-section-home .tab-content{
-  background-color: #141412 !important;
+  background-color: #000000 !important;
   padding-top: 20px;
   margin: 0px !important;
   border-radius: 0px;
+}
+.banner-section-home .tab-content .ar-img{
+  display: none;
 }
 .banner-section-home .nav-tabs{
   flex-wrap: nowrap;
@@ -429,7 +432,7 @@ label.error {
   font-size: 20px;
   font-weight: bold;
   line-height: normal;
-  background-color: #14141290 !important;
+  background-color: #00000090 !important;
   /* background-color: #4e5154 !important; */
   border-top: 4px solid transparent !important;
   min-width: 270px;
@@ -438,7 +441,7 @@ label.error {
 .banner-section-home .home-wrapper .nav-item .nav-link.active{
   color: #FFF;
   border-top: 4px solid #bd2939 !important;
-  background-color: #141412 !important;
+  background-color: #000000 !important;
 }
 #gwp_maincarousel .item:after{
   content: "";
@@ -5230,7 +5233,7 @@ body:not(.rtl) .ubermenu-skin-grey-white.ubermenu-horizontal .ubermenu-item-leve
 /** UberMenu Custom Menu Styles (Customizer) **/
 /* main */
 .ubermenu-main {
-  background-color: #141412 !important;
+  background-color: #000000 !important;
 }
 
 .ubermenu-main .ubermenu-item-level-0>.ubermenu-target {
@@ -7226,7 +7229,7 @@ Below is ubermenu_custom.css files code
 /** UberMenu Custom Menu Styles (Customizer) **/
 /* main */
 .ubermenu-main {
-  background-color: #141412 !important;
+  background-color: #000000 !important;
 }
 
 .ubermenu-main .ubermenu-item-level-0>.ubermenu-target {
