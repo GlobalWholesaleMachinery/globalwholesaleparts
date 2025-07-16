@@ -452,6 +452,9 @@
     #gwp_maincarousel .item .carousel-caption h1{
         font-size: 1.5rem;
     }
+    #gwp_maincarousel .item .carousel-caption p{
+        font-size: 1rem;
+    }
 }
 @media (max-width: 1011px) {
     .login-buttons{
