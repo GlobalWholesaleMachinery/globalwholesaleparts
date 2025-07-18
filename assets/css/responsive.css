@@ -122,6 +122,9 @@
  .landing-page-variation-form-section{
     padding: 10px 0px;
  }
+ .banner-section-home{
+    padding-inline: 0px !important;
+ }
 }
 @media (min-width: 576px) {
     .mobile-view-section {
