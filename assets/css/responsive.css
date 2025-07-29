@@ -453,7 +453,7 @@
     }
     #gwp_maincarousel .item .carousel-caption{
         width: 70vw;
-        left: 15%;
+        /* left: 15%; */
     }
     #gwp_maincarousel .item .carousel-caption h1{
         font-size: 1.5rem;
