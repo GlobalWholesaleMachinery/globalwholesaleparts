@@ -1025,3 +1025,14 @@ body.et_pb_pagebuilder_layout.single.et_full_width_page #page-container #et-boc 
   min-width: 120px;
   padding: 8px 8px;
 }
+
+.container, .et_pb_row, .et_pb_slider .et_pb_container, .et_pb_fullwidth_section .et_pb_title_container, .et_pb_fullwidth_section .et_pb_title_featured_container, .et_pb_fullwidth_header:not(.et_pb_fullscreen) .et_pb_fullwidth_header_container{
+  max-width: 100% !important;
+}
+
+@media (min-width: 1200px) {
+  .container, .et_pb_row, .et_pb_slider .et_pb_container, .et_pb_fullwidth_section .et_pb_title_container, .et_pb_fullwidth_section .et_pb_title_featured_container, .et_pb_fullwidth_header:not(.et_pb_fullscreen) .et_pb_fullwidth_header_container {
+    padding-right: 3rem !important;
+    padding-left: 3rem !important;
+}
+}
