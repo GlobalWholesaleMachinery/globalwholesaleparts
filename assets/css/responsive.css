@@ -976,9 +976,9 @@
     .login-form{
         left: 0px !important;
     }
-    .main-search{
+    /* .main-search{
         width: 40%;
-    }
+    } */
     .search-parts{
         display: flex !important;
     }
