@@ -1029,3 +1029,10 @@ body.et_pb_pagebuilder_layout.single.et_full_width_page #page-container #et-boc 
 .container, .et_pb_row, .et_pb_slider .et_pb_container, .et_pb_fullwidth_section .et_pb_title_container, .et_pb_fullwidth_section .et_pb_title_featured_container, .et_pb_fullwidth_header:not(.et_pb_fullscreen) .et_pb_fullwidth_header_container{
   max-width: 100% !important;
 }
+
+@media (max-width:992px) {
+  .container .et_pb_row {
+    padding-left: 0px !important;
+    padding-right: 0px !important;
+  }
+}
