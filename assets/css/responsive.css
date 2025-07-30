@@ -29,6 +29,12 @@
     }
 }
 
+@media (min-width: 1200px) {
+    #main-content {
+        padding-right: 3rem !important;
+        padding-left: 3rem !important;
+    }
+}
 
 
 
