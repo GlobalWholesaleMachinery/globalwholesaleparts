@@ -3571,8 +3571,8 @@ body.modal-open .footer {
 }
 
 .inventory_products_list .cat-list-card .cat-img img.default {
-    object-fit: cover;
-    background: transparent !important;
+    object-fit: contain;
+    background: #e8e8e8 !important;
 }
 .action-btns{
   margin-top: auto;

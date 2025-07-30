@@ -29,6 +29,12 @@
     }
 }
 
+@media (min-width: 1920px) {
+    .container, .et_pb_row, .et_pb_slider .et_pb_container, .et_pb_fullwidth_section .et_pb_title_container, .et_pb_fullwidth_section .et_pb_title_featured_container, .et_pb_fullwidth_header:not(.et_pb_fullscreen) .et_pb_fullwidth_header_container{
+        max-width: 1600px;
+    }
+}
+
 
 
 @media (min-width: 1200px) {
