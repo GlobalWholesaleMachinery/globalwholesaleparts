@@ -497,7 +497,7 @@
         position: absolute;
         border-radius: 5px;
         top: -56px;
-        right: 10px;
+        right: 0px;
         width: auto;
         background: transparent;
         color: #bd2939;
@@ -528,7 +528,7 @@
         position: absolute;
         border-radius: 5px;
         top: -56px;
-        right: 65px;
+        right: 60px;
         width: auto;
         background: transparent;
         color: #bd2939;
@@ -596,7 +596,7 @@
         position: absolute;
         border-radius: 5px;
         top: -49px;
-        right: 10px;
+        right: 0px;
         width: auto;
         background: transparent;
         color: #bd2939;
@@ -627,7 +627,7 @@
         position: absolute;
         border-radius: 5px;
         top: -49px;
-        right: 65px;
+        right: 60px;
         width: auto;
         background: transparent;
         color: #bd2939;
