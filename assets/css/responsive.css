@@ -86,7 +86,7 @@
         width: 150px;
     }
 }
-@media (min-width: 768px){
+@media (max-width: 768px){
     .breadcrumb-sec ~ .section.bg-light .yellow-horizontal-line{
         margin: 0 auto !important;
     }
