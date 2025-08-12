@@ -372,7 +372,7 @@ label.error {
   margin-top:100px ;
   z-index: 1;
 }
-#gwp_maincarousel .item .carousel-caption h1{
+#gwp_maincarousel .item .carousel-caption h1, #gwp_maincarousel .item .carousel-caption .h1{
   font-size: 3rem;
   font-weight: 700;
   text-transform: uppercase;
@@ -4000,11 +4000,11 @@ video{
 .mySpriteSpin-exterior:hover {
   cursor: ew-resize;
 }
-.offer-text h4 {
+.offer-text h3 {
   font-size: 28px;
   font-weight: 700;
 }
-.offer-text h4 span {
+.offer-text h3 span {
   color: #bd2939;
   font-weight: 600 !important;
   font-size: 30px !important;

@@ -464,7 +464,7 @@
         width: 70vw;
         /* left: 15%; */
     }
-    #gwp_maincarousel .item .carousel-caption h1{
+    #gwp_maincarousel .item .carousel-caption h1, #gwp_maincarousel .item .carousel-caption .h1{
         font-size: 1.5rem;
     }
     #gwp_maincarousel .item .carousel-caption p{
@@ -1097,7 +1097,7 @@
         margin-right: 0.5rem!important;
         margin-left: 0.5rem!important;
     }
-    .offer-text h4{
+    .offer-text h3{
         font-size: 22px;
     }
     .offer-text p{
