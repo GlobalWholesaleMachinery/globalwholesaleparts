@@ -986,4 +986,10 @@ div.et_pb_section.et_pb_section_11 {
 
 .phone-cta, .email-cta, .chat-cta{
 	padding: 8px 15px;
+	color: #bd2939;
+}
+
+.or-text{
+	color: #bd2939;
+  font-weight: 600;
 }
