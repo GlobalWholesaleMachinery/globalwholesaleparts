@@ -986,6 +986,9 @@ div.et_pb_section.et_pb_section_11 {
 
 .phone-cta, .email-cta, .chat-cta{
 	padding: 8px 15px;
+}
+
+.phone-cta i, .email-cta i, .chat-cta i{
 	color: #bd2939;
 }
 
