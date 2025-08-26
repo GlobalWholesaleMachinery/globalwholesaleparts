@@ -197,12 +197,11 @@ select {
 }
 
 h1 {
-	font-size: 3.563rem
+	font-size: 2.188rem;
 }
 
 h2 {
-	font-size: 2.188rem;
-	font-weight: bold
+	font-size: 22px;
 }
 
 @media only screen and (max-width:768px) {
