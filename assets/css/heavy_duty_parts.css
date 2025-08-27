@@ -1003,8 +1003,10 @@ div.et_pb_section.et_pb_section_11 {
 
 .visiblediv {
     display: block;
+    transition:all 1s;
 }
 
 .hiddendiv {
     display: none;
+    transition:all 1s;
 }
