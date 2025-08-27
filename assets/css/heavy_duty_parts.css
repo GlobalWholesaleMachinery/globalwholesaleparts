@@ -1019,6 +1019,6 @@ div.et_pb_section.et_pb_section_11 {
   }
 
   50% {
-    transform: translate(10px, 0);
+    transform: translate(10px, 10px);
   }
 }
