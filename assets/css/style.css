@@ -6612,6 +6612,7 @@ ul.products li.product:hover .text-concat{
 .manufacturer-items .btn-light:hover, .btn-check:checked+.btn-light{
   background-color: #bd2939;
   color: #fff;
+  border-color: #bd2939;
 }
 .landing-page-manufacturer-section, .landing-page-engine-component-type-section, .landing-page-all-parts-section, .landing-page-engine-series-section, .landing-page-models-section, .landing-page-part-types-section, .landing-page-brands-section, .landing-page-no-product-section{
   padding: 10px;
