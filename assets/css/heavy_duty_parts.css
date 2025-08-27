@@ -1002,6 +1002,14 @@ div.et_pb_section.et_pb_section_11 {
 	cursor: pointer;
 }
 
+#view_more img{
+	animation: slide1 1s ease-in-out infinite;
+}
+
+#view_less img{
+	animation: slide2 1s ease-in-out infinite;
+}
+
 .visiblediv {
     display: block;
     transition:all 1s;
@@ -1019,6 +1027,17 @@ div.et_pb_section.et_pb_section_11 {
   }
 
   50% {
+    transform: translate(0, 10px);
+  }
+}
+
+@keyframes slide2 {
+  50% {
+    transform: translate(0, 0);
+  }
+
+  0%,
+  100% {
     transform: translate(0, 10px);
   }
 }
