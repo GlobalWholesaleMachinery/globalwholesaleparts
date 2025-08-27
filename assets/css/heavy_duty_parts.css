@@ -996,3 +996,7 @@ div.et_pb_section.et_pb_section_11 {
 	color: #bd2939;
   font-weight: 600;
 }
+
+#view_more, #view_less{
+	cursor: pointer;
+}
