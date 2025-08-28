@@ -7824,3 +7824,8 @@ ol.simple-list li::marker{
     justify-content: space-between;
     box-sizing: border-box;
 }
+
+.landing-page-buttons{
+  border: 0px !important;
+  padding: 0px !important;
+}
