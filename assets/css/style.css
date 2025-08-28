@@ -7814,3 +7814,13 @@ ol.simple-list li::marker{
 .form-check-input[type=checkbox]{
   margin-top: 0px !important;
 }
+
+.heavy-duty-parts-grid li.product {
+    margin: 0 1.5% 1em 0;
+    width: 23.87%;
+    min-height: 220px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    box-sizing: border-box;
+}
