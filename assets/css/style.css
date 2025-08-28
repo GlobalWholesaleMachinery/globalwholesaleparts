@@ -7816,7 +7816,7 @@ ol.simple-list li::marker{
 }
 
 .heavy-duty-parts-grid li.product {
-    margin: 0 1.5% 1em 0 !important;
+    margin: 0 1% 1em 0 !important;
     width: 23.87% !important;
     min-height: 220px;
     display: flex;
