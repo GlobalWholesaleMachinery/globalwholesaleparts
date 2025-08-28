@@ -7829,3 +7829,7 @@ ol.simple-list li::marker{
   border: 0px !important;
   padding: 0px !important;
 }
+
+.landing-page-buttons h6{
+  padding: .75rem .75rem;
+}
