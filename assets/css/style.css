@@ -7837,4 +7837,5 @@ ol.simple-list li::marker{
 .heavy-duty-parts-grid h4, .homepage-heavy-duty-grid h4{
   min-height: 70px !important;
   line-height: unset !important;
+  background-color: #dbdbdb;
 }
