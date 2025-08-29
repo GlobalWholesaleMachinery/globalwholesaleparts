@@ -7839,3 +7839,7 @@ ol.simple-list li::marker{
   line-height: unset !important;
   background-color: #dbdbdb;
 }
+
+.heavy-duty-parts-grid li:hover, .homepage-heavy-duty-grid li:hover{
+  border: 1px solid #dbdbdb;
+}
