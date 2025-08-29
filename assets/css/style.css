@@ -7833,3 +7833,8 @@ ol.simple-list li::marker{
 .landing-page-buttons h6{
   padding: .75rem .75rem;
 }
+
+.heavy-duty-parts-grid h4{
+  min-height: 70px !important;
+  line-height: unset !important;
+}
