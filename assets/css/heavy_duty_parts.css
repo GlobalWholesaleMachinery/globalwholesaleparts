@@ -985,6 +985,10 @@ div.et_pb_section.et_pb_section_11 {
 	background-color: #fff;
 }
 
+.heavy-duty-featured-image img{
+	border-radius: 10px;
+}
+
 .phone-cta, .email-cta, .chat-cta{
 	padding: 8px 15px;
 }
