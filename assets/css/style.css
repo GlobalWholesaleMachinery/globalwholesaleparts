@@ -7848,3 +7848,7 @@ ol.simple-list li::marker{
   border-top-left-radius: .25rem;
   border-top-right-radius: .25rem;
 }
+
+.landing-page-filter-data-section .manufacturer-items .btn-light:hover img{
+  background-color: #fff !important;
+}
