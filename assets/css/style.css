@@ -7852,3 +7852,8 @@ ol.simple-list li::marker{
 .landing-page-filter-data-section .manufacturer-items .btn-light:hover img{
   background-color: #fff !important;
 }
+
+.landing-page-filter-data-section .manufacturer-items .btn-light:focus{
+  background-color: #bd2939 !important;
+  color: #fff !important;
+}
