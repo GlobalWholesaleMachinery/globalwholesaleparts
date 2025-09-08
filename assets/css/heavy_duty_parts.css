@@ -1006,11 +1006,11 @@ div.et_pb_section.et_pb_section_11 {
 	cursor: pointer;
 }
 
-#view_more img{
+#view_more img, #view_more_1 img{
 	animation: slide1 1s ease-in-out infinite;
 }
 
-#view_less img{
+#view_less img, #view_less_1 img{
 	animation: slide2 1s ease-in-out infinite;
 }
 
