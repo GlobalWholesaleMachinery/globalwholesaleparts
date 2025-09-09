@@ -1,13 +1,13 @@
-.container,
+/* .container,
 .et_pb_row,
 .et_pb_slider .et_pb_container,
 .et_pb_fullwidth_section .et_pb_title_container,
 .et_pb_fullwidth_section .et_pb_title_featured_container,
 .et_pb_fullwidth_header:not(.et_pb_fullscreen)
   .et_pb_fullwidth_header_container {
-  max-width: 1280px;
-}
-.et_boxed_layout #page-container,
+  max-width: 1320px;
+} */
+/* .et_boxed_layout #page-container,
 .et_boxed_layout.et_non_fixed_nav.et_transparent_nav
   #page-container
   #top-header,
@@ -18,8 +18,8 @@
 .et_fixed_nav.et_boxed_layout #page-container #main-header,
 .et_boxed_layout #page-container .container,
 .et_boxed_layout #page-container .et_pb_row {
-  max-width: 1440px;
-}
+  max-width: 1320px;
+} */
 .woocommerce a.button.alt,
 .woocommerce-page a.button.alt,
 .woocommerce button.button.alt,
@@ -405,7 +405,7 @@ h2 {
 .text-box-33 {
   width: 32% !important;
 }
-</style > <style id="fit-vids-style" > .fluid-width-video-wrapper {
+.fluid-width-video-wrapper {
   width: 100%;
   position: relative;
   padding: 0;

@@ -1,3 +1,42 @@
+@media (max-width: 576px) {
+    .container, .et_pb_row, .et_pb_slider .et_pb_container, .et_pb_fullwidth_section .et_pb_title_container, .et_pb_fullwidth_section .et_pb_title_featured_container, .et_pb_fullwidth_header:not(.et_pb_fullscreen) .et_pb_fullwidth_header_container{
+        max-width: 100%;
+    }
+}
+@media (min-width: 576px) {
+    .container, .et_pb_row, .et_pb_slider .et_pb_container, .et_pb_fullwidth_section .et_pb_title_container, .et_pb_fullwidth_section .et_pb_title_featured_container, .et_pb_fullwidth_header:not(.et_pb_fullscreen) .et_pb_fullwidth_header_container{
+        max-width: 100%;
+    }
+}
+@media (min-width: 768px) {
+    .container, .et_pb_row, .et_pb_slider .et_pb_container, .et_pb_fullwidth_section .et_pb_title_container, .et_pb_fullwidth_section .et_pb_title_featured_container, .et_pb_fullwidth_header:not(.et_pb_fullscreen) .et_pb_fullwidth_header_container{
+        max-width: 100%;
+    }
+}
+@media (min-width: 992px) {
+    .container, .et_pb_row, .et_pb_slider .et_pb_container, .et_pb_fullwidth_section .et_pb_title_container, .et_pb_fullwidth_section .et_pb_title_featured_container, .et_pb_fullwidth_header:not(.et_pb_fullscreen) .et_pb_fullwidth_header_container{
+        max-width: 100%;
+    }
+}
+@media (min-width: 1200px) {
+    .container, .et_pb_row, .et_pb_slider .et_pb_container, .et_pb_fullwidth_section .et_pb_title_container, .et_pb_fullwidth_section .et_pb_title_featured_container, .et_pb_fullwidth_header:not(.et_pb_fullscreen) .et_pb_fullwidth_header_container{
+        max-width: 100%;
+    }
+}
+@media (min-width: 1400px) {
+    .container, .et_pb_row, .et_pb_slider .et_pb_container, .et_pb_fullwidth_section .et_pb_title_container, .et_pb_fullwidth_section .et_pb_title_featured_container, .et_pb_fullwidth_header:not(.et_pb_fullscreen) .et_pb_fullwidth_header_container{
+        max-width: 100%;
+    }
+}
+
+@media (min-width: 1980px) {
+    .container, .et_pb_row, .et_pb_slider .et_pb_container, .et_pb_fullwidth_section .et_pb_title_container, .et_pb_fullwidth_section .et_pb_title_featured_container, .et_pb_fullwidth_header:not(.et_pb_fullscreen) .et_pb_fullwidth_header_container{
+        max-width: 1600px;
+    }
+}
+
+
+
 @media (min-width: 1200px) {
  .main-brands-list, .brand-additional-section{
     min-width: 150px !important;
@@ -39,6 +78,28 @@
     }
 }
 
+@media (min-width: 768px) and (max-width: 991px) {
+    .exist_images{
+        width: 150px;
+    }
+    .solution_images{
+        width: 150px;
+    }
+}
+@media (max-width: 768px){
+    .breadcrumb-sec ~ .section.bg-light .yellow-horizontal-line{
+        margin: 0 auto !important;
+    }
+}
+@media (min-width: 992px) and (max-width: 1289px) {
+    .exist_images{
+        width: 200px;
+    }
+    .solution_images{
+        width: 200px;
+    }
+}
+
 @media (max-width: 575px) {
     .mobile-view-section {
         display: flex;
@@ -69,6 +130,12 @@
  }
  .landing-page-variation-form-section{
     padding: 10px 0px;
+ }
+ .banner-section-home{
+    padding-inline: 0px !important;
+ }
+ .home_banner_box .col-lg-5 .et_pb_image{
+    text-align: center !important;
  }
 }
 @media (min-width: 576px) {
@@ -114,7 +181,15 @@
         display: block; 
     }
 }
-
+@media only screen and (max-width:980px){
+    .contact-mobile-flip{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .wrapper_mobile_sec .et_pb_module.et_pb_text_align_left{
+        text-align: center;
+    }
+}
 @media all and (min-width: 768px) {
     
     .only-desktop{
@@ -155,6 +230,9 @@
         min-width: 150px !important;
         width: 150px !important;
         padding: 10px;
+    }
+    .our-team-wrapper.team-area .team-items{
+        grid-template-columns: repeat(3, minmax(0, 1fr));
     }
 }   
 @media (max-width: 1120px) {
@@ -230,6 +308,12 @@
 }
 @media (max-width: 1024px){
 
+}
+
+@media (min-width: 992px) {
+    .navbar-expand-lg .navbar-toggler {
+        display: none;
+    }
 }
 @media (max-width: 991px) {
     .contact-black-cta .et_pb_column_9{
@@ -314,9 +398,8 @@
     .left-filters-block h2 .fa{
         font-size: 15px;
     }
-    .left-filters-block h2 .navbar-toggler{
+    .navbar-expand-lg .navbar-toggler{
         padding: 0;
-        position: absolute;
         width: 100%;
         text-align: right;
         right: 10px;
@@ -377,8 +460,18 @@
     .background_box .min_height_190, .background_box .min_height_300, .background_box .min_height_285, .background_box .min_height_186, .background_box .min_height_210{
         min-height: 100%;
     }
+    #gwp_maincarousel .item .carousel-caption{
+        width: 70vw;
+        /* left: 15%; */
+    }
+    #gwp_maincarousel .item .carousel-caption h1, #gwp_maincarousel .item .carousel-caption .h1{
+        font-size: 1.5rem;
+    }
+    #gwp_maincarousel .item .carousel-caption p{
+        font-size: 1rem;
+    }
 }
-@media (max-width: 959px) {
+@media (max-width: 1011px) {
     .login-buttons{
         display: none !important;
     }
@@ -388,6 +481,9 @@
     #dealer_login_sec .mobile-center {
         text-align: center !important;
     }
+}
+@media (max-width: 959px) {
+    
     .login-button {
         justify-content: center;
     }
@@ -400,11 +496,32 @@
     header .search-engine-section-header{
         order: 3;
     }
+
+    .inventory_menu_icon.ubermenu-skin-grey-white.ubermenu-responsive-toggle{
+        position: absolute;
+        border-radius: 5px;
+        top: -56px;
+        right: 0px;
+        width: auto;
+        background: transparent;
+        color: #bd2939;
+        border: 1px solid;
+        padding: 2px 8px;
+    }
+
+    .inventory_menu_icon.ubermenu-skin-grey-white.ubermenu-responsive-toggle span, .get-a-quote-header-btn, .new_inventory_mobile .slider-nav-mobile, .new_inventory_mobile #dealer_login_sec{
+        display: none !important;
+    }
+
+    .inventory_menu_icon.ubermenu-skin-grey-white.ubermenu-responsive-toggle svg{
+        margin-right: unset !important;
+    }
+
     .mobile_phone_header{
         position: absolute;
         border-radius: 5px;
         top: -56px;
-        right: 65px;
+        right: 120px;
         width: auto;
         background: transparent;
         color: #bd2939;
@@ -415,7 +532,7 @@
         position: absolute;
         border-radius: 5px;
         top: -56px;
-        right: 10px;
+        right: 60px;
         width: auto;
         background: transparent;
         color: #bd2939;
@@ -463,7 +580,7 @@
         margin: 0;
     }
 
-    .et_pb_blurb_position_left .et_pb_main_blurb_image, .et_pb_blurb_position_right .et_pb_main_blurb_image{
+     .et_pb_blurb_position_right .et_pb_main_blurb_image{
         width: 100px;
     }
 
@@ -479,11 +596,31 @@
         font-size: 18px !important;
     }
 
+    .inventory_menu_icon.ubermenu-skin-grey-white.ubermenu-responsive-toggle{
+        position: absolute;
+        border-radius: 5px;
+        top: -49px;
+        right: 0px;
+        width: auto;
+        background: transparent;
+        color: #bd2939;
+        border: 1px solid;
+        padding: 2px 8px;
+    }
+
+    .inventory_menu_icon.ubermenu-skin-grey-white.ubermenu-responsive-toggle span, .get-a-quote-header-btn, .new_inventory_mobile .slider-nav-mobile, .new_inventory_mobile #dealer_login_sec{
+        display: none !important;
+    }
+
+    .inventory_menu_icon.ubermenu-skin-grey-white.ubermenu-responsive-toggle svg{
+        margin-right: unset !important;
+    }
+
     .mobile_phone_header{
         position: absolute;
         border-radius: 5px;
         top: -49px;
-        right: 65px;
+        right: 120px;
         width: auto;
         background: transparent;
         color: #bd2939;
@@ -494,7 +631,7 @@
         position: absolute;
         border-radius: 5px;
         top: -49px;
-        right: 10px;
+        right: 60px;
         width: auto;
         background: transparent;
         color: #bd2939;
@@ -778,7 +915,9 @@
     .filter_line_border{
         display: none;
     }
-    
+    .our-team-wrapper.team-area .team-items{
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+    }
 }
 @media (min-width: 569px) and (max-width: 767px) {
     .search-bar #keyword, .search-bar .parent-search-engine{
@@ -846,9 +985,9 @@
     .login-form{
         left: 0px !important;
     }
-    .main-search{
+    /* .main-search{
         width: 40%;
-    }
+    } */
     .search-parts{
         display: flex !important;
     }
@@ -869,7 +1008,7 @@
         vertical-align: middle;
     }
     .GWPCustomer-mobile, .dealerloginDropdown-mobile, .loginDropdown-mobile{
-        font-size: 16px;
+        font-size: 14px;
     }
     .mobile_phone_header{
         position: absolute;
@@ -958,7 +1097,7 @@
         margin-right: 0.5rem!important;
         margin-left: 0.5rem!important;
     }
-    .offer-text h4{
+    .offer-text h3{
         font-size: 22px;
     }
     .offer-text p{
@@ -1149,25 +1288,7 @@
         margin-top: 10px;
         margin-bottom: 0px !important;
     }
-    .inventory_menu_icon.ubermenu-skin-grey-white.ubermenu-responsive-toggle{
-        position: absolute;
-        border-radius: 5px;
-        top: -49px;
-        right: 0px;
-        width: auto;
-        background: transparent;
-        color: #bd2939;
-        border: 1px solid;
-        padding: 2px 8px;
-    }
-
-    .inventory_menu_icon.ubermenu-skin-grey-white.ubermenu-responsive-toggle span, .get-a-quote-header-btn, .new_inventory_mobile .slider-nav-mobile, .new_inventory_mobile #dealer_login_sec{
-        display: none !important;
-    }
-
-    .inventory_menu_icon.ubermenu-skin-grey-white.ubermenu-responsive-toggle svg{
-        margin-right: unset !important;
-    }
+    
     .logo{
         justify-content: start !important;
     }
@@ -1242,6 +1363,29 @@
         margin: 5px 2px !important;
         font-size: 14px;
     }
+    .our-team-wrapper.team-area .team-items{
+        grid-template-columns: repeat(1, minmax(0, 1fr));
+    }
+
+    .inventory_menu_icon.ubermenu-skin-grey-white.ubermenu-responsive-toggle{
+        position: absolute;
+        border-radius: 5px;
+        top: -49px;
+        right: 0px;
+        width: auto;
+        background: transparent;
+        color: #bd2939;
+        border: 1px solid;
+        padding: 2px 8px;
+    }
+
+    .inventory_menu_icon.ubermenu-skin-grey-white.ubermenu-responsive-toggle span, .get-a-quote-header-btn, .new_inventory_mobile .slider-nav-mobile, .new_inventory_mobile #dealer_login_sec{
+        display: none !important;
+    }
+
+    .inventory_menu_icon.ubermenu-skin-grey-white.ubermenu-responsive-toggle svg{
+        margin-right: unset !important;
+    }
 }
 
 @media (max-width: 420px) {
@@ -1263,13 +1407,16 @@
         padding-right:0px !important;
         padding-left:0px !important;
     }
+    .gma-fc-card{
+        width: 140px;
+    }
 }
 @media only screen and (max-width:375px){
     .mobile_phone_header, .mobile_email_header, .inventory_menu_icon.ubermenu-skin-grey-white.ubermenu-responsive-toggle{
         top: -48px;
     }
 }
-@media (max-width: 1280px) {
+@media (max-width: 1141px) {
     .detailed-email-phone{
         display: none;
     }
@@ -1286,9 +1433,13 @@
     }
 }
 
-@media (min-width: 1281px) {
+@media (min-width: 1142px) {
+    .flex-md-row {
+        flex-direction: column !important;
+    }
     .detailed-email-phone{
         display: block;
+        padding: 5px 0;
     }
     .icon-for-email-phone{
         display: none;
@@ -1306,4 +1457,30 @@
     .GWPCustomer-mobile-modal.show, .dealerloginDropdown-mobile-modal.show, .loginDropdown-mobile-modal.show{
         transform: translate3d(50%, 40px, 0px) !important;
     }
+}
+
+@media only screen and (max-width:480px){
+    footer .et_pb_image_0_tb_footer{
+        text-align: center;
+        margin: 0 auto;
+    }
+    footer .et_pb_module.et_pb_text_align_left, footer .et_pb_social_media_follow.et_pb_social_media_follow_0_tb_footer{
+        text-align: center;
+        margin-bottom: 16px;
+    }
+    footer .et_pb_blurb_position_left .et_pb_blurb_content{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        & .et_pb_main_blurb_image{
+            margin: 0;
+        }
+    }
+    footer .container .ft-title, footer ul.ft-nav{
+        text-align: center;
+        column-count: unset;
+        width: 100%;
+    }
+
 }

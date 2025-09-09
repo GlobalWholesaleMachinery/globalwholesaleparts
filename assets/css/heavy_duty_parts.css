@@ -1,10 +1,10 @@
-.container,
+/* .container,
 .et_pb_row,
 .et_pb_slider .et_pb_container,
 .et_pb_fullwidth_section .et_pb_title_container,
 .et_pb_fullwidth_section .et_pb_title_featured_container,
 .et_pb_fullwidth_header:not(.et_pb_fullscreen) .et_pb_fullwidth_header_container {
-	max-width: 1280px
+	max-width: 1320px
 }
 
 .et_boxed_layout #page-container,
@@ -14,8 +14,8 @@
 .et_fixed_nav.et_boxed_layout #page-container #main-header,
 .et_boxed_layout #page-container .container,
 .et_boxed_layout #page-container .et_pb_row {
-	max-width: 1440px
-}
+	max-width: 1320px
+} */
 
 .woocommerce a.button.alt,
 .woocommerce-page a.button.alt,
@@ -198,6 +198,10 @@ select {
 
 h1 {
 	font-size: 2.188rem;
+<<<<<<< HEAD
+=======
+	padding-bottom: 10px;
+>>>>>>> af10c310992c26710f2a98df9c523c6ee6bde301
 }
 
 h2 {
@@ -916,9 +920,9 @@ div.et_pb_section.et_pb_section_11 {
     background-image: url(https://globalwholesaleparts.com/assets/images/Need-help-contact-bg.webp) !important;
 }
 
-.container, .et_pb_row, .et_pb_slider .et_pb_container, .et_pb_fullwidth_section .et_pb_title_container, .et_pb_fullwidth_section .et_pb_title_featured_container, .et_pb_fullwidth_header:not(.et_pb_fullscreen) .et_pb_fullwidth_header_container {
-    max-width: 1280px;
-}
+/* .container, .et_pb_row, .et_pb_slider .et_pb_container, .et_pb_fullwidth_section .et_pb_title_container, .et_pb_fullwidth_section .et_pb_title_featured_container, .et_pb_fullwidth_header:not(.et_pb_fullscreen) .et_pb_fullwidth_header_container {
+    max-width: 1320px;
+} */
 
 #get-a-quote h2 {
     font-size: 2.188rem;
@@ -975,5 +979,72 @@ div.et_pb_section.et_pb_section_11 {
   .et_pb_blurb_0_tb_footer.et_pb_blurb,
   .et_pb_blurb_1_tb_footer.et_pb_blurb {
     font-size: 13px;
+  }
+}
+
+.heavy-duty-featured-image{
+	box-shadow: 0 10px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19) !important;
+	border-radius: 10px;
+	background-color: #fff;
+}
+
+.heavy-duty-featured-image img{
+	border-radius: 10px;
+}
+
+.phone-cta, .email-cta, .chat-cta{
+	padding: 8px 15px;
+}
+
+.phone-cta i, .email-cta i, .chat-cta i{
+	color: #bd2939;
+}
+
+.or-text{
+	color: #bd2939;
+  font-weight: 600;
+}
+
+#view_more, #view_less{
+	cursor: pointer;
+}
+
+#view_more img, #view_more_1 img{
+	animation: slide1 1s ease-in-out infinite;
+}
+
+#view_less img, #view_less_1 img{
+	animation: slide2 1s ease-in-out infinite;
+}
+
+.visiblediv {
+    display: block;
+    transition:all 1s;
+}
+
+.hiddendiv {
+    display: none;
+    transition:all 1s;
+}
+
+@keyframes slide1 {
+  0%,
+  100% {
+    transform: translate(0, 0);
+  }
+
+  50% {
+    transform: translate(0, 10px);
+  }
+}
+
+@keyframes slide2 {
+  50% {
+    transform: translate(0, 0);
+  }
+
+  0%,
+  100% {
+    transform: translate(0, 10px);
   }
 }

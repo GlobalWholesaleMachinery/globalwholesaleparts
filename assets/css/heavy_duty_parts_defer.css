@@ -485,9 +485,9 @@ div.et_pb_section.et_pb_section_11 {
     background-image: url(https://globalwholesaleparts.com/assets/images/Need-help-contact-bg.webp) !important;
 }
 
-.container, .et_pb_row, .et_pb_slider .et_pb_container, .et_pb_fullwidth_section .et_pb_title_container, .et_pb_fullwidth_section .et_pb_title_featured_container, .et_pb_fullwidth_header:not(.et_pb_fullscreen) .et_pb_fullwidth_header_container {
-    max-width: 1280px;
-}
+/* .container, .et_pb_row, .et_pb_slider .et_pb_container, .et_pb_fullwidth_section .et_pb_title_container, .et_pb_fullwidth_section .et_pb_title_featured_container, .et_pb_fullwidth_header:not(.et_pb_fullscreen) .et_pb_fullwidth_header_container {
+    max-width: 1320px;
+} */
 
 #get-a-quote h2 {
     font-size: 2.188rem;
