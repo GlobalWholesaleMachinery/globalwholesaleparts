@@ -764,24 +764,48 @@ if (isset($brand_detail) && $brand_detail == 'inventory_brand') {
 											<div class="row mx-0">
 												<div class="col-md-12">
 													<form action="" method="get" class="search-engine-2 w-100" id="search-engine-2">
-														<div class="row justify-content-center">
-															<div class="col-md-2 search-dropdowns" id="machine_type-section">
-																<input type="search" name="machine_type" class="form-control form-select" id="machine_type" placeholder="Machine Type" value="<?= (isset($_GET['machine_type']) && $_GET['machine_type'] != '' ? $_GET['machine_type'] : '' ); ?>">
+														<div class="row justify-content-center g-2">
+															<div class="col-12 col-sm-6 col-md-2 search-dropdowns mb-2 mb-md-0" id="machine_type-section">
+																<div class="position-relative">
+																	<input type="search" name="machine_type" class="form-control form-select mobile-search-input" id="machine_type" placeholder="Machine Type" value="<?= (isset($_GET['machine_type']) && $_GET['machine_type'] != '' ? $_GET['machine_type'] : '' ); ?>">
+																	<i class="fa fa-chevron-down position-absolute mobile-dropdown-icon" style="right: 10px; top: 50%; transform: translateY(-50%); pointer-events: none; color: #666;"></i>
+																</div>
 															</div>
-															<div class="col-md-1 search-dropdowns" id="machine_make-section">
-																<input type="search" name="machine_make" class="form-control form-select" id="machine_make" placeholder="Machine Make" value="<?= (isset($_GET['machine_make']) && $_GET['machine_make'] != '' ? $_GET['machine_make'] : '' ); ?>" disabled>
+															<div class="col-12 col-sm-6 col-md-1 search-dropdowns mb-2 mb-md-0" id="machine_make-section">
+																<div class="position-relative">
+																	<input type="search" name="machine_make" class="form-control form-select mobile-search-input" id="machine_make" placeholder="Machine Make" value="<?= (isset($_GET['machine_make']) && $_GET['machine_make'] != '' ? $_GET['machine_make'] : '' ); ?>" disabled>
+																	<i class="fa fa-chevron-down position-absolute mobile-dropdown-icon" style="right: 10px; top: 50%; transform: translateY(-50%); pointer-events: none; color: #666;"></i>
+																</div>
 															</div>
-															<div class="col-md-1 search-dropdowns" id="machine_model-section">
-																<input type="search" name="machine_model" class="form-control form-select" id="machine_model" placeholder="Machine Model" value="<?= (isset($_GET['machine_model']) && $_GET['machine_model'] != '' ? $_GET['machine_model'] : '' ); ?>" disabled>
+															<div class="col-12 col-sm-6 col-md-1 search-dropdowns mb-2 mb-md-0" id="machine_model-section">
+																<div class="position-relative">
+																	<input type="search" name="machine_model" class="form-control form-select mobile-search-input" id="machine_model" placeholder="Machine Model" value="<?= (isset($_GET['machine_model']) && $_GET['machine_model'] != '' ? $_GET['machine_model'] : '' ); ?>" disabled>
+																	<i class="fa fa-chevron-down position-absolute mobile-dropdown-icon" style="right: 10px; top: 50%; transform: translateY(-50%); pointer-events: none; color: #666;"></i>
+																</div>
 															</div>
-															<div class="col-md-3 search-dropdowns" id="systems_component_groups-section">
-																<input type="search" name="systems_component_groups" class="form-control form-select" id="systems_component_groups" placeholder="Systems & Component Groups" value="<?= (isset($_GET['systems_component_groups']) && $_GET['systems_component_groups'] != '' ? $_GET['systems_component_groups'] : '' ); ?>" disabled>
+															<div class="col-12 col-sm-6 col-md-2 search-dropdowns mb-2 mb-md-0" id="serial_number-section">
+																<div class="position-relative">
+																	<input type="search" name="serial_number" class="form-control form-select mobile-search-input" id="serial_number" placeholder="Serial Number" value="<?= (isset($_GET['serial_number']) && $_GET['serial_number'] != '' ? $_GET['serial_number'] : '' ); ?>" disabled>
+																	<i class="fa fa-chevron-down position-absolute mobile-dropdown-icon" style="right: 10px; top: 50%; transform: translateY(-50%); pointer-events: none; color: #666;"></i>
+																</div>
 															</div>
-															<div class="col-md-3 search-dropdowns" id="component_model_series_arrangement-section">
-																<input type="search" name="component_model_series_arrangement" class="form-control form-select" id="component_model_series_arrangement" placeholder="Model / Arrangement #" value="<?= (isset($_GET['component_model_series_arrangement']) && $_GET['component_model_series_arrangement'] != '' ? $_GET['component_model_series_arrangement'] : '' ); ?>" disabled>
+															<div class="col-12 col-sm-6 col-md-3 search-dropdowns mb-2 mb-md-0" id="systems_component_groups-section">
+																<div class="position-relative">
+																	<input type="search" name="systems_component_groups" class="form-control form-select mobile-search-input" id="systems_component_groups" placeholder="Systems & Component Groups" value="<?= (isset($_GET['systems_component_groups']) && $_GET['systems_component_groups'] != '' ? $_GET['systems_component_groups'] : '' ); ?>" disabled>
+																	<i class="fa fa-chevron-down position-absolute mobile-dropdown-icon" style="right: 10px; top: 50%; transform: translateY(-50%); pointer-events: none; color: #666;"></i>
+																</div>
 															</div>
-															<div class="col-md-2 search-dropdowns" id="product_type-section">
-																<input type="search" name="product_type" class="form-control form-select" id="product_type" placeholder="Part / Product Type" value="<?= (isset($_GET['product_type']) && $_GET['product_type'] != '' ? $_GET['product_type'] : '' ); ?>" disabled>
+															<div class="col-12 col-sm-6 col-md-3 search-dropdowns mb-2 mb-md-0" id="component_model_series_arrangement-section">
+																<div class="position-relative">
+																	<input type="search" name="component_model_series_arrangement" class="form-control form-select mobile-search-input" id="component_model_series_arrangement" placeholder="Model / Arrangement #" value="<?= (isset($_GET['component_model_series_arrangement']) && $_GET['component_model_series_arrangement'] != '' ? $_GET['component_model_series_arrangement'] : '' ); ?>" disabled>
+																	<i class="fa fa-chevron-down position-absolute mobile-dropdown-icon" style="right: 10px; top: 50%; transform: translateY(-50%); pointer-events: none; color: #666;"></i>
+																</div>
+															</div>
+															<div class="col-12 col-sm-6 col-md-2 search-dropdowns mb-2 mb-md-0" id="product_type-section">
+																<div class="position-relative">
+																	<input type="search" name="product_type" class="form-control form-select mobile-search-input" id="product_type" placeholder="Part / Product Type" value="<?= (isset($_GET['product_type']) && $_GET['product_type'] != '' ? $_GET['product_type'] : '' ); ?>" disabled>
+																	<i class="fa fa-chevron-down position-absolute mobile-dropdown-icon" style="right: 10px; top: 50%; transform: translateY(-50%); pointer-events: none; color: #666;"></i>
+																</div>
 															</div>
 														</div>
 													</form>

@@ -6205,7 +6205,7 @@ Umair Changes CSS
 }
 
 @media (max-width: 768px) {
-  #machine_make-section, #machine_model-section, #systems_component_groups-section, #component_model_series_arrangement-section, #product_type-section, #component_type-section, #component_model-section, #systems_component_groups_comp-section, #component_model_series_arrangement_comp-section, #product_type_comp-section {
+  #machine_make-section, #machine_model-section, #serial_number-section, #systems_component_groups-section, #component_model_series_arrangement-section, #product_type-section, #component_type-section, #component_model-section, #systems_component_groups_comp-section, #component_model_series_arrangement_comp-section, #product_type_comp-section {
     display: none;
   }
   
@@ -6364,6 +6364,7 @@ Umair Changes CSS
 .manufacturer-items .btn-light:hover, .btn-check:checked+.btn-light{
   background-color: #bd2939;
   color: #fff;
+  border-color: #bd2939;
 }
 .landing-page-manufacturer-section, .landing-page-engine-component-type-section, .landing-page-all-parts-section, .landing-page-engine-series-section, .landing-page-models-section, .landing-page-part-types-section, .landing-page-brands-section, .landing-page-no-product-section{
   padding: 10px;
@@ -7539,3 +7540,31 @@ ol.simple-list li::marker{
 .cart_icon .phone-icon{
   font-size: 24px;
 }
+
+/* Override Pagination */
+.pagination .page-link {
+  color: #007bff;
+  border: 1px solid #007bff;
+  border-radius: 4px;
+  margin: 0 2px;
+  transition: background-color 0.2s ease;
+}
+
+.pagination .page-item.active .page-link {
+  background-color: #007bff;
+  border-color: #007bff;
+  color: #fff;
+}
+
+.pagination .page-link:hover {
+  background-color: #007bff;
+  color: #fff;
+}
+
+.pagination .page-item.disabled .page-link {
+  background-color: transparent;
+  color: #888;
+  border: none;
+  cursor: default;
+}
+/* Override Pagination */
