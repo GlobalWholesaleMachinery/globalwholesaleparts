@@ -6885,7 +6885,11 @@ form .form-text.text-danger{
   display: none !important;
 }
 .buy-now-btn{
-  min-width: 125px;
+  min-width: 100px;
+}
+
+#add-to-cart .primary-btn{
+  font-size: 13px;
 }
 
 .main-nav-tabs{
