@@ -7892,3 +7892,7 @@ ol.simple-list li::marker{
   background: #adb5bd;
   border-radius: 4px;
 }
+
+.table-active {
+  background-color: #f1f8ff !important;
+}
