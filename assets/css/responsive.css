@@ -316,6 +316,31 @@
     }
 }
 @media (max-width: 991px) {
+    /* Enable scrolling for all dropdown menus on mobile */
+    .dropdown-menu, 
+    .login-form, 
+    .ubermenu-submenu,
+    .ubermenu-responsive .ubermenu-submenu,
+    .ubermenu-mobile-accordion .ubermenu-submenu,
+    header .login-form,
+    .GWPCustomer-modal,
+    .dealerloginDropdown-modal,
+    .loginDropdown-modal,
+    .GWPCustomer-mobile-modal,
+    .dealerloginDropdown-mobile-modal,
+    .loginDropdown-mobile {
+        max-height: 80vh !important;
+        overflow-y: auto !important;
+        overflow-x: hidden !important;
+        -webkit-overflow-scrolling: touch !important;
+        touch-action: pan-y !important;
+    }
+    /* Override disable scroll class on mobile */
+    .ubermenu-disable-submenu-scroll .ubermenu-submenu {
+        overflow-y: auto !important;
+        -webkit-overflow-scrolling: touch !important;
+        touch-action: pan-y !important;
+    }
     .contact-black-cta .et_pb_column_9{
       width: 64%;
     }
@@ -571,6 +596,18 @@
     }
 }
 @media (max-width: 767px) {
+    /* Fix mobile dropdown scrolling for all dropdowns */
+    .dropdown-menu, 
+    .login-form, 
+    .ubermenu-submenu,
+    .ubermenu-responsive .ubermenu-submenu,
+    .ubermenu-mobile-accordion .ubermenu-submenu {
+        max-height: 80vh !important;
+        overflow-y: auto !important;
+        overflow-x: hidden !important;
+        -webkit-overflow-scrolling: touch !important;
+        touch-action: pan-y !important;
+    }
     .contact-black-cta .et_pb_column_9, .contact-black-cta .et_pb_column_10 {
         width: 100%;
     }
@@ -1010,6 +1047,21 @@
     .GWPCustomer-mobile, .dealerloginDropdown-mobile, .loginDropdown-mobile{
         font-size: 14px;
     }
+    /* Fix mobile dropdown scrolling */
+    .dropdown-menu, .login-form, .ubermenu-submenu {
+        max-height: 80vh !important;
+        overflow-y: auto !important;
+        overflow-x: hidden !important;
+        -webkit-overflow-scrolling: touch !important;
+        touch-action: pan-y !important;
+    }
+    .ubermenu-responsive .ubermenu-submenu {
+        max-height: 70vh !important;
+        overflow-y: auto !important;
+        overflow-x: hidden !important;
+        -webkit-overflow-scrolling: touch !important;
+        touch-action: pan-y !important;
+    }
     .mobile_phone_header{
         position: absolute;
         border-radius: 5px;
@@ -1197,6 +1249,11 @@
         right: unset !important;
         transform: translate(-50%, 110px) !important;
         width: 95%;
+        max-height: 80vh !important;
+        overflow-y: auto !important;
+        overflow-x: hidden !important;
+        -webkit-overflow-scrolling: touch !important;
+        touch-action: pan-y !important;
     }
     .get-a-quote-header-btn{
         margin-top: 10px;

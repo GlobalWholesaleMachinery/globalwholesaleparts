@@ -13,53 +13,33 @@ jQuery(document).ready(function() {
  
             var c = content.substr(0, showChar);
             var h = content.substr(showChar, content.length - showChar);
-            var html = c + '<span class="moreellipses">' + ellipsestext+ ' </span><span class="morecontent"><span>' + h + '</span>  <a href="javascript:void(0)" class="morelink" role="button" tabindex="0" aria-expanded="false">' + moretext + '</a></span>';
+            var html = c + '<span class="moreellipses">' + ellipsestext+ ' </span><span class="morecontent"><span>' + h + '</span>  <a href="" class="morelink">' + moretext + '</a></span>';
             jQuery(this).html(html);
         }
  
     });
  
-    // Mobile-friendly delegated handler (click, touch, keyboard)
-    jQuery(document).on('click touchstart keydown', '.morelink', function(e){
-        // Allow keyboard activation with Enter/Space
-        if (e.type === 'keydown') {
-            if (e.key !== 'Enter' && e.key !== ' ') return;
-            e.preventDefault();
+    jQuery(".morelink").click(function(){
+        if(jQuery(this).hasClass("less")) {
+            jQuery(this).removeClass("less");
+            jQuery(this).html(moretext);
         } else {
-            e.preventDefault();
+            jQuery(this).addClass("less");
+            jQuery(this).html(lesstext);
         }
-
-        var $link = jQuery(this);
-        var isLess = $link.hasClass('less');
-
-        if (isLess) {
-            $link.removeClass('less').html(moretext).attr('aria-expanded', 'false');
-        } else {
-            $link.addClass('less').html(lesstext).attr('aria-expanded', 'true');
-        }
-
-        // Toggle truncated/hidden parts
-        $link.parent().prev().toggle();
-        $link.prev().toggle();
+        jQuery(this).parent().prev().toggle();
+        jQuery(this).prev().toggle();
+        return false;
     });
 });
 
 jQuery( "form.header-login" ).on( "submit", function(e) {
-  console.log("submit 1");
+ 
   var dataString = jQuery(this).serialize();
-
-  // Determine API base depending on environment
-  var origin = window.location.origin;
-  var projectBase = (window.location.pathname.indexOf('/fts_globalwholesaleparts/') === 0 || window.location.pathname.indexOf('/fts_globalwholesaleparts/') > -1)
-    ? '/fts_globalwholesaleparts/'
-    : '/';
-  var BASE_URL = origin + projectBase;
-  var LOGIN_API = BASE_URL + 'controller/submit-login.php';
-  try { console.log('LOGIN_API ->', LOGIN_API); } catch(e) {}
 
   jQuery.ajax({
       type: "POST",
-      url: LOGIN_API,
+      url: "https://globalwholesaleparts.com/controller/submit-login.php",
       data: dataString,
       success: function (response) {
           var myArray = JSON.parse(response);
@@ -88,7 +68,7 @@ jQuery( "form.header-login" ).on( "submit", function(e) {
               //     close: false
               // });
 
-              window.location.href = BASE_URL + "dashboard/";
+              window.location.href = "https://globalwholesaleparts.com/dashboard/";
           }
           if(myArray.status == 'success_affiliate'){
               jQuery('#loginDropdown').trigger('click');
@@ -97,7 +77,7 @@ jQuery( "form.header-login" ).on( "submit", function(e) {
               jQuery('.welcome-user').html('Welcome '+myArray.user);
               jQuery('#AccountDropdown').show();
 
-              window.location.href = BASE_URL + "affiliate-products/";
+              window.location.href = "https://globalwholesaleparts.com/affiliate-products/";
           }
 
           if(myArray.status == 'incorrect'){
@@ -179,12 +159,12 @@ jQuery( "form.header-login" ).on( "submit", function(e) {
 
 
 jQuery( "form.newsletter-subscription" ).on( "submit", function(e) {
- console.log("submit 2");
+ 
   var dataString = jQuery(this).serialize();
 
   jQuery.ajax({
       type: "POST",
-      url: "/fts_globalwholesaleparts/controller/submit-newsletter-subscription.php",
+      url: "https://globalwholesaleparts.com/controller/submit-newsletter-subscription.php",
       data: dataString,
       success: function (response) {
           var myArray = JSON.parse(response);
