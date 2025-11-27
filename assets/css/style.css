@@ -6344,7 +6344,7 @@ ul.products li.product:hover .text-concat{
 
     #gwp_maincarousel .item .carousel-caption{
       width: 100vw;
-      text-align: center;
+      text-align: center !important;
     }
 }
 @media (max-width: 568px) {
