@@ -6303,6 +6303,10 @@ ul.products li.product:hover .text-concat{
     .mobile-filter-icon-close{
       display: block;
     }
+
+    #gwp_maincarousel img {
+      height: 460px;
+    }
 }
 @media (max-width: 767px) {
     .parts-list-card{
@@ -6350,6 +6354,10 @@ ul.products li.product:hover .text-concat{
     #gwp_maincarousel .item .carousel-caption h1{
       padding-left: 10%;
       padding-right: 10%;
+    }
+
+    #gwp_maincarousel img {
+      height: 400px;
     }
 }
 @media (max-width: 568px) {
