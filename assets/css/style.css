@@ -6343,7 +6343,7 @@ ul.products li.product:hover .text-concat{
     }
 
     #gwp_maincarousel .item .carousel-caption{
-      width: 100vw;
+      width: 100vw !important;
       text-align: center !important;
     }
 }
