@@ -6367,6 +6367,12 @@ ul.products li.product:hover .text-concat{
     .banner-section-home .home-wrapper .nav-item .nav-link{
       min-width: 200px;
     }
+
+    .banner-section-home .nav-tabs{
+      margin-left: auto;
+      width: fit-content !important;
+      margin-right: auto;
+    }
 }
 @media (max-width: 568px) {
     .right-search{
