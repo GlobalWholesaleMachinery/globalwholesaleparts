@@ -6363,6 +6363,10 @@ ul.products li.product:hover .text-concat{
     #gwp_maincarousel .item:after{
       background-color: #00000099 !important;
     }
+
+    .banner-section-home .home-wrapper .nav-item .nav-link{
+      min-width: 200px;
+    }
 }
 @media (max-width: 568px) {
     .right-search{
