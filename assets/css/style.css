@@ -366,7 +366,7 @@ label.error {
   opacity: 1;
 }
 #gwp_maincarousel .item .carousel-caption{
-  width: 570px;
+  width: 680px;
   left: 10px;
   top: 0;
   margin-top:100px ;
@@ -6340,6 +6340,10 @@ ul.products li.product:hover .text-concat{
     }
     .common-list.three-column li img {
         display: none;
+    }
+
+    #gwp_maincarousel .item .carousel-caption{
+      text-align: center;
     }
 }
 @media (max-width: 568px) {
