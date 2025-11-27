@@ -6462,7 +6462,9 @@ ul.products li.product:hover .text-concat{
         display: none;
     }
 
-
+    .banner-section-home .home-wrapper .nav-item .nav-link {
+        min-width: 160px;
+    }
 }
 
 @media only screen and (max-width: 375px) {
