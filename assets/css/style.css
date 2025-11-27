@@ -6431,6 +6431,10 @@ ul.products li.product:hover .text-concat{
     .exist_images {
       width: 80%;
     }
+
+    .banner-section-home .home-wrapper .nav-item .nav-link{
+      font-size: 16px !important;
+    }
 }
 
 @media (max-width: 480px) {
@@ -6457,6 +6461,8 @@ ul.products li.product:hover .text-concat{
     .common-list.three-column li img {
         display: none;
     }
+
+
 }
 
 @media only screen and (max-width: 375px) {
