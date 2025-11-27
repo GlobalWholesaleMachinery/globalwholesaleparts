@@ -6359,6 +6359,10 @@ ul.products li.product:hover .text-concat{
     #gwp_maincarousel img {
       height: 400px;
     }
+
+    #gwp_maincarousel .item:after{
+      background-color: #00000099 !important;
+    }
 }
 @media (max-width: 568px) {
     .right-search{
