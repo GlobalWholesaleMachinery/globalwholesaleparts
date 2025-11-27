@@ -6346,6 +6346,11 @@ ul.products li.product:hover .text-concat{
       width: 100vw !important;
       text-align: center !important;
     }
+
+    #gwp_maincarousel .item .carousel-caption h1{
+      padding-left: 10%;
+      padding-right: 10%;
+    }
 }
 @media (max-width: 568px) {
     .right-search{
