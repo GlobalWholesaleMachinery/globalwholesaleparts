@@ -7949,7 +7949,6 @@ ol.simple-list li::marker{
 
 .acc-body {
     margin-left: 20px;
-    display: none;
     list-style: disc;
 }
 
