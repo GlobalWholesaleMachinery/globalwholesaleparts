@@ -6360,9 +6360,9 @@ ul.products li.product:hover .text-concat{
       height: 400px;
     }
 
-    #gwp_maincarousel .item:after{
+    /*#gwp_maincarousel .item:after{
       background-color: #00000099 !important;
-    }
+    }*/
 
     .banner-section-home .home-wrapper .nav-item .nav-link{
       min-width: 200px;
