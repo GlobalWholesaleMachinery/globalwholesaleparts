@@ -1489,7 +1489,7 @@ label.error {
   line-height: 24px;
 }
 .icon-list li:after{
-  background-image: none;
+  background-image: none !important;
 }
 .common-list li:after{
   position: absolute;
