@@ -1481,6 +1481,16 @@ label.error {
   font-weight: 400;
   line-height: 24px;
 }
+.icon-list li {
+  margin-bottom: 12px;
+  font-size: 18px;
+  color: #000 !important;
+  font-weight: 400;
+  line-height: 24px;
+}
+.icon-list li:after{
+  background-image: none;
+}
 .common-list li:after{
   position: absolute;
   left: 0;
