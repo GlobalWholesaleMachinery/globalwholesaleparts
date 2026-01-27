@@ -347,7 +347,7 @@ label.error {
   font-size: 12px;
 }
 #gwp_maincarousel img{
-  height: 550px;
+  height: 610px;
   object-fit: cover;
 }
 #gwp_maincarousel .owl-controls .owl-prev, #gwp_maincarousel .owl-controls .owl-next{
@@ -6315,7 +6315,7 @@ ul.products li.product:hover .text-concat{
     }
 
     #gwp_maincarousel img {
-      height: 460px;
+      height: 480px;
     }
 }
 @media (max-width: 767px) {
@@ -6367,7 +6367,7 @@ ul.products li.product:hover .text-concat{
     }
 
     #gwp_maincarousel img {
-      height: 400px;
+      height: 420px;
     }
 
     /*#gwp_maincarousel .item:after{
