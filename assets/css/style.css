@@ -3130,7 +3130,7 @@ body.modal-open .footer {
 .brand-slide .owl-item{
   display: flex;
 }
-.brand-slide .owl-item .item{
+.brand-slide .owl-item .item, .brands-list .item{
   width: 100%;
   background: rgba(255, 255, 255, 0.6);
   border: 2px solid rgba(255, 255, 255, 0.80);
