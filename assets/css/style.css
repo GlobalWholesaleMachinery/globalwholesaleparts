@@ -737,6 +737,7 @@ label.error {
   background-color: #bd2939;
   padding: 5px 10px;
   display: inline;
+  margin-top: 5px;
 }
 /*.sec-title:after{
    position: absolute;
