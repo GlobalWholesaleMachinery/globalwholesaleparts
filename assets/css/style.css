@@ -732,6 +732,12 @@ label.error {
 .homepage-shadow{
   box-shadow: 0 10px 16px 0 rgba(0, 0, 0, 0.2), 0 10px 16px 0 rgba(0, 0, 0, 0.2) !important;
 }
+.red-background{
+  text-transform: uppercase;
+  background-color: #bd2939;
+  padding: 5px 10px;
+  display: inline;
+}
 /*.sec-title:after{
    position: absolute;
    height: 2px;
