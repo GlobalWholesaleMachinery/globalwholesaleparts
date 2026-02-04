@@ -729,6 +729,9 @@ label.error {
   line-height: normal;
   font-weight: normal;
 }
+.homepage-shadow{
+  box-shadow: 0 10px 16px 0 rgba(0, 0, 0, 0.2), 0 10px 16px 0 rgba(0, 0, 0, 0.2) !important;
+}
 /*.sec-title:after{
    position: absolute;
    height: 2px;
