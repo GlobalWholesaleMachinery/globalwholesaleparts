@@ -746,6 +746,10 @@ label.error {
   display: inline-block;
   margin-top: 5px;
 }
+.woocommerce-loop-product__sub_title{
+    font-size: 14px;
+    color: #555555;
+}
 /*.sec-title:after{
    position: absolute;
    height: 2px;
