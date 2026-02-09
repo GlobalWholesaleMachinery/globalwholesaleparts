@@ -4106,7 +4106,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 .woocommerce ul.products li.product .woocommerce-loop-category__title, .woocommerce ul.products li.product .woocommerce-loop-product__title, .woocommerce ul.products li.product h3{
   padding: 0.5em;
-  min-height: 60px;
+  min-height: 111px;
 }
 .big-yellow-btn{
   color: #FFF !important;
