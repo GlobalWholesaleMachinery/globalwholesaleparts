@@ -367,6 +367,10 @@ h2 {
   background-color: #fff;
 }
 
+.products .product:hover {
+  box-shadow: 0 3px 10px 0 rgb(255 0 0 / 10%), 0 3px 10px 0 rgb(255 0 0 / 10%) !important;
+}
+
 @media (max-width:767px) {
 
   body.et-db #et-boc .et-l .et_pb_shop ul.products.columns-1 li.product,
