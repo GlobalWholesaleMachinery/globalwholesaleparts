@@ -730,7 +730,7 @@ label.error {
   font-weight: normal;
 }
 .homepage-shadow{
-  box-shadow: 0 10px 16px 0 rgba(0, 0, 0, 0.2), 0 10px 16px 0 rgba(0, 0, 0, 0.2) !important;
+  box-shadow: 0 3px 10px 0 rgba(0, 0, 0, 0.1), 0 3px 10px 0 rgba(0, 0, 0, 0.1) !important;
 }
 .red-background{
   text-transform: uppercase;
