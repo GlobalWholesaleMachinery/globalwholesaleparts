@@ -364,6 +364,7 @@ h2 {
 .products .product {
   border-radius: 6px;
   box-shadow: 0 3px 10px 0 rgba(0, 0, 0, 0.1), 0 3px 10px 0 rgba(0, 0, 0, 0.1) !important;
+  background-color: #fff;
 }
 
 @media (max-width:767px) {
