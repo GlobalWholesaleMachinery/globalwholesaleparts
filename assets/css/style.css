@@ -747,8 +747,8 @@ label.error {
   margin-top: 5px;
 }
 .woocommerce-loop-product__sub_title{
-    font-size: 14px;
-    color: #555555;
+    font-size: 14px !important;
+    color: #555555 !important;
 }
 /*.sec-title:after{
    position: absolute;
