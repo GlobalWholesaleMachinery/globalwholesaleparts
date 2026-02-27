@@ -7992,3 +7992,18 @@ ol.simple-list li::marker{
   left: 380px !important;
   width: 950px !important;
 }
+
+.popup-close {
+    position: absolute;
+    top: 15px;
+    right: 15px;
+    background-color: #fff;
+    border-radius: 50%;
+    padding: 8px;
+    opacity: 1;
+    z-index: 10;
+}
+
+.popup-close:hover{
+  background-color: #f8f9fa;
+}
