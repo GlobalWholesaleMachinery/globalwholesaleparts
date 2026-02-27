@@ -7986,3 +7986,8 @@ ol.simple-list li::marker{
 .acc-body li {
     margin: 4px 0;
 }
+
+.conexpo-slider #gwp_maincarousel .item .carousel-caption{
+  margin-top: 490px !important;
+  left: 380px !important;
+}
