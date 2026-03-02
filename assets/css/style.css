@@ -8112,7 +8112,19 @@ html, body {
 /* Medium Mobile */
 @media (max-width: 576px) {
     #gwp_maincarousel img {
-        height: 300px;
+        height: 360px;
+    }
+
+    #gwp_maincarousel .item .carousel-caption {
+        left: 0px;
+        margin-top: 100px;
+        padding: 0px 60px;
+    }
+
+    #gwp_maincarousel .item.conexpo-slider .carousel-caption{
+      margin-top: 175px !important;
+      left: 0px !important;
+      width: 100% !important;
     }
 }
 
