@@ -8042,8 +8042,8 @@ html, body {
     /*.popup-buttons {
         bottom: 15%;
         width: 70%;
-        flex-direction: column;     /* STACK BUTTONS */
-        gap: 15px;                  /* space between */
+        flex-direction: column;
+        gap: 15px;
     }*/
 
     .popup-btn-img {
