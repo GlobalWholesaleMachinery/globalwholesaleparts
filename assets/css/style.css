@@ -8061,4 +8061,9 @@ html, body {
         top: 10px;
         right: 10px;
     }
+
+    .slider-img {
+        height: auto;
+        object-fit: contain;  /* show full mobile banner */
+    }
 }
