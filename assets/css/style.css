@@ -8102,6 +8102,11 @@ html, body {
     #gwp_maincarousel img {
         height: 360px;
     }
+
+    #gwp_maincarousel .item .carousel-caption {
+        left: 0px;
+        margin-top: 65px;
+    }
 }
 
 /* Medium Mobile */
