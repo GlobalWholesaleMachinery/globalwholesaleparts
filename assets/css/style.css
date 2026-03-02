@@ -8038,3 +8038,39 @@ ol.simple-list li::marker{
 html, body {
     overflow-x: hidden;
 }
+
+/* Desktop Default */
+.popup-buttons {
+    position: absolute;
+    bottom: 4%;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* ================= MOBILE VIEW ================= */
+@media (max-width: 768px) {
+
+    .modal-dialog {
+        margin: 10px;
+    }
+
+    .popup-buttons {
+        bottom: 6%;
+        width: 70%;
+        flex-direction: column;     /* STACK BUTTONS */
+        gap: 15px;                  /* space between */
+    }
+
+    .popup-btn-img {
+        max-width: 100%;
+    }
+
+    .popup-close {
+        top: 10px;
+        right: 10px;
+    }
+}
