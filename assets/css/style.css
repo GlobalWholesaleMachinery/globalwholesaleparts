@@ -8039,18 +8039,6 @@ html, body {
     overflow-x: hidden;
 }
 
-/* Desktop Default */
-.popup-buttons {
-    position: absolute;
-    bottom: 4%;
-    left: 50%;
-    transform: translateX(-50%);
-    width: 80%;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-
 /* ================= MOBILE VIEW ================= */
 @media (max-width: 768px) {
 
@@ -8059,7 +8047,7 @@ html, body {
     }
 
     .popup-buttons {
-        bottom: 10%;
+        bottom: 15%;
         width: 70%;
         flex-direction: column;     /* STACK BUTTONS */
         gap: 15px;                  /* space between */
