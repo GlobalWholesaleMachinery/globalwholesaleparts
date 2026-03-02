@@ -8034,3 +8034,7 @@ ol.simple-list li::marker{
 .popup-btn-img:hover {
     transform: scale(1.05);
 }
+
+html, body {
+    overflow-x: hidden;
+}
