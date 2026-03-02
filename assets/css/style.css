@@ -8008,34 +8008,36 @@ ol.simple-list li::marker{
   background-color: #f8f9fa;
 }
 
-/* Remove modal padding */
-#expo-popup .modal-body {
-    padding: 0;
+.image-section {
+    position: relative;
 }
 
-/* Buttons background strip */
+.popup-close {
+    position: absolute;
+    top: 15px;
+    right: 15px;
+    z-index: 10;
+}
+
+/* Buttons container */
 .popup-buttons {
-    background: #f3f3f3;
-    padding: 30px 20px;
-    text-align: center;
-}
-
-/* Flex alignment like original */
-.button-wrapper {
+    position: absolute;
+    bottom: 8%;   /* adjust to match original */
+    left: 50%;
+    transform: translateX(-50%);
+    width: 80%;
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
-    gap: 40px; /* space between buttons */
-    flex-wrap: wrap;
 }
 
-/* Button image sizing */
-.button-wrapper img {
-    max-height: 90px;
+/* Button images */
+.popup-btn-img {
+    max-width: 90%;
+    height: auto;
     transition: transform 0.3s ease;
 }
 
-/* Optional hover effect */
-.button-wrapper img:hover {
+.popup-btn-img:hover {
     transform: scale(1.05);
 }
