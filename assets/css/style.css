@@ -8059,7 +8059,7 @@ html, body {
     }
 
     .popup-buttons {
-        bottom: 6%;
+        bottom: 10%;
         width: 70%;
         flex-direction: column;     /* STACK BUTTONS */
         gap: 15px;                  /* space between */
