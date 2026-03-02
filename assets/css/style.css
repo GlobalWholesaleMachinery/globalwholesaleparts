@@ -370,7 +370,7 @@ label.error {
   width: 680px;
   left: 10px;
   top: 0;
-  margin-top: 120px;
+  margin-top: 150px;
   z-index: 1;
 }
 #gwp_maincarousel .item .carousel-caption h1, #gwp_maincarousel .item .carousel-caption .h1{
@@ -7981,8 +7981,8 @@ ol.simple-list li::marker{
 }
 
 #gwp_maincarousel .item.conexpo-slider .carousel-caption{
-  margin-top: 510px !important;
-  left: 380px !important;
+  margin-top: 550px !important;
+  left: 400px !important;
   width: 950px !important;
 }
 
@@ -8039,12 +8039,12 @@ html, body {
         margin: 10px;
     }
 
-    .popup-buttons {
+    /*.popup-buttons {
         bottom: 15%;
         width: 70%;
         flex-direction: column;     /* STACK BUTTONS */
         gap: 15px;                  /* space between */
-    }
+    }*/
 
     .popup-btn-img {
         max-width: 100%;
