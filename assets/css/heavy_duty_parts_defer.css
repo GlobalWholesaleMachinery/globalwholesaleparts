@@ -424,7 +424,7 @@ div.et_pb_section.et_pb_section_1_tb_header {
   top:-35px;
   transform:none;
   color:#fff;
-  background-color: #bd2939;
+  background-color: #002351;
   width: 25px;
   height: 25px;
   text-align: center;
@@ -437,7 +437,7 @@ div.et_pb_section.et_pb_section_1_tb_header {
   top:-35px;
   transform:none;
   color:#fff;
-  background-color: #bd2939;
+  background-color: #002351;
   width: 25px;
   height: 25px;
   text-align: center;
@@ -508,7 +508,7 @@ div.et_pb_section.et_pb_section_11 {
 
 .banner-button:hover{
   background-color: #fff !important;
-  color: #bd2939;
+  color: #002351;
 }
 
 @media only screen and (min-width: 1600px){

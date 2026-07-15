@@ -59,11 +59,6 @@
     height: 40px !important;
  }
 }
-@media (min-width: 768px) and (max-width: 1500px) {
-    .logo-block .logo div {
-        max-width: 210px !important;
-    }
-}
 @media (min-width: 1240px) and (max-width: 1340px) {
     .buy-now-btn{
         min-width: 100px;
@@ -496,7 +491,7 @@
         font-size: 1rem;
     }
 }
-@media (max-width: 1011px) {
+@media (max-width: 768px) {
     .login-buttons{
         display: none !important;
     }
@@ -525,11 +520,11 @@
     .inventory_menu_icon.ubermenu-skin-grey-white.ubermenu-responsive-toggle{
         position: absolute;
         border-radius: 5px;
-        top: -56px;
+        top: -65px;
         right: 0px;
         width: auto;
         background: transparent;
-        color: #bd2939;
+        color: #002351;
         border: 1px solid;
         padding: 2px 8px;
     }
@@ -545,22 +540,22 @@
     .mobile_phone_header{
         position: absolute;
         border-radius: 5px;
-        top: -56px;
+        top: -66px;
         right: 120px;
         width: auto;
         background: transparent;
-        color: #bd2939;
+        color: #002351;
         display: block;
         
     }
     .mobile_email_header{
         position: absolute;
         border-radius: 5px;
-        top: -56px;
+        top: -66px;
         right: 60px;
         width: auto;
         background: transparent;
-        color: #bd2939;
+        color: #002351;
         display: block;
     }
     .mobile_phone_header .btn, .mobile_email_header .btn{
@@ -636,11 +631,11 @@
     .inventory_menu_icon.ubermenu-skin-grey-white.ubermenu-responsive-toggle{
         position: absolute;
         border-radius: 5px;
-        top: -49px;
+        top: -65px;
         right: 0px;
         width: auto;
         background: transparent;
-        color: #bd2939;
+        color: #002351;
         border: 1px solid;
         padding: 2px 8px;
     }
@@ -656,22 +651,22 @@
     .mobile_phone_header{
         position: absolute;
         border-radius: 5px;
-        top: -49px;
+        top: -66px;
         right: 120px;
         width: auto;
         background: transparent;
-        color: #bd2939;
+        color: #002351;
         display: block;
         
     }
     .mobile_email_header{
         position: absolute;
         border-radius: 5px;
-        top: -49px;
+        top: -66px;
         right: 60px;
         width: auto;
         background: transparent;
-        color: #bd2939;
+        color: #002351;
         display: block;
     }
     .mobile_phone_header .btn, .mobile_email_header .btn{
@@ -1028,7 +1023,7 @@
     .search-parts{
         display: flex !important;
     }
-    .main-search, .get-a-quote-header-btn{
+    .main-search, .get-a-quote-header-btn, .get-a-quote-header-btn-mobile{
         margin: 0 10px;
     }
     .first-search-btn{
@@ -1065,22 +1060,22 @@
     .mobile_phone_header{
         position: absolute;
         border-radius: 5px;
-        top: -49px;
+        top: -66px;
         right: 113px;
         width: auto;
         background: transparent;
-        color: #bd2939;
+        color: #002351;
         display: block;
         
     }
     .mobile_email_header{
         position: absolute;
         border-radius: 5px;
-        top: -49px;
+        top: -66px;
         right: 55px;
         width: auto;
         background: transparent;
-        color: #bd2939;
+        color: #002351;
         display: block;
     }
     .mobile_phone_header .btn, .mobile_email_header .btn{
@@ -1321,7 +1316,13 @@
         width: 100%;
     }
     .main-search{
-        width: 65%;
+        width: auto;
+        flex: 1 1 auto;
+        min-width: 0;
+    }
+    .main-search #advance-search,
+    .main-search #keyword{
+        min-width: 0;
     }
     .search-bar{
         margin-bottom: 0px !important;
@@ -1329,7 +1330,7 @@
     .mobile_filter_header_search{
         display: flex;
         align-items: center;
-        border: 1px solid #bd2939 !important;
+        border: 1px solid #002351 !important;
         padding: 7px;
         border-radius: 5px;
         cursor: pointer;
@@ -1369,7 +1370,7 @@
         bottom: 0px !important;
     }
     .new_inventory_mobile .inventory_bottom_menu .active_inventory_icon, .inventory_redirect.active_button_icon{
-        background: #bd2939;
+        background: #002351;
         border-radius: 5px;
     }
     .new_inventory_mobile .inventory_bottom_menu .active_inventory_icon img, .active_button_icon img{
@@ -1409,7 +1410,7 @@
          display: block;   
     }
     .new_inventory_mobile #read-more-btn{
-        color: #bd2939;
+        color: #002351;
         display: block !important;
         margin-top: 10px;
     }
@@ -1427,11 +1428,11 @@
     .inventory_menu_icon.ubermenu-skin-grey-white.ubermenu-responsive-toggle{
         position: absolute;
         border-radius: 5px;
-        top: -49px;
+        top: -65px;
         right: 0px;
         width: auto;
         background: transparent;
-        color: #bd2939;
+        color: #002351;
         border: 1px solid;
         padding: 2px 8px;
     }
@@ -1470,7 +1471,7 @@
 }
 @media only screen and (max-width:375px){
     .mobile_phone_header, .mobile_email_header, .inventory_menu_icon.ubermenu-skin-grey-white.ubermenu-responsive-toggle{
-        top: -48px;
+        top: -66px;
     }
 }
 @media (max-width: 1141px) {
@@ -1516,6 +1517,13 @@
     }
 }
 
+@media only screen and (max-width:576px){
+    footer .et_pb_image_0_tb_footer{
+        text-align: center;
+        margin: 0 auto;
+    }
+}
+
 @media only screen and (max-width:480px){
     footer .et_pb_image_0_tb_footer{
         text-align: center;
@@ -1539,5 +1547,95 @@
         column-count: unset;
         width: 100%;
     }
+}
+
+/* Mobile (<768px) header: show only the logo + hamburger drawer trigger.
+   Everything else (search, camera, quote, sign-in, nav, cart) lives in
+   #mobileHeaderDrawer instead. Tablet (768-1011px) keeps its current layout.
+   Placed at the end of the last-loaded stylesheet so it wins every !important
+   tie against the older breakpoint rules above. */
+.mobile-drawer-toggle-col,
+.mobile-drawer-toggle {
+    display: none !important;
+}
+
+@media (max-width: 768px) {
+    .search-parts,
+    #dealer_login_sec,
+    #main-nav-section {
+        display: none !important;
+    }
+    .mobile-drawer-toggle-col {
+        display: flex !important;
+    }
+    .mobile-drawer-toggle {
+        display: inline-flex !important;
+        align-items: center;
+        justify-content: center;
+        width: 38px;
+        height: 38px;
+        border: none;
+        border-radius: 4px;
+        background-color: #0057B8;
+        color: #fff;
+        font-size: 16px;
+        padding: 0;
+    }
+    .mobile-drawer-toggle:hover,
+    .mobile-drawer-toggle:focus {
+        background-color: #004a9f;
+    }
+}
+
+/* footer_bottom_menu (home/phone/cart bar) was only shown <=568px; keep it
+   visible for the whole mobile range, up to the 768px breakpoint. */
+@media (max-width: 768px) {
+    .footer_bottom_menu {
+        display: block !important;
+        position: fixed;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        z-index: 9;
+        background: #fff;
+        border-top: 1px solid #000;
+    }
+    .inventory_redirect.active_button_icon {
+        background: #002351;
+        border-radius: 5px;
+    }
+    .active_button_icon img {
+        filter: brightness(0) saturate(100%) invert(100%) sepia(0%) saturate(7495%) hue-rotate(328deg) brightness(103%) contrast(100%);
+    }
+}
+
+/* 769px+ is one unified "web view" (no separate 768-1011 tablet mode):
+   full header row, desktop sign-in dropdown, and full nav, all restored
+   here since the old rules above only hid them up to 959px/767px. */
+@media (min-width: 769px) {
+    .get-a-quote-header-btn {
+        display: inline-flex !important;
+    }
+    .get-a-quote-header-btn-mobile {
+        display: none !important;
+    }
+    .login-buttons {
+        display: flex !important;
+    }
+    #dealer_login_sec {
+        display: none !important;
+    }
+    /* header{display:flex;flex-direction:column} (<=991px) and
+       .search-engine-section-header{order:3} (<=959px) above were built for
+       the old tablet design and reverse the header/nav stacking order.
+       769px+ is now a unified web view, so restore normal top-to-bottom
+       order here (same file, later in the cascade, so this wins the tie). */
+    header {
+        display: block !important;
+    }
+    .search-engine-section-header {
+        order: 0 !important;
+    }
+}
 
 }

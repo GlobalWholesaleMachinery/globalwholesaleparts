@@ -333,14 +333,14 @@ if (isset($brand_detail) && $brand_detail == 'inventory_brand') {
 	  	color: #fff;
 	  }
 	  .morelink{
-	  	color: #bd2939;
+	  	color: #002351;
 	  }
 	  .cta-link{
-	  	color: #bd2939;
+	  	color: #002351;
 	  }
 	  .small-yellow-btn, .big-yellow-btn{
 	  	border-width: 1px !important;
-    	border: 1px solid #bd2939;
+    	border: 1px solid #002351;
 	  }
 	  .big-white-btn{
 		  border: 1px solid #fff;
@@ -376,7 +376,7 @@ if (isset($brand_detail) && $brand_detail == 'inventory_brand') {
 	    text-decoration: none;
 		}
 		.header-cart a span {
-		    background: #bd2939;
+		    background: #002351;
 		    width: 1.5rem;
 		    height: 1.5rem;
 		    border-radius: 50%;

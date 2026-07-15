@@ -209,7 +209,7 @@ div.et_pb_section.et_pb_section_1_tb_header {
 .et_pb_social_media_follow_network_0_tb_footer a.icon,
 .et_pb_social_media_follow_network_1_tb_footer a.icon,
 .et_pb_social_media_follow_network_2_tb_footer a.icon {
-  background-color: #bd2939 !important;
+  background-color: #002351 !important;
 }
 @media only screen and (min-width: 981px) {
   .et_pb_text_0_tb_footer {
@@ -374,10 +374,10 @@ body #page-container .et_pb_section .et_pb_button_6,
 body #page-container .et_pb_section .et_pb_button_5 {
   color: #ffffff !important;
   border-width: 2px !important;
-  border-color: #bd2939;
+  border-color: #002351;
   border-radius: 4px;
   letter-spacing: 0px;
-  background-color: #bd2939;
+  background-color: #002351;
 }
 body #page-container .et_pb_section .et_pb_button_1:hover,
 body #page-container .et_pb_section .et_pb_button_4:hover,
@@ -386,7 +386,7 @@ body #page-container .et_pb_section .et_pb_button_5:hover,
 body #page-container .et_pb_section .et_pb_button_0:hover,
 body #page-container .et_pb_section .et_pb_button_3:hover,
 body #page-container .et_pb_section .et_pb_button_6:hover {
-  color: #bd2939 !important;
+  color: #002351 !important;
   background-image: initial;
   background-color: transparent;
 }

@@ -44,7 +44,7 @@
 .woocommerce-page #content input.button,
 .woocommerce-message a.button.wc-forward,
 body .et_pb_button {
-  background-color: #bd2939;
+  background-color: #002351;
   border-width: 0px !important;
   font-weight: bold;
   font-style: normal;
@@ -81,7 +81,7 @@ body .et_pb_bg_layout_light.et_pb_button:hover,
 body .et_pb_bg_layout_light .et_pb_button:hover,
 body .et_pb_button:hover {
   color: #000000 !important;
-  background-color: #bd2939;
+  background-color: #002351;
 }
 .woocommerce a.button.alt:hover,
 .woocommerce-page a.button.alt:hover,
@@ -106,7 +106,7 @@ body .et_pb_button:hover {
 .woocommerce #content input.button:hover,
 .woocommerce-page #content input.button:hover {
   color: #000000 !important;
-  background-color: #bd2939 !important;
+  background-color: #002351 !important;
 }
 @media only screen and (min-width: 1600px) {
   .et_pb_row {
@@ -144,7 +144,7 @@ select {
   padding-bottom: 1rem !important;
   padding-left: 1.5rem !important;
   color: #000000;
-  background-color: #bd2939;
+  background-color: #002351;
   border-width: 0px !important;
   font-weight: bold;
   font-style: normal;
@@ -162,7 +162,7 @@ select {
   padding-bottom: 0.5rem !important;
   padding-left: 1rem !important;
   color: #000000;
-  background-color: #bd2939;
+  background-color: #002351;
   border-width: 0px !important;
   font-weight: bold;
   font-style: normal;

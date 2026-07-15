@@ -16,11 +16,11 @@
     color: #0a2540;
 }
 .login-tab li .nav-link.active{
-    border-bottom: 3px solid #bd2939 !important;
-    color:#bd2939;
+    border-bottom: 3px solid #002351 !important;
+    color:#002351;
 }
 .header-login .fp-text{
-    color: #bd2939;
+    color: #002351;
     font-weight: 500;
     text-decoration: underline;
     font-size: 15px;
@@ -29,7 +29,7 @@
     color: #000;
 }
 .header-login .reg-text{
-    color: #bd2939;
+    color: #002351;
     text-decoration: underline;
     font-weight: 500;
  }
@@ -147,7 +147,7 @@
     color:#0a2540;
 }
 .qty-rep-card1 .info-ctn-body h3 a:hover{
-    color: #bd2939;
+    color: #002351;
 }
 .qty-rep-card1 .info-ctn-body p{
     width: 100%;
@@ -158,7 +158,7 @@
     padding: 0;
 }
 .qty-rep-card1 .info-ctn-body p a{
-    color: #bd2939;
+    color: #002351;
     font-weight: 700;
 }
 .qty-rep-card1 .info-ctn-body p a:hover{
@@ -198,7 +198,7 @@
     color:#0a2540;
 }
 .qty-rep-card .info-ctn-body h3 a:hover{
-    color: #bd2939;
+    color: #002351;
 }
 .qty-rep-card .info-ctn-body p{
     width: 100%;
@@ -209,7 +209,7 @@
     padding: 0;
 }
 .qty-rep-card .info-ctn-body p a{
-    color: #bd2939;
+    color: #002351;
     font-weight: 700;
 }
 .qty-rep-card .info-ctn-body p a:hover{
@@ -243,7 +243,7 @@
 }
 .breadcrumb-sec a{
     font-size: 15px;
-    color: #bd2939;
+    color: #002351;
 }
 .et-breadcrumb{
     font-size: 15px !important;
@@ -405,10 +405,10 @@
     box-shadow: 0px 4px 8px rgba(0,0,0,0.10);
 }
 .model-list-link .model-icon:hover{
-    box-shadow: 0px 4px 8px #bd29391c;
+    box-shadow: 0px 4px 8px #0023511c;
 } 
 .model-list-link p:hover{
-    color: #bd2939;
+    color: #002351;
 } 
 .model-list-card p{
     width: 100%;
@@ -434,7 +434,7 @@
     display: flex;
     flex-direction: column;
     border-radius: 8px;
-    border-bottom: #bd2939 solid 3px;
+    border-bottom: #002351 solid 3px;
     box-shadow: rgba(0,0,0,0.12) 0 4px 8px;
 }
 .reated-parts-card:hover{
@@ -462,7 +462,7 @@
     color: #0a2540;
 }
 .reated-parts-card .part-name-body h4 a:hover{
-    color: #bd2939;
+    color: #002351;
 }
 .reated-parts-card .part-name-body p{
     font-size: 14px;
@@ -498,7 +498,7 @@
     transform: translateY(-50%);
 }
 a.bread-crumb-link{
-    color: #bd2939;
+    color: #002351;
 }
 .et_pb_breadcrumb {
     padding: 1% 0;
@@ -557,7 +557,7 @@ h1.lowecase, h2.lowecase, h3.lowecase, h4.lowecase, h5.lowecase, h6.lowecase{
 }
 
 .new-read-more{
-    color: #bd2939;
+    color: #002351;
     font-weight: 700;
 }
 /*
@@ -572,7 +572,7 @@ Umair Changes CSS
   text-align: center;
   font-size: 32px;
   font-weight: bold;
-  color: #bd2939;
+  color: #002351;
   text-transform: uppercase;
 }
 .enhanced-section {
@@ -596,7 +596,7 @@ Umair Changes CSS
     position: absolute;
     width: 100%;
     height: 5px;
-    background: #bd2939;
+    background: #002351;
     top: 0;
     left: 0;
     transform: scaleX(0);
@@ -616,13 +616,13 @@ Umair Changes CSS
 .line {
     width: 50px;
     height: 2px;
-    background: #bd2939;
+    background: #002351;
     margin: 0 auto 20px auto;
 }
 .top-line {
     width: 50px;
     height: 2px;
-    background: #bd2939;
+    background: #002351;
     margin: 0 auto 0 auto;
 }
 .enhanced-section p span {
@@ -630,7 +630,7 @@ Umair Changes CSS
     transition: color 0.3s;
 }
 .enhanced-section p:hover span {
-    color: #bd2939; /* Text color change on hover */
+    color: #002351; /* Text color change on hover */
 }
 
 @media (max-width: 1280px) {

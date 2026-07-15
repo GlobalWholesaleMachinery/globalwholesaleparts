@@ -208,7 +208,7 @@ div.et_pb_section.et_pb_section_1_tb_header {
 .et_pb_social_media_follow_network_0_tb_footer a.icon,
 .et_pb_social_media_follow_network_1_tb_footer a.icon,
 .et_pb_social_media_follow_network_2_tb_footer a.icon {
-  background-color: #bd2939 !important;
+  background-color: #002351 !important;
 }
 @media only screen and (min-width: 981px) {
   .et_pb_text_0_tb_footer {
@@ -345,7 +345,7 @@ div.et_pb_section.transmission-rebuild-services {
 }
 .et_pb_text_5.et_pb_text,
 .et_pb_text_2.et_pb_text a {
-  color: #bd2939 !important;
+  color: #002351 !important;
 }
 .et_pb_button_0_wrapper .et_pb_button_0,
 .et_pb_button_0_wrapper .et_pb_button_0:hover,
@@ -357,13 +357,13 @@ div.et_pb_section.transmission-rebuild-services {
 body #page-container .et_pb_section .et_pb_button_0 {
   color: #ffffff !important;
   border-width: 2px !important;
-  border-color: #bd2939;
+  border-color: #002351;
   border-radius: 4px;
   letter-spacing: 0px;
-  background-color: #bd2939;
+  background-color: #002351;
 }
 body #page-container .et_pb_section .et_pb_button_0:hover {
-  color: #bd2939 !important;
+  color: #002351 !important;
   background-image: initial;
   background-color: transparent;
 }
@@ -591,7 +591,7 @@ div.et_pb_section.et_pb_section_4 {
   text-shadow: none;
 }
 div.et_pb_section.et_pb_section_10 {
-  background-image: linear-gradient(90deg, #bd2939 50%, #000000 50%),
+  background-image: linear-gradient(90deg, #002351 50%, #000000 50%),
     url(https://globalwholesaleparts.com/assets/images/transmission.jpg) !important;
 }
 .et_pb_column_11 {
@@ -618,7 +618,7 @@ div.et_pb_section.et_pb_section_10 {
 body #page-container .et_pb_section .et_pb_button_1 {
   color: #000000 !important;
   border-width: 2px !important;
-  border-color: #bd2939;
+  border-color: #002351;
   border-radius: 4px;
   letter-spacing: 0px;
   background-color: #ffffff;
@@ -647,7 +647,7 @@ body #page-container .et_pb_section .et_pb_button_1:hover {
 .et_pb_blurb_8.et_pb_blurb .et_pb_module_header,
 .et_pb_blurb_8.et_pb_blurb .et_pb_module_header a {
   font-size: 24px;
-  color: #bd2939 !important;
+  color: #002351 !important;
   line-height: 1.2em;
 }
 .et_pb_blurb_6.et_pb_blurb,
@@ -738,7 +738,7 @@ body #page-container .et_pb_section .et_pb_button_1:hover {
   div.et_pb_section.et_pb_section_10 {
     background-image: linear-gradient(
       180deg,
-      #bd2939 46%,
+      #002351 46%,
       #000000 46%
     ) !important;
   }
@@ -786,7 +786,7 @@ body #page-container .et_pb_section .et_pb_button_1:hover {
   div.et_pb_section.et_pb_section_10 {
     background-image: linear-gradient(
       180deg,
-      #bd2939 47%,
+      #002351 47%,
       #000000 36%
     ) !important;
   }

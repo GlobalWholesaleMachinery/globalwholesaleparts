@@ -41,7 +41,7 @@
 .woocommerce-page #content input.button,
 .woocommerce-message a.button.wc-forward,
 body .et_pb_button {
-	background-color: #bd2939;
+	background-color: #002351;
 	border-width: 0px !important;
 	font-weight: bold;
 	font-style: normal;
@@ -80,7 +80,7 @@ body .et_pb_bg_layout_light.et_pb_button:hover,
 body .et_pb_bg_layout_light .et_pb_button:hover,
 body .et_pb_button:hover {
 	color: #000000 !important;
-	background-color: #bd2939
+	background-color: #002351
 }
 
 .woocommerce a.button.alt:hover,
@@ -106,7 +106,7 @@ body .et_pb_button:hover {
 .woocommerce #content input.button:hover,
 .woocommerce-page #content input.button:hover {
 	color: #000000 !important;
-	background-color: #bd2939 !important
+	background-color: #002351 !important
 }
 
 @media only screen and (min-width:1600px) {
@@ -159,7 +159,7 @@ select {
 	padding-bottom: 1rem !important;
 	padding-left: 1.5rem !important;
 	color: #000000;
-	background-color: #bd2939;
+	background-color: #002351;
 	border-width: 0px !important;
 	font-weight: bold;
 	font-style: normal;
@@ -178,7 +178,7 @@ select {
 	padding-bottom: 0.5rem !important;
 	padding-left: 1rem !important;
 	color: #000000;
-	background-color: #bd2939;
+	background-color: #002351;
 	border-width: 0px !important;
 	font-weight: bold;
 	font-style: normal;
@@ -191,7 +191,7 @@ select {
 }
 
 .yellow-horizontal-line {
-	border-bottom: 5px solid #bd2939;
+	border-bottom: 5px solid #002351;
 	width: 182px;
 	margin: 0 auto
 }
@@ -268,7 +268,7 @@ h2 {
 }
 
 .yellow-horizontal-line-thin {
-	border-bottom: 2px solid #bd2939;
+	border-bottom: 2px solid #002351;
 	width: 100px
 }
 
@@ -417,12 +417,12 @@ h2 {
 .tel,
 .oem,
 .et-dynamic-content-woo a {
-	color: #bd2939 !important
+	color: #002351 !important
 }
 
 .tel:hover,
 .et-dynamic-content-woo a:hover {
-	color: #bd2939 !important
+	color: #002351 !important
 }
 
 .text-box-33 {
@@ -859,7 +859,7 @@ div.et_pb_section.et_pb_section_1_tb_header {
   top:-35px;
   transform:none;
   color:#fff;
-  background-color: #bd2939;
+  background-color: #002351;
   width: 25px;
   height: 25px;
   text-align: center;
@@ -872,7 +872,7 @@ div.et_pb_section.et_pb_section_1_tb_header {
   top:-35px;
   transform:none;
   color:#fff;
-  background-color: #bd2939;
+  background-color: #002351;
   width: 25px;
   height: 25px;
   text-align: center;
@@ -943,7 +943,7 @@ div.et_pb_section.et_pb_section_11 {
 
 .banner-button:hover{
   background-color: #fff !important;
-  color: #bd2939;
+  color: #002351;
 }
 
 
@@ -997,11 +997,11 @@ div.et_pb_section.et_pb_section_11 {
 }
 
 .phone-cta i, .email-cta i, .chat-cta i{
-	color: #bd2939;
+	color: #002351;
 }
 
 .or-text{
-	color: #bd2939;
+	color: #002351;
   font-weight: 600;
 }
 

@@ -90,7 +90,7 @@
 }
 
 /** UberMenu Custom Tweaks - Desktop **/
-@media screen and (min-width:960px) {
+@media screen and (min-width:769px) {
   #ubermenu-main-17 .ubermenu-item-type-column>.ubermenu-submenu-type-stack, .ubermenu-top-bottom-padding {
     padding: 10px 0 !important
   }
