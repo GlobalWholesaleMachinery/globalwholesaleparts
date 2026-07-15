@@ -455,7 +455,13 @@ h2 {
 }
 
 .products .product {
-  border: solid 1px #dbdbdb
+  border-radius: 6px;
+  box-shadow: 0 3px 10px 0 rgba(0, 0, 0, 0.1), 0 3px 10px 0 rgba(0, 0, 0, 0.1) !important;
+  background-color: #fff;
+}
+
+.products .product:hover {
+  box-shadow: 0 3px 10px 0 rgb(255 0 0 / 10%), 0 3px 10px 0 rgb(255 0 0 / 10%) !important;
 }
 
 @media (max-width:767px) {
@@ -1120,7 +1126,7 @@ body.et_pb_pagebuilder_layout.single.et_full_width_page #page-container #et-boc 
 }
 
 .container, .et_pb_row, .et_pb_slider .et_pb_container, .et_pb_fullwidth_section .et_pb_title_container, .et_pb_fullwidth_section .et_pb_title_featured_container, .et_pb_fullwidth_header:not(.et_pb_fullscreen) .et_pb_fullwidth_header_container{
-  max-width: 100% !important;
+  max-width: 100%;
 }
 
 @media (max-width:992px) {
