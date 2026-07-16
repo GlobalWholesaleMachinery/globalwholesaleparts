@@ -4518,7 +4518,9 @@ h1, h2, h3, h4, h5, h6 {
 }
 .order-section .et_pb_text_inner h2,
 .home-brand-section .et_pb_text_inner h2,
-.home-parts-section .et_pb_text_inner h2 {
+.home-parts-section .et_pb_text_inner h2,
+.landing-page-manufacturer-section h1,
+.landing-page-manufacturer-section h2 {
   color: #0057B8;
 }
 .yellow-horizontal-line{
@@ -4947,12 +4949,12 @@ h1, h2, h3, h4, h5, h6 {
 
 .primary-btn-home-banner{
   line-height: normal;
-  background-color: #002351;
+  background-color: #0057B8;
   color: #fff;
   font-size: 14px;
   text-align: center;
   display: inline-block;
-  border: 1px solid #002351;
+  border: 1px solid #0057B8;
   padding: 8px 15px;
   border-radius: 4px;
   -moz-border-radius: 4px;
@@ -7184,9 +7186,9 @@ ul.products li.product:hover .text-concat{
   box-shadow: 0px 4px 8px rgba(10, 37, 64, 0.10) !important;
 }
 .manufacturer-items .btn-light:hover, .btn-check:checked+.btn-light{
-  background-color: #002351;
+  background-color: #0057B8;
   color: #fff;
-  border-color: #002351;
+  border-color: #0057B8;
 }
 .landing-page-manufacturer-section, .landing-page-engine-component-type-section, .landing-page-all-parts-section, .landing-page-engine-series-section, .landing-page-models-section, .landing-page-part-types-section, .landing-page-brands-section, .landing-page-no-product-section{
   padding: 10px;
@@ -9260,7 +9262,7 @@ body > .goog-te-spinner-pos,
   align-items:center;
   justify-content:space-between;
   gap:15px;
-  margin:20px;
+  margin-bottom:20px;
 }
 .dashboard-hero-title{ text-align:left; }
 .welcome-back-text{
@@ -9281,7 +9283,6 @@ body > .goog-te-spinner-pos,
   display:flex;
   align-items:center;
   gap:10px;
-  margin: 0 20px;
 }
 .tagline-shield{
   width:32px;
@@ -9431,7 +9432,7 @@ body > .goog-te-spinner-pos,
   font-size:11px;
   font-weight:700;
   padding:4px 10px;
-  border-radius: 20px 0 0 20px;
+  border-radius:20px 0 0 20px;
   z-index:3;
   white-space:nowrap;
 }
@@ -9547,8 +9548,7 @@ body > .goog-te-spinner-pos,
 }
  
 .dashboard-call-to-actions-dark .bg-white.rounded-3:after,
-.dashboard-call-to-actions-dark-second .bg-white.rounded-3:after, 
-.dashboard-call-to-actions-dark .first-quarter-order:after {
+.dashboard-call-to-actions-dark-second .bg-white.rounded-3:after {
   font-family: "Font Awesome 6 Free";
   font-weight: 900;
   content: "\f105"; /* chevron-right */
