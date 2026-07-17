@@ -4570,6 +4570,9 @@ h1, h2, h3, h4, h5, h6 {
 .download-brochures-section{
   min-height: 700px;
 }
+.download-brochures-section h3 a span{
+  color: #0057B8;
+}
 #get-a-quote{
   font-size: 15px !important;
 }

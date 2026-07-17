@@ -186,6 +186,7 @@ h2 {
   text-transform: uppercase;
   font-size: 36px;
   line-height: 1.2em;
+  color: #0057B8;
 }
 @media only screen and (max-width: 768px) {
   h1 {
@@ -754,6 +755,7 @@ div.et_pb_section.custom_background {
   text-transform: uppercase;
   font-size: 36px;
   line-height: 1.2em;
+  color: #0057B8;
 }
 .et_pb_text_2 {
   margin-bottom: 10px !important;
