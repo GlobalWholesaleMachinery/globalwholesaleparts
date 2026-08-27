@@ -9879,87 +9879,6 @@ body > .goog-te-spinner-pos,
 }
 
 /* =========================================================
-   VIP DASHBOARD — MOBILE SECTION GROUPING FIX (2026-08-24)
-   Client ask: on mobile, each product-line category (GQP Fleet /
-   Customer-Segregated GQP / GWP Spare Parts) must read as ONE complete
-   section (heading -> OEM -> Total -> Savings -> Semi-Annual Order)
-   before the next category begins, ending with a single Combined
-   total. Desktop's existing 3-column layout must NOT change.
-
-   How: the .mob-ord-N classes are placed on the same DOM nodes in
-   dashboard/index.php that already exist today — nothing is moved,
-   added, or removed from the page structure, and no calculation is
-   touched. Below the `lg` breakpoint (matching Bootstrap's own
-   col-lg-4/col-lg-12 cutoff) this pure CSS `order` reorders how the
-   flex row *displays* those same nodes; at `lg` and above this block
-   doesn't apply at all, so desktop keeps the exact layout it has today.
-   ========================================================= */
-@media (max-width: 991.98px) {
-  /* one column, edge to edge, so every section reads top-to-bottom
-     instead of 2-per-row (client: "all cards must use the same
-     mobile width") */
-  .dashboard-call-to-actions-light > div {
-    flex: 0 0 100% !important;
-    max-width: 100% !important;
-  }
-
-  .dashboard-call-to-actions-light .mob-ord-1  { order: 1;  }
-  .dashboard-call-to-actions-light .mob-ord-2  { order: 2;  }
-  .dashboard-call-to-actions-light .mob-ord-3  { order: 3;  }
-  .dashboard-call-to-actions-light .mob-ord-4  { order: 4;  }
-  .dashboard-call-to-actions-light .mob-ord-5  { order: 5;  }
-  .dashboard-call-to-actions-light .mob-ord-6  { order: 6;  }
-  .dashboard-call-to-actions-light .mob-ord-7  { order: 7;  }
-  .dashboard-call-to-actions-light .mob-ord-8  { order: 8;  }
-  .dashboard-call-to-actions-light .mob-ord-9  { order: 9;  }
-  .dashboard-call-to-actions-light .mob-ord-10 { order: 10; }
-  .dashboard-call-to-actions-light .mob-ord-11 { order: 11; }
-  .dashboard-call-to-actions-light .mob-ord-12 { order: 12; }
-  .dashboard-call-to-actions-light .mob-ord-13 { order: 13; }
-  .dashboard-call-to-actions-light .mob-ord-14 { order: 14; }
-  .dashboard-call-to-actions-light .mob-ord-15 { order: 15; }
-  .dashboard-call-to-actions-light .mob-ord-16 { order: 16; }
-
-  /* clear visual break before Section 2 and Section 3 begin
-     (client: "maintain sufficient spacing... so there is no question
-     where one category ends and the next begins") */
-  .dashboard-call-to-actions-light .mob-ord-6,
-  .dashboard-call-to-actions-light .mob-ord-11 {
-    margin-top: 26px !important;
-  }
-
-  /* section headings bigger/bolder than individual card titles
-     (client: "Section headings should be larger and bolder than the
-     individual card headings") */
-  .dashboard-call-to-actions-light .mob-ord-1 .dashboard-hero-text h4,
-  .dashboard-call-to-actions-light .mob-ord-6 .dashboard-hero-text h4,
-  .dashboard-call-to-actions-light .mob-ord-11 .dashboard-hero-text h4 {
-    font-size: 17px;
-    font-weight: 800;
-    letter-spacing: .01em;
-  }
-
-  /* individual card titles must be bold and immediately readable
-     (client: "GQP Fleet List Savings... must be bold and immediately
-     readable") — the label is the plain <p> above the dollar amount */
-  .dashboard-call-to-actions-light .stat-card > .dashboard-header-link p.mb-1,
-  .dashboard-call-to-actions-light .stat-card .dashboard-widget-text > p.mb-1 {
-    font-weight: 700;
-  }
-
-  /* Combined Total card: fixed col-1/col-8/col-3 columns never had a
-     mobile breakpoint, so the long description text and the dollar
-     amount collided/overlapped on narrow screens (pre-existing bug,
-     confirmed live on production before this fix). The PHP now uses
-     col-2/col-10/col-12 col-lg-1/8/3, so the amount drops to its own
-     full-width line below lg — this just gives it breathing room. */
-  .combined-total-row .combined-total-amount {
-    margin-top: 6px;
-    font-size: 22px;
-  }
-}
-
-/* =========================================================
    HERO HEADER — logo left, "Welcome [name] / Dashboard" stacked right
    Replace the existing .dashboard-hero-title rule with this one
    (or append after it — this has equal specificity and comes later,
@@ -10061,19 +9980,6 @@ body > .goog-te-spinner-pos,
 
 .stat-211867{ background-color:#211867 !important; }
 .stat-211867 .why-icon{ color:#211867 !important; }
-
-/* 2026-08-24: the 3 Semi-Annual Order cards used to all share .stat-211867
-   (indigo), matching none of the client's Green/Teal/Blue section colours.
-   Each now gets its own class matching its section's family, same pattern
-   as every other stat-<hex> class above (background + matching icon colour). */
-.stat-semi-gqp{ background-color:#1c8a44 !important; }
-.stat-semi-gqp .why-icon{ color:#1c8a44 !important; }
-
-.stat-semi-cs{ background-color:#0f6a70 !important; }
-.stat-semi-cs .why-icon{ color:#0f6a70 !important; }
-
-.stat-semi-gwp{ background-color:#0057B8 !important; }
-.stat-semi-gwp .why-icon{ color:#0057B8 !important; }
 
 .stat-001b46{ background-color:#001b46 !important; }
 .stat-001b46 .why-icon{ color:#001b46 !important; }

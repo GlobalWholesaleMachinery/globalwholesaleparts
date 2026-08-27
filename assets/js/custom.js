@@ -116,6 +116,11 @@ jQuery( "form.header-login" ).on( "submit", function(e) {
                   jQuery('.user-alert').html('Incorrect Email/Username or Password!');
                   jQuery('.user-alert').show();
               }
+              if (myArray.role == 'gqp_customer') {
+                  jQuery('.dealer-alert').addClass('alert-danger');
+                  jQuery('.dealer-alert').html('Incorrect Email/Username or Password!');
+                  jQuery('.dealer-alert').show();
+              }
           }
 
           if(myArray.status == 'empty_email'){
@@ -133,6 +138,11 @@ jQuery( "form.header-login" ).on( "submit", function(e) {
                   jQuery('.user-alert').addClass('alert-danger');
                   jQuery('.user-alert').html('Please enter Email Address/Username.');
                   jQuery('.user-alert').show();
+              }
+              if (myArray.role == 'gqp_customer') {
+                  jQuery('.dealer-alert').addClass('alert-danger');
+                  jQuery('.dealer-alert').html('Please enter Email Address/Username.');
+                  jQuery('.dealer-alert').show();
               }
           }
 
@@ -152,6 +162,11 @@ jQuery( "form.header-login" ).on( "submit", function(e) {
                   jQuery('.user-alert').html('Please enter Password.');
                   jQuery('.user-alert').show();
               }
+              if (myArray.role == 'gqp_customer') {
+                  jQuery('.dealer-alert').addClass('alert-danger');
+                  jQuery('.dealer-alert').html('Please enter Password.');
+                  jQuery('.dealer-alert').show();
+              }
           }
 
           if(myArray.status == 'not_active'){
@@ -169,6 +184,11 @@ jQuery( "form.header-login" ).on( "submit", function(e) {
                   jQuery('.user-alert').addClass('alert-danger');
                   jQuery('.user-alert').html('Your account is under review, once the review is completed you will be notified through an email for login.');
                   jQuery('.user-alert').show();
+              }
+              if (myArray.role == 'gqp_customer') {
+                  jQuery('.dealer-alert').addClass('alert-danger');
+                  jQuery('.dealer-alert').html('Your account is under review, once the review is completed you will be notified through an email for login.');
+                  jQuery('.dealer-alert').show();
               }
           }
       }

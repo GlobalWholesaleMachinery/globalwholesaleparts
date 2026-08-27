@@ -1638,4 +1638,81 @@
     }
 }
 
+/* Main nav (#ubermenu-main-17) is JS-relocated into #mobileDrawerNavSlot
+   while the mobile drawer is open (<=768px). Keep it forced open (belt and
+   suspenders alongside the JS-added ubermenu-responsive-nocollapse class),
+   and flatten the "SHOP" mega-menu's tabs-group (a fixed 20/80 sidebar+panel
+   split with an absolutely-positioned tab-content-panel, designed for
+   desktop hover/tabs) into a plain stacked single column so it's usable at
+   the drawer's narrow width. */
+.mobile-header-drawer #ubermenu-main-17 {
+    max-height: none !important;
+    visibility: visible !important;
+    overflow: visible !important;
+}
+
+.mobile-header-drawer #ubermenu-main-17 .ubermenu-tabs-group,
+.mobile-header-drawer #ubermenu-main-17 .ubermenu-column-1-5,
+.mobile-header-drawer #ubermenu-main-17 .ubermenu-column-4-5 {
+    width: 100% !important;
+    min-height: auto !important;
+    float: none !important;
+}
+
+.mobile-header-drawer #ubermenu-main-17 .ubermenu-tab-content-panel {
+    position: static !important;
+}
+
+/* Mobile header (<=768px): search bar row + sign-in buttons row, shown
+   directly in the header (below logo+hamburger) instead of inside the
+   drawer. Hidden on 769px+ web view, where the desktop header/search/
+   sign-in already handle this. */
+.mobile-header-search-row,
+.mobile-header-signin-row {
+    display: none !important;
+}
+
+@media (max-width: 768px) {
+    .mobile-header-search-row {
+        display: flex !important;
+        align-items: center;
+        gap: 10px;
+        margin-top: 10px;
+    }
+    .mobile-header-search-row .main-search {
+        flex: 1 1 auto;
+        min-width: 0;
+    }
+    .mobile-header-search-row .main-search .advance-search {
+        display: flex;
+    }
+    .mobile-header-search-row .main-search #keyword-mobile-header {
+        min-width: 0;
+    }
+    .mobile-header-signin-row {
+        display: flex !important;
+        gap: 8px;
+        margin-top: 10px;
+        flex-wrap: wrap;
+    }
+    .mobile-header-signin-btn {
+        flex: 1 1 auto;
+        min-width: 0;
+        background-color: #0057B8;
+        border: 1px solid #0057B8;
+        color: #fff;
+        border-radius: 4px;
+        padding: 8px 6px;
+        font-size: 12px;
+        font-weight: 600;
+        text-align: center;
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+    }
+    .mobile-header-signin-btn:hover,
+    .mobile-header-signin-btn:focus {
+        background-color: #004a9f;
+        border-color: #004a9f;
+    }
 }

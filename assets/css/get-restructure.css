@@ -1,0 +1,173 @@
+/* =============================================================================
+   get-restructure.css
+   Scoped stylesheet for the Motor Grader -> Ground Engaging Tools restructure.
+   Every rule is scoped under #gwp-get-restructure-root so nothing here can leak
+   into other pages/sections, even though this file loads globally once enqueued.
+   Card/badge shell reuses the site's existing .btn.btn-light.custom-checkboxes
+   classes (see style.css) -- only new elements (badges, callouts, review table,
+   dev notice) get their own `.get-` prefixed rules here.
+   Ported from the approved prototype:
+   UMAIR_TESTING/MOCKUPS/ground-engaging-tools-real-page-with-corrected-flow.html
+   ============================================================================= */
+
+#gwp-get-restructure-root { margin-top: 8px; }
+
+#gwp-get-restructure-root .get-badge-row { margin-bottom: 14px; }
+#gwp-get-restructure-root .get-badge {
+  display: inline-block;
+  background: #1e7e34;
+  color: #fff;
+  font-weight: 700;
+  font-size: 10.5px;
+  letter-spacing: .02em;
+  padding: 4px 10px;
+  border-radius: 10px;
+  text-transform: uppercase;
+}
+#gwp-get-restructure-root .get-badge.get-badge-grey { background: #9aa7b4; }
+#gwp-get-restructure-root .get-badge.get-badge-amber { background: #c98a12; }
+
+#gwp-get-restructure-root .get-step-title {
+  font-weight: 700;
+  font-size: 1.15rem;
+  color: #1a1a1a;
+  margin: 22px 0 10px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+#gwp-get-restructure-root .get-step-title:first-child { margin-top: 0; }
+
+#gwp-get-restructure-root .get-callout {
+  border-left: 3px solid #1668b3;
+  background: #eaf3ff;
+  color: #123a5e;
+  font-size: 12.5px;
+  padding: 10px 14px;
+  border-radius: 4px;
+  margin-bottom: 14px;
+}
+#gwp-get-restructure-root .get-callout.get-callout-amber {
+  border-left-color: #e0a218;
+  background: #fff7e6;
+  color: #5c4a12;
+}
+
+#gwp-get-restructure-root .get-card-grid {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 12px;
+  margin-bottom: 10px;
+}
+@media (max-width: 991px) { #gwp-get-restructure-root .get-card-grid { grid-template-columns: repeat(3, 1fr); } }
+@media (max-width: 575px) { #gwp-get-restructure-root .get-card-grid { grid-template-columns: repeat(2, 1fr); } }
+
+/* Card shell reuses site classes for visual consistency (same hover/selected
+   states as every other filter card on this page, defined in style.css). The
+   only addition is the illustrative-photo flag pill. */
+#gwp-get-restructure-root .get-photo-flag {
+  position: absolute;
+  top: 6px;
+  right: 6px;
+  background: #c98a12;
+  color: #fff;
+  font-size: 9px;
+  font-weight: 700;
+  padding: 2px 6px;
+  border-radius: 8px;
+  text-transform: uppercase;
+  letter-spacing: .02em;
+}
+#gwp-get-restructure-root .custom-checkboxes-main { position: relative; }
+
+#gwp-get-restructure-root .get-field-row {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 12px;
+  margin-bottom: 14px;
+}
+@media (max-width: 991px) { #gwp-get-restructure-root .get-field-row { grid-template-columns: repeat(2, 1fr); } }
+@media (max-width: 575px) { #gwp-get-restructure-root .get-field-row { grid-template-columns: 1fr; } }
+
+#gwp-get-restructure-root .get-field label {
+  display: block;
+  font-size: 11.5px;
+  font-weight: 700;
+  color: #5a6472;
+  margin-bottom: 4px;
+  text-transform: uppercase;
+  letter-spacing: .02em;
+}
+#gwp-get-restructure-root .get-input,
+#gwp-get-restructure-root .get-field select {
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  padding: 8px 10px;
+  font-size: 13px;
+  width: 100%;
+}
+
+/* Hardware radio row -- fixes the overlap bug the prototype inherited from
+   .custom-checks{position:absolute} (style.css), which was designed for the
+   checkbox-over-image card pattern, not a left-aligned text-only radio row.
+   docs/get-restructure/03-prototype-spec.md ambiguity #2. */
+#gwp-get-restructure-root .get-hw-option {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 12px 14px;
+}
+#gwp-get-restructure-root .get-hw-option input[type="radio"] {
+  position: static !important; /* override the inherited absolute positioning */
+  width: 16px;
+  height: 16px;
+  margin: 0;
+  flex: 0 0 auto;
+}
+#gwp-get-restructure-root .get-hw-option label {
+  margin: 0;
+  cursor: pointer;
+}
+
+#gwp-get-restructure-root .get-verify {
+  border: 1px solid #e0a218;
+  background: #fff7e6;
+  color: #5c4a12;
+  font-size: 13px;
+  padding: 12px 14px;
+  border-radius: 4px;
+  margin-bottom: 14px;
+}
+
+#gwp-get-restructure-root .get-review-table {
+  border-collapse: collapse;
+  max-width: 560px;
+  width: 100%;
+  margin-bottom: 14px;
+}
+#gwp-get-restructure-root .get-review-table td {
+  border: 1px solid #d8e0ea;
+  padding: 8px 12px;
+  font-size: 13px;
+}
+#gwp-get-restructure-root .get-review-table td:first-child {
+  background: #f4f7fa;
+  font-weight: 700;
+  width: 150px;
+}
+
+#gwp-get-restructure-root .get-dev-notice,
+.get-dev-notice {
+  border: 1px dashed #c98a12;
+  background: #fff7e6;
+  color: #5c4a12;
+  font-size: 13px;
+  padding: 14px 16px;
+  border-radius: 4px;
+}
+.get-dev-notice code {
+  background: #fff;
+  padding: 1px 5px;
+  border-radius: 3px;
+  border: 1px solid #e0d0a8;
+}

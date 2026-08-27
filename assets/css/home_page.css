@@ -455,13 +455,7 @@ h2 {
 }
 
 .products .product {
-  border-radius: 6px;
-  box-shadow: 0 3px 10px 0 rgba(0, 0, 0, 0.1), 0 3px 10px 0 rgba(0, 0, 0, 0.1) !important;
-  background-color: #fff;
-}
-
-.products .product:hover {
-  box-shadow: 0 3px 10px 0 rgb(255 0 0 / 10%), 0 3px 10px 0 rgb(255 0 0 / 10%) !important;
+  border: solid 1px #dbdbdb
 }
 
 @media (max-width:767px) {
@@ -558,6 +552,202 @@ h2 {
 }
 .home-products li .text-description{
   padding-bottom: 10px;
+}
+
+/* Global Machinery Parts card grid redesign */
+.home-products .products {
+  display: grid !important;
+  grid-template-columns: repeat(4, 1fr) !important;
+  gap: 28px !important;
+  list-style: none;
+}
+
+.home-products .products::before,
+.home-products .products::after {
+  display: none !important;
+  content: none !important;
+}
+
+.home-products li.product {
+  width: 100% !important;
+  margin: 0 !important;
+  min-height: 0 !important;
+  background: #fff;
+  border: none !important;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 6px 18px rgba(0, 35, 81, 0.08);
+  transition: transform 0.25s ease, box-shadow 0.25s ease;
+  position: relative;
+}
+
+.home-products li.product::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 4px;
+  background: linear-gradient(90deg, #0057b8, #002351);
+  transform: scaleX(0);
+  transform-origin: left;
+  transition: transform 0.3s ease;
+}
+
+.home-products li.product:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 16px 32px rgba(0, 35, 81, 0.16);
+}
+
+.home-products li.product:hover::before {
+  transform: scaleX(1);
+}
+
+.home-products .et_shop_image {
+  display: block;
+  background: #fff;
+  padding: 24px 20px 10px;
+  overflow: hidden;
+}
+
+.home-products .et_shop_image img {
+  transition: transform 0.35s ease;
+}
+
+.home-products li.product:hover .et_shop_image img {
+  transform: scale(1.05);
+}
+
+.home-products .woocommerce-loop-product__title {
+  background: #f7f9fc;
+  padding: 16px 18px 4px !important;
+  min-height: 0 !important;
+  text-align: center;
+}
+
+.home-products .woocommerce-loop-product__title h4 {
+  font-family: "Oswald", sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+  letter-spacing: 0.3px;
+  color: #002351;
+  text-transform: uppercase;
+  margin-bottom: 6px;
+  transition: color 0.2s ease;
+}
+
+.home-products li.product:hover .woocommerce-loop-product__title h4 {
+  color: #0057b8;
+}
+
+.home-products .woocommerce-loop-product__sub_title {
+  font-size: 13.5px !important;
+  color: #5b6b82 !important;
+  padding: 0 18px 18px;
+  line-height: 1.5;
+}
+
+.home-products .woocommerce-loop-product__title::after {
+  content: "View Parts \2192";
+  display: block;
+  font-size: 12px;
+  font-weight: 700;
+  letter-spacing: 0.5px;
+  color: #0057b8;
+  text-transform: uppercase;
+  opacity: 0;
+  max-height: 0;
+  overflow: hidden;
+  transition: opacity 0.25s ease, max-height 0.25s ease;
+}
+
+.home-products li.product:hover .woocommerce-loop-product__title::after {
+  opacity: 1;
+  max-height: 20px;
+  padding-bottom: 8px;
+}
+
+@media (max-width: 991px) {
+  .home-products .products {
+    grid-template-columns: repeat(3, 1fr) !important;
+    gap: 20px !important;
+  }
+
+  .et_pb_shop ul.products.columns-4 li.product{
+      width: 100% !important;
+  }
+}
+
+@media (max-width: 575px) {
+  .home-products .products {
+    grid-template-columns: repeat(2, 1fr) !important;
+  }
+
+  .et_pb_shop ul.products.columns-4 li.product{
+      width: 100% !important;
+  }
+}
+
+/* "We can save you money" section redesign */
+.gwp-save-eyebrow {
+  display: inline-block;
+  color: #0057b8;
+  font-weight: 700;
+  font-size: 13px;
+  letter-spacing: 1.5px;
+  text-transform: uppercase;
+  margin-bottom: 10px;
+  position: relative;
+  padding-left: 18px;
+}
+
+.brand-logos-sec .et_pb_image_5 .et_pb_image_wrap {
+  display: inline-block;
+  max-width: 679px;
+  width: 100%;
+  border-radius: 0;
+  box-shadow: none;
+  overflow: hidden;
+}
+
+.gwp-warranty-link {
+  color: #0057b8 !important;
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+  text-decoration: underline;
+  text-underline-offset: 3px;
+}
+
+.gwp-warranty-link:hover {
+  color: #002351 !important;
+}
+
+.gwp-save-callout {
+  background: #dce8f5;
+  border-left: 4px solid #0057b8;
+  border-radius: 8px;
+  padding: 18px 20px;
+  margin: 4px 0 22px;
+}
+
+.gwp-save-callout-badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  background: #002351;
+  color: #fff;
+  font-size: 13px;
+  font-weight: 700;
+  letter-spacing: 0.3px;
+  text-transform: uppercase;
+  padding: 6px 14px;
+  border-radius: 20px;
+  margin-bottom: 12px;
+}
+
+.gwp-save-callout p {
+  margin-bottom: 0;
 }
 
 .et_pb_row_2_tb_header.et_pb_row {
